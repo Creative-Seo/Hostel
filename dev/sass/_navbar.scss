@@ -1,0 +1,30 @@
+.nav-bar {
+	background-color:$header-color-back;
+	height:$nav-height;
+	line-height:$nav-height;
+	ul {
+        margin:0;
+        padding-left:0; 
+		li{
+			list-style-type: none;
+			display: block;
+    		position: relative;
+    		float: left;
+			padding:0 20px;
+			a {
+               color:$nav-color;
+			}
+		}
+		li.divid {
+			line-height:$nav-height;
+			height:$nav-height;
+			span {
+				border-bottom:1px solid #000;
+				width: 19px;
+				height:1px;
+				display: inline-block;
+				vertical-align:middle;
+			}
+		}
+	}
+}

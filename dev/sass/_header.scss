@@ -1,0 +1,41 @@
+.header {
+	background-color:$header-color-back;
+	color:$header-color;
+	height:$header-height;
+	line-height:$header-height;
+	.adres{
+		font-size:14px;
+		span {
+			border-bottom:1px dashed $header-color;
+		}
+		
+	}
+	.logo {
+		text-align:center;
+		font-weight:700;
+		font-size:32px;
+		line-height:0.7em;
+		padding-top: $header-height*0.25;
+		span{
+			font-size:14px;
+			font-weight:300;
+		}
+	}
+	.tel{
+		font-weight:700;
+		span{
+			font-size:24px;
+            
+		}
+		span.lang {
+			font-size:14px;
+			font-weight:300;
+			padding-left: 15px;
+
+		}
+		span.lang.active {
+				font-weight:700;
+			}
+
+	}
+}

@@ -1,3 +1,26 @@
 @import "variables";
 @import "bootstrap";
+@import "header";
+@import "navbar";
+@import "../libs/font-awesome/css/font-awesome.min.css";
 
+body {
+	font-family:$font-body-open-sans;
+	font-weight:$font-weight-body;
+	font-size:$font-size-body;
+}
+
+// SLIDER
+.check-in {
+	background: url('../img/top.jpg') no-repeat;
+	background-size: cover;
+	height: 464px;
+	position: relative;
+	&_content {
+		position: absolute;
+		&_forma {
+		
+	    }
+	}
+}
+// SLIDER
