@@ -4361,37 +4361,46 @@ button.close {
   color: #000;
   height: 70px;
   line-height: 70px; }
-  /* line 6, ../sass/_header.scss */
-  .header .adres {
-    font-size: 14px; }
-    /* line 8, ../sass/_header.scss */
-    .header .adres span {
-      border-bottom: 1px dashed #000; }
-  /* line 13, ../sass/_header.scss */
-  .header .logo {
-    text-align: center;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 0.7em;
-    padding-top: 17.5px; }
-    /* line 19, ../sass/_header.scss */
-    .header .logo span {
-      font-size: 14px;
-      font-weight: 300; }
-  /* line 24, ../sass/_header.scss */
-  .header .tel {
-    font-weight: 700; }
-    /* line 26, ../sass/_header.scss */
-    .header .tel span {
-      font-size: 24px; }
-    /* line 30, ../sass/_header.scss */
-    .header .tel span.lang {
-      font-size: 14px;
-      font-weight: 300;
-      padding-left: 15px; }
-    /* line 36, ../sass/_header.scss */
-    .header .tel span.lang.active {
-      font-weight: 700; }
+
+/* line 8, ../sass/_header.scss */
+.adres {
+  font-size: 14px; }
+  /* line 10, ../sass/_header.scss */
+  .adres span {
+    border-bottom: 1px dashed #000; }
+
+/* line 17, ../sass/_header.scss */
+.logo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.7em;
+  padding-top: 17.5px; }
+  /* line 23, ../sass/_header.scss */
+  .logo span {
+    font-size: 14px;
+    font-weight: 300; }
+
+/* line 30, ../sass/_header.scss */
+.tel {
+  font-weight: 700; }
+  /* line 32, ../sass/_header.scss */
+  .tel span {
+    font-size: 24px; }
+
+/* line 36, ../sass/_header.scss */
+.tel_svyaz {
+  line-height: 5px; }
+
+/* line 41, ../sass/_header.scss */
+.lang {
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 15px; }
+
+/* line 46, ../sass/_header.scss */
+span.active {
+  font-weight: 700; }
 
 /* line 1, ../sass/_navbar.scss */
 .nav-bar {

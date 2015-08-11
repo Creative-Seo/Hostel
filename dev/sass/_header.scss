@@ -3,14 +3,18 @@
 	color:$header-color;
 	height:$header-height;
 	line-height:$header-height;
-	.adres{
+}
+//Адрес
+.adres{
 		font-size:14px;
 		span {
 			border-bottom:1px dashed $header-color;
 		}
 		
 	}
-	.logo {
+//-----//
+//Логотип
+.logo {
 		text-align:center;
 		font-weight:700;
 		font-size:32px;
@@ -21,21 +25,25 @@
 			font-weight:300;
 		}
 	}
-	.tel{
+//-------//
+//Телефон
+.tel{
 		font-weight:700;
 		span{
 			font-size:24px;
-            
 		}
-		span.lang {
+	}
+.tel_svyaz {
+	line-height:5px;
+}
+//-------//
+//Выбор языка
+.lang {
 			font-size:14px;
 			font-weight:300;
 			padding-left: 15px;
-
 		}
-		span.lang.active {
+		span.active {
 				font-weight:700;
-			}
-
-	}
-}
+		}
+//-------//		
