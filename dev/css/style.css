@@ -4861,13 +4861,21 @@ body {
   font-size: 16px; }
 
 /* line 14, ../sass/style.scss */
+h2, .h2 {
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 22px; }
+
+/* line 24, ../sass/style.scss */
 .check-in {
   background: url("../img/top.jpg") no-repeat;
   background-size: cover;
   height: 464px;
   position: relative; }
 
-/* line 21, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .description {
   position: absolute;
   margin-top: 100px;
@@ -4877,13 +4885,13 @@ body {
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #D4AF53; }
-  /* line 31, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .description .h1, .description .h2 {
     text-align: center;
     color: #fff;
     font-family: 'PT Serif', serif; }
 
-/* line 40, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .description_icons {
   position: absolute;
   bottom: 40px;
@@ -4893,16 +4901,18 @@ body {
   font-size: 24px;
   font-family: 'PT Serif', serif; }
 
-/* line 52, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 55, ../sass/style.scss */
+  /* line 65, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
-    padding: 10px; }
-  /* line 61, ../sass/style.scss */
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 22px; }
+  /* line 72, ../sass/style.scss */
   .rooms p {
     max-width: 450px;
     text-align: center;
@@ -4910,18 +4920,27 @@ body {
     font-weight: 300;
     color: #D4AF53;
     padding-bottom: 15px; }
-  /* line 69, ../sass/style.scss */
+  /* line 80, ../sass/style.scss */
   .rooms_number {
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
-    line-height: 1.7em; }
-  /* line 76, ../sass/style.scss */
+    line-height: 1.7em;
+    font-size: 14px; }
+  /* line 88, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 80, ../sass/style.scss */
+    /* line 92, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
+
+/* line 101, ../sass/style.scss */
+.features h2 {
+  margin: 30px; }
+/* line 107, ../sass/style.scss */
+.features_text {
+  text-align: center;
+  padding: 25px; }

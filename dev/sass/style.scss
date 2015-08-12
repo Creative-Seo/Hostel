@@ -10,6 +10,16 @@ body {
 	font-size:$font-size-body;
 }
 
+//TYPOGRAPHY
+h2,.h2 {
+		text-align: center;
+		font-weight: 700;
+		padding: 10px;
+		text-transform: uppercase;
+		font-size: 22px;
+	}
+//TYPOGRAPHY
+
 // SLIDER
 .check-in {
 	background: url('../img/top.jpg') no-repeat;
@@ -55,8 +65,9 @@ body {
 	.h2 {
 		text-align: center;
 		font-weight: 700;
-		
 		padding: 10px;
+		text-transform: uppercase;
+		font-size: 22px;
 	}
 	p {
 		max-width: 450px;
@@ -67,11 +78,12 @@ body {
 		padding-bottom: 15px;
 	}
 	&_number {
-		font-weight: 700;
+		font-weight: 400;
 		text-align: center;
 		text-transform: uppercase;
 		padding: 20px;
 		line-height: 1.7em;
+		font-size: 14px;
 	}
 	&_price {
 		font-weight: 800;
@@ -83,3 +95,18 @@ body {
 	}
 }
 // НОМЕРА 
+
+//FEATURES
+.features {
+	h2 {
+		margin: 30px;
+	}
+	&_icon {
+
+	}
+	&_text {
+		text-align: center;
+		padding: 25px;
+	}
+}
+//FEATURES
