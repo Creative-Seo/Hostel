@@ -29,12 +29,14 @@
 //Телефон
 .tel{
 		font-weight:700;
-		span{
+		span, i{
 			font-size:24px;
 		}
 	}
 .tel_svyaz {
-	line-height:5px;
+	line-height:0.1em;
+	font-size:12px;
+	font-weight:300;
 }
 //-------//
 //Выбор языка
@@ -45,5 +47,6 @@
 		}
 		span.active {
 				font-weight:700;
+				color: $color-gold;
 		}
 //-------//		
