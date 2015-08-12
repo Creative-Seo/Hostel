@@ -29,8 +29,13 @@
 //Телефон
 .tel{
 		font-weight:700;
+		color: $color-gold;
 		span, i{
 			font-size:24px;
+			color: #000;
+		}
+		i {
+			color: $color-gold;
 		}
 	}
 .tel_svyaz {

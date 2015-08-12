@@ -23,7 +23,7 @@ body {
 	margin-top: 100px;
 	width: 100%;
 	height: 200px;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 	border-color: $color-gold;
@@ -47,3 +47,39 @@ body {
 	font-family: 'PT Serif', serif;
 }
 // SLIDER
+
+// НОМЕРА 
+.rooms {
+	padding-top: 20px;
+	font-family: $font-body-open-sans;
+	.h2 {
+		text-align: center;
+		font-weight: 700;
+		
+		padding: 10px;
+	}
+	p {
+		max-width: 450px;
+		text-align: center;
+		font-style: 14px;
+		font-weight: 300;
+		color: $color-gold;
+		padding-bottom: 15px;
+	}
+	&_number {
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 20px;
+		line-height: 1.7em;
+	}
+	&_price {
+		font-weight: 800;
+		font-size: 24px;
+		color: $color-gold;
+		i {
+			font-size: 20px;
+		}
+	}
+}
+// НОМЕРА 
