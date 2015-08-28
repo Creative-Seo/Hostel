@@ -1,15 +1,54 @@
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+	<ul class="list-unstyled">
+<?php foreach($menu as $key => $row) { 
+if ($key>0) { ?>
+				<li class="divid"><span></span></li>
+<?php } ?>
+				<li>
+					<a href="<?php echo $row['url']; ?>"><?php echo $row['name']; ?></a>
+				</li>
+<?php } ?>
+	</ul>
+	<!-- <div class="row">
+			<div class="col-md-3">
+				<div class="footer_logo">Храповицкий<br><span>хостел</span></div>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+					<li><a href="">Как найти</a></li>
+				</ul>
+			</div>
+		
+	</div> -->
+  </div>
+</footer>
 
+<!-- FOOTER -->
 
 <!-- build:remove -->
-<script src="/libs/jquery/dist/jquery.min.js"></script>
-<script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-<script src="/js/jquery.fancybox.js"></script>
-<script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script src="/js/jquery.maskedinput.min.js"></script> 
-<script src="/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-<script src="/js/jquery.bxslider.min.js"></script>
-<script src="/js/common.js"></script>
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 <!-- /build -->
 
 <!-- build:template
@@ -34,6 +73,5 @@ var scr = {"scripts":[
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-  </body>
+</body>
 </html>

@@ -160,7 +160,7 @@ grunt.initConfig({
 	grunt.loadNpmTasks('grunt-contrib-csslint');
     
     grunt.registerTask('default', ['postcss']);
-    grunt.registerTask('all', ['postcss']);
+    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
