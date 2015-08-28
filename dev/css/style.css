@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(../libs/font-awesome/css/font-awesome.min.css);
 /* line 9, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -4854,30 +4853,30 @@ span.active {
         display: inline-block;
         vertical-align: middle; }
 
-/* line 7, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px; }
-  /* line 11, ../sass/style.scss */
+  /* line 10, ../sass/style.scss */
   body ul li {
     list-style-type: none; }
 
-/* line 17, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 h2, .h2 {
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
   font-size: 22px; }
 
-/* line 26, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .check-in {
   background: url("../img/top.jpg") no-repeat;
   background-size: cover;
   height: 464px;
   position: relative; }
 
-/* line 33, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .description {
   position: absolute;
   margin-top: 100px;
@@ -4887,16 +4886,16 @@ h2, .h2 {
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #D4AF53; }
-  /* line 43, ../sass/style.scss */
+  /* line 42, ../sass/style.scss */
   .description .h1, .description .h2 {
     text-align: center;
     color: #fff;
     font-family: 'PT Serif', serif; }
-    /* line 48, ../sass/style.scss */
+    /* line 47, ../sass/style.scss */
     .description .h1 b, .description .h2 b {
       font-size: 32px; }
 
-/* line 55, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .description_icons {
   position: absolute;
   bottom: 40px;
@@ -4906,18 +4905,18 @@ h2, .h2 {
   font-size: 24px;
   font-family: 'PT Serif', serif; }
 
-/* line 67, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 70, ../sass/style.scss */
+  /* line 69, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 77, ../sass/style.scss */
+  /* line 76, ../sass/style.scss */
   .rooms p {
     max-width: 450px;
     text-align: center;
@@ -4925,7 +4924,7 @@ h2, .h2 {
     font-weight: 300;
     color: #D4AF53;
     padding-bottom: 15px; }
-  /* line 85, ../sass/style.scss */
+  /* line 84, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -4933,33 +4932,33 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 93, ../sass/style.scss */
+  /* line 92, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 97, ../sass/style.scss */
+    /* line 96, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 106, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 113, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 122, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .map h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 126, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .map_yandex {
   min-height: 350px; }
 
-/* line 132, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .footer {
   background-image: url(../img/footer-back.png);
   background-repeat: no-repeat;
@@ -4967,14 +4966,14 @@ h2, .h2 {
   color: #fff;
   padding-top: 300px;
   position: relative; }
-  /* line 140, ../sass/style.scss */
+  /* line 139, ../sass/style.scss */
   .footer_logo {
     color: #fff;
     padding: 50px 0; }
-  /* line 145, ../sass/style.scss */
+  /* line 144, ../sass/style.scss */
   .footer ul li {
     padding: 5px; }
-    /* line 147, ../sass/style.scss */
+    /* line 146, ../sass/style.scss */
     .footer ul li a {
       padding: 5px;
       color: #999999; }
