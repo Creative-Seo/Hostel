@@ -4783,14 +4783,14 @@ button.close {
     border-bottom: 1px dashed #000; }
 
 /* line 17, ../sass/_header.scss */
-.logo {
+.logo, .footer_logo {
   text-align: center;
   font-weight: 700;
   font-size: 32px;
   line-height: 0.7em;
   padding-top: 17.5px; }
   /* line 23, ../sass/_header.scss */
-  .logo span {
+  .logo span, .footer_logo span {
     font-size: 14px;
     font-weight: 300; }
 
@@ -4859,22 +4859,25 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px; }
+  /* line 11, ../sass/style.scss */
+  body ul li {
+    list-style-type: none; }
 
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 h2, .h2 {
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
   font-size: 22px; }
 
-/* line 23, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .check-in {
   background: url("../img/top.jpg") no-repeat;
   background-size: cover;
   height: 464px;
   position: relative; }
 
-/* line 30, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .description {
   position: absolute;
   margin-top: 100px;
@@ -4884,16 +4887,16 @@ h2, .h2 {
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #D4AF53; }
-  /* line 40, ../sass/style.scss */
+  /* line 43, ../sass/style.scss */
   .description .h1, .description .h2 {
     text-align: center;
     color: #fff;
     font-family: 'PT Serif', serif; }
-    /* line 45, ../sass/style.scss */
+    /* line 48, ../sass/style.scss */
     .description .h1 b, .description .h2 b {
       font-size: 32px; }
 
-/* line 52, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .description_icons {
   position: absolute;
   bottom: 40px;
@@ -4903,18 +4906,18 @@ h2, .h2 {
   font-size: 24px;
   font-family: 'PT Serif', serif; }
 
-/* line 64, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 67, ../sass/style.scss */
+  /* line 70, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 74, ../sass/style.scss */
+  /* line 77, ../sass/style.scss */
   .rooms p {
     max-width: 450px;
     text-align: center;
@@ -4922,7 +4925,7 @@ h2, .h2 {
     font-weight: 300;
     color: #D4AF53;
     padding-bottom: 15px; }
-  /* line 82, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -4930,28 +4933,48 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 90, ../sass/style.scss */
+  /* line 93, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 94, ../sass/style.scss */
+    /* line 97, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 103, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 110, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 119, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .map h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 123, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .map_yandex {
   min-height: 350px; }
+
+/* line 132, ../sass/style.scss */
+.footer {
+  background-image: url(../img/footer-back.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  padding-top: 300px;
+  position: relative; }
+  /* line 140, ../sass/style.scss */
+  .footer_logo {
+    color: #fff;
+    padding: 50px 0; }
+  /* line 145, ../sass/style.scss */
+  .footer ul li {
+    padding: 5px; }
+    /* line 147, ../sass/style.scss */
+    .footer ul li a {
+      padding: 5px;
+      color: #999999; }
