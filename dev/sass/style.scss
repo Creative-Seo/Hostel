@@ -48,8 +48,6 @@ h2,.h2 {
 			font-size: 32px;
 		}
 	}
-
-
 }
 .description_icons {
 	position: absolute;
@@ -128,13 +126,10 @@ h2,.h2 {
 }
 //MAP
 //FOOTER
+.house {width: 100%; height:auto;}
 .footer {
-	background-image: url(../img/footer-back.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-color: #212221;
 	color: #fff;
-	padding-top: 300px;
-	
 	position: relative;
 	&_logo {
 		@extend .logo;

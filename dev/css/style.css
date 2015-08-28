@@ -4771,21 +4771,21 @@ button.close {
 .header {
   background-color: #fff;
   color: #000;
-  height: 70px;
   line-height: 70px; }
 
-/* line 8, ../sass/_header.scss */
+/* line 7, ../sass/_header.scss */
 .adres {
   font-size: 14px; }
-  /* line 10, ../sass/_header.scss */
+  /* line 9, ../sass/_header.scss */
   .adres span {
     border-bottom: 1px dashed #000; }
 
-/* line 17, ../sass/_header.scss */
+/* line 16, ../sass/_header.scss */
 .logo, .footer_logo {
   text-align: center;
   font-weight: 700;
   font-size: 32px;
+  height: 70px;
   line-height: 0.7em;
   padding-top: 17.5px; }
   /* line 23, ../sass/_header.scss */
@@ -4825,34 +4825,54 @@ span.active {
 /* line 1, ../sass/_navbar.scss */
 .nav-bar {
   background-color: #fff;
-  height: 70px;
   line-height: 70px; }
-  /* line 5, ../sass/_navbar.scss */
+  /* line 4, ../sass/_navbar.scss */
   .nav-bar ul {
     margin: 0;
     padding-left: 0; }
-    /* line 8, ../sass/_navbar.scss */
+    /* line 7, ../sass/_navbar.scss */
     .nav-bar ul li {
       list-style-type: none;
       display: block;
       position: relative;
       float: left;
       padding: 0 20px; }
-      /* line 14, ../sass/_navbar.scss */
+      /* line 13, ../sass/_navbar.scss */
       .nav-bar ul li a {
         color: #000; }
-    /* line 18, ../sass/_navbar.scss */
-    .nav-bar ul li.divid {
-      line-height: 70px;
-      height: 70px; }
-      /* line 21, ../sass/_navbar.scss */
-      .nav-bar ul li.divid span {
-        border-bottom: 1px solid #D4AF53;
-        width: 19px;
-        height: 1px;
-        display: inline-block;
-        vertical-align: middle; }
 
+/* line 19, ../sass/_navbar.scss */
+li.divid {
+  line-height: 70px;
+  height: 70px; }
+  /* line 22, ../sass/_navbar.scss */
+  li.divid span {
+    border-bottom: 1px solid #D4AF53;
+    width: 19px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle; }
+
+/* line 30, ../sass/_navbar.scss */
+.navbar-toggle {
+  background-color: #D4AF53;
+  border: 1px solid #D4AF53; }
+  /* line 33, ../sass/_navbar.scss */
+  .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 36, ../sass/_navbar.scss */
+  li.divid {
+    padding: 0 !important; } }
+@media (max-width: 767px) {
+  /* line 39, ../sass/_navbar.scss */
+  .nav-bar ul li {
+    float: none; }
+
+  /* line 40, ../sass/_navbar.scss */
+  .tel {
+    display: inline-block; } }
 /* line 6, ../sass/style.scss */
 body {
   font-family: "Open Sans", sans-serif;
@@ -4895,7 +4915,7 @@ h2, .h2 {
     .description .h1 b, .description .h2 b {
       font-size: 32px; }
 
-/* line 54, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .description_icons {
   position: absolute;
   bottom: 40px;
@@ -4905,18 +4925,18 @@ h2, .h2 {
   font-size: 24px;
   font-family: 'PT Serif', serif; }
 
-/* line 66, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 69, ../sass/style.scss */
+  /* line 67, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 76, ../sass/style.scss */
+  /* line 74, ../sass/style.scss */
   .rooms p {
     max-width: 450px;
     text-align: center;
@@ -4924,7 +4944,7 @@ h2, .h2 {
     font-weight: 300;
     color: #D4AF53;
     padding-bottom: 15px; }
-  /* line 84, ../sass/style.scss */
+  /* line 82, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -4932,48 +4952,50 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 92, ../sass/style.scss */
+  /* line 90, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 96, ../sass/style.scss */
+    /* line 94, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 105, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 112, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 121, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .map h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 125, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .map_yandex {
   min-height: 350px; }
 
-/* line 131, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
+.house {
+  width: 100%;
+  height: auto; }
+
+/* line 130, ../sass/style.scss */
 .footer {
-  background-image: url(../img/footer-back.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #212221;
   color: #fff;
-  padding-top: 300px;
   position: relative; }
-  /* line 139, ../sass/style.scss */
+  /* line 134, ../sass/style.scss */
   .footer_logo {
     color: #fff;
     padding: 50px 0; }
-  /* line 144, ../sass/style.scss */
+  /* line 139, ../sass/style.scss */
   .footer ul li {
     padding: 5px; }
-    /* line 146, ../sass/style.scss */
+    /* line 141, ../sass/style.scss */
     .footer ul li a {
       padding: 5px;
       color: #999999; }

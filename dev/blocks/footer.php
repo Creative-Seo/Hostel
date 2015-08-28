@@ -1,16 +1,23 @@
 <!-- FOOTER -->
+<div><img class="house" src="/img/footer-back.png"></div>
 <footer class="footer">
-  <div class="container">
-	<ul class="list-unstyled">
+  <div class="container"><div class="row">
+	<div class="col-xs-6 col-sm-6 col-md-4">
+		<ul class="list-unstyled">
 <?php foreach($menu as $key => $row) { 
-if ($key>0) { ?>
-				<li class="divid"><span></span></li>
-<?php } ?>
+if (($key%3 == 0)&&($key>0)) {echo '</ul></div><div class="col-xs-6 col-sm-6 col-md-4"><ul class="list-unstyled">';} ?>
 				<li>
 					<a href="<?php echo $row['url']; ?>"><?php echo $row['name']; ?></a>
 				</li>
 <?php } ?>
-	</ul>
+		</ul>
+	</div>
+	<div class="col-xs-6 col-sm-6 col-md-4">
+		<ul class="list-unstyled">
+			<li class="phone">8 (4922) 999-999</li>
+			<li><a class="mail" href="mailto:info@hostel.ru">info@hostel.ru</a></li>
+		</ul>
+	</div>
 	<!-- <div class="row">
 			<div class="col-md-3">
 				<div class="footer_logo">Храповицкий<br><span>хостел</span></div>
@@ -41,6 +48,10 @@ if ($key>0) { ?>
 			</div>
 		
 	</div> -->
+	<div class="col-xs-6 col-sm-6 col-md-offset-5">
+		<div class="share42init"></div>
+	</div>
+  </div>
   </div>
 </footer>
 
@@ -49,6 +60,8 @@ if ($key>0) { ?>
 <!-- build:remove -->
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/js/share42.js"></script>
+<script src="/js/common.js"></script>
 <!-- /build -->
 
 <!-- build:template

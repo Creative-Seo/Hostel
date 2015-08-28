@@ -1,6 +1,5 @@
 .nav-bar {
 	background-color:$header-color-back;
-	height:$nav-height;
 	line-height:$nav-height;
 	ul {
         margin:0;
@@ -15,16 +14,28 @@
                color:$nav-color;
 			}
 		}
-		li.divid {
-			line-height:$nav-height;
-			height:$nav-height;
-			span {
-				border-bottom:1px solid $color-gold;
-				width: 19px;
-				height:1px;
-				display: inline-block;
-				vertical-align:middle;
-			}
-		}
 	}
+}
+li.divid {
+	line-height:$nav-height;
+	height:$nav-height;
+	span {
+		border-bottom:1px solid $color-gold;
+		width: 19px;
+		height:1px;
+		display: inline-block;
+		vertical-align:middle;
+	}
+}
+.navbar-toggle {
+    background-color: $color-gold;
+    border: 1px solid $color-gold;
+	.icon-bar {background-color: #fff;}
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	li.divid {padding:0 !important;}
+}
+@media (max-width: $screen-xs-max) {
+	.nav-bar ul li {float: none;}
+	.tel {display: inline-block;}
 }
