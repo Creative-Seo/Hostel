@@ -4787,37 +4787,42 @@ button.close {
   font-size: 32px;
   height: 70px;
   line-height: 0.7em;
-  padding-top: 17.5px; }
-  /* line 23, ../sass/_header.scss */
+  padding-top: 17.5px;
+  display: block; }
+  /* line 24, ../sass/_header.scss */
+  .logo, .footer_logo, .logo:hover, .footer_logo:hover, .logo:focus, .footer_logo:focus {
+    text-decoration: none;
+    color: #000; }
+  /* line 28, ../sass/_header.scss */
   .logo span, .footer_logo span {
     font-size: 14px;
     font-weight: 300; }
 
-/* line 30, ../sass/_header.scss */
+/* line 35, ../sass/_header.scss */
 .tel {
   font-weight: 700;
   color: #D4AF53; }
-  /* line 33, ../sass/_header.scss */
+  /* line 38, ../sass/_header.scss */
   .tel span, .tel i {
     font-size: 24px;
     color: #000; }
-  /* line 37, ../sass/_header.scss */
+  /* line 42, ../sass/_header.scss */
   .tel i {
     color: #D4AF53; }
 
-/* line 41, ../sass/_header.scss */
+/* line 46, ../sass/_header.scss */
 .tel_svyaz {
   line-height: 0.1em;
   font-size: 12px;
   font-weight: 300; }
 
-/* line 48, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 .lang {
   font-size: 14px;
   font-weight: 300;
   padding-left: 15px; }
 
-/* line 53, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 span.active {
   font-weight: 700;
   color: #D4AF53; }
@@ -4889,54 +4894,69 @@ h2, .h2 {
   text-transform: uppercase;
   font-size: 22px; }
 
-/* line 25, ../sass/style.scss */
-.check-in {
-  background: url("../img/top.jpg") no-repeat;
-  background-size: cover;
-  height: 464px;
-  position: relative; }
-
-/* line 32, ../sass/style.scss */
-.description {
+/* line 24, ../sass/style.scss */
+#_pmsWidget_ {
   position: absolute;
-  margin-top: 100px;
+  top: 40px; }
+
+/* line 26, ../sass/style.scss */
+.slider {
+  position: relative; }
+  /* line 28, ../sass/style.scss */
+  .slider-content {
+    padding-top: 100px;
+    min-height: 464px; }
+  /* line 32, ../sass/style.scss */
+  .slider-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 464px;
+    overflow: hidden;
+    z-index: -1; }
+  /* line 40, ../sass/style.scss */
+  .slider-responsive {
+    min-width: 100%;
+    height: 100%; }
+  /* line 44, ../sass/style.scss */
+  .slider .h1, .slider .h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'PT Serif', serif; }
+    /* line 49, ../sass/style.scss */
+    .slider .h1 b, .slider .h2 b {
+      font-size: 32px; }
+
+/* line 54, ../sass/style.scss */
+.description {
   width: 100%;
-  height: 200px;
   background-color: rgba(0, 0, 0, 0.5);
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: #D4AF53; }
-  /* line 42, ../sass/style.scss */
-  .description .h1, .description .h2 {
-    text-align: center;
-    color: #fff;
-    font-family: 'PT Serif', serif; }
-    /* line 47, ../sass/style.scss */
-    .description .h1 b, .description .h2 b {
-      font-size: 32px; }
 
-/* line 52, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .description_icons {
   position: absolute;
-  bottom: 40px;
+  bottom: 10px;
   width: 100%;
   color: #fff;
   text-align: center;
   font-size: 24px;
   font-family: 'PT Serif', serif; }
 
-/* line 64, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 67, ../sass/style.scss */
+  /* line 76, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 74, ../sass/style.scss */
+  /* line 83, ../sass/style.scss */
   .rooms p {
     max-width: 450px;
     text-align: center;
@@ -4944,7 +4964,7 @@ h2, .h2 {
     font-weight: 300;
     color: #D4AF53;
     padding-bottom: 15px; }
-  /* line 82, ../sass/style.scss */
+  /* line 91, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -4952,50 +4972,56 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 90, ../sass/style.scss */
+  /* line 99, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 94, ../sass/style.scss */
+    /* line 103, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 103, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
+.nomer-image {
+  padding: 10px; }
+
+/* line 115, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 110, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 119, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .map h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 123, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .map_yandex {
   min-height: 350px; }
 
-/* line 129, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .house {
   width: 100%;
-  height: auto; }
+  height: auto;
+  max-height: 200px; }
 
-/* line 130, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .footer {
+  padding-bottom: 30px;
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 134, ../sass/style.scss */
+  /* line 147, ../sass/style.scss */
   .footer_logo {
     color: #fff;
     padding: 50px 0; }
-  /* line 139, ../sass/style.scss */
+  /* line 152, ../sass/style.scss */
   .footer ul li {
     padding: 5px; }
-    /* line 141, ../sass/style.scss */
+    /* line 154, ../sass/style.scss */
     .footer ul li a {
       padding: 5px;
       color: #999999; }
