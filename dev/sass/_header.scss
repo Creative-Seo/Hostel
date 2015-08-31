@@ -20,6 +20,11 @@
 		height:$header-height;
 		line-height:0.7em;
 		padding-top: $header-height*0.25;
+		display:block;
+		&, &:hover, &:focus {
+			text-decoration: none;
+			color: #000;
+		}
 		span{
 			font-size:14px;
 			font-weight:300;

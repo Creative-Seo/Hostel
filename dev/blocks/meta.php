@@ -15,6 +15,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='/libs/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+	<link href='/css/jquery.fancybox.css' rel='stylesheet' type='text/css'>
 <!-- /build -->
 <!-- build:css inline ../css/header.min.css -->
 	<link href="/css/meta.css" rel="stylesheet">

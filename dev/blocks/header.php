@@ -11,7 +11,7 @@
 				</button>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="logo">Храповицкий<br><span>хостел</span></div>
+				<a href="/" class="logo">Храповицкий<br><span>хостел</span></a>
 			</div>
             <div class="col-xs-4 col-sm-2 col-md-1"><span class="lang active">RU</span><span class="lang">EN</span></div>
 			<div class="col-xs-8 col-sm-4 col-md-3">

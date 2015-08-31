@@ -58,8 +58,9 @@ if (($key%3 == 0)&&($key>0)) {echo '</ul></div><div class="col-xs-6 col-sm-6 col
 <!-- FOOTER -->
 
 <!-- build:remove -->
-<script src="libs/jquery/dist/jquery.min.js"></script>
-<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/js/jquery.fancybox.pack.js"></script>
 <script src="/js/share42.js"></script>
 <script src="/js/common.js"></script>
 <!-- /build -->
