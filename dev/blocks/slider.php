@@ -2,9 +2,9 @@
 <div class="container-fluid">
 	<div class="row">
 	<div class="check-in">
-		<div id="_pmsWidget_" class="col-sm-5 col-md-5 col-lg-4"></div>	 
+		<div id="_pmsWidget_" class="col-sm-5 col-md-5 col-lg-3"></div>	 
 	    <div class="description hidden-xs">
-	      	<div class="container col-sm-7 col-md-7 col-lg-8 col-sm-offset-5 col-md-offset-5 col-lg-offset-4">
+	      	<div class="container col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3">
 	      		<div class="h1">Европейский хостел в историческом центре Владимира</div>
 	      		<div class="h2">Номера от <b>500</b> рублей в сутки</div>
 	      		<div class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</div>

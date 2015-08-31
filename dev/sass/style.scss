@@ -58,6 +58,10 @@ h2,.h2 {
 	.description {
 		height: 200px;}
 }
+@media (min-width: 1200px) {
+	.description {
+		height: 150px;}
+}
 .description_icons {
 	position: absolute;
 	bottom: 40px;
