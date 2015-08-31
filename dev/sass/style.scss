@@ -20,7 +20,8 @@ h2,.h2 {
 		font-size: 22px;
 	}
 //TYPOGRAPHY
-
+//BRONIROVANIE
+#_pmsWidget_{position: relative;top: 40px;}
 // SLIDER
 .check-in {
 	background: url('../img/top.jpg') no-repeat;
@@ -48,6 +49,14 @@ h2,.h2 {
 			font-size: 32px;
 		}
 	}
+}
+@media (min-width: 768px) {
+	.description {
+		height: 240px;}
+}
+@media (min-width: 992px) {
+	.description {
+		height: 200px;}
 }
 .description_icons {
 	position: absolute;
