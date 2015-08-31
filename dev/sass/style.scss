@@ -126,8 +126,9 @@ h2,.h2 {
 }
 //MAP
 //FOOTER
-.house {width: 100%; height:auto;}
+.house {width: 100%; height:auto; max-height: 200px;}
 .footer {
+	padding-bottom:30px;
 	background-color: #212221;
 	color: #fff;
 	position: relative;

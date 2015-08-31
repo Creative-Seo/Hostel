@@ -3,3 +3,4 @@ node_modules/
 dploy.yaml
 dev/libs/
 *.log
+dev/css/style.css
