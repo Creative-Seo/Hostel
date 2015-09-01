@@ -5,13 +5,13 @@ include($root."blocks/header.php");?>
 
 <!-- SLIDER -->
 <div class="slider">
-	<div class="slider-img"><img src="img/glav.jpg" class="slider-responsive" alt='<?php echo $nomera[$id]["name"];?>'></div>
+	<div class="slider-img"><img src="img/glav.jpg" class="slider-responsive" alt="<?php echo $nomera[$id]['name'];?>"></div>
 	<div class="container-fluid"><div id="_pmsWidget_"></div></div>
 	<div class="description">
 		<div class="container"><div class="row">
 			<div class="col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3 hidden-xs">
-				<p class="h1"><?php echo $nomera[$id]["name"];?></p>
-				<p class="h2"><b><?php echo $nomera[$id]["cost"];?></b> рублей за сутки</p>
+				<p class="h1"><?php echo $nomera[$id]['name'];?></p>
+				<p class="h2"><b><?php echo $nomera[$id]['cost'];?></b> рублей за сутки</p>
 			</div>
 		</div></div>
 	</div>
@@ -29,8 +29,8 @@ if (false !== $images) {
     $imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
 	foreach($imgarray as $row) { ?>  
 		<li class="nomer-image">
-			<a href='<?php echo "img/",htmlspecialchars(urlencode($row));?>' class="fancybox-thumb" rel="group" title='<?php echo $nomera[$id]["name"];?>'>
-				<img height="100px" src='<?php echo "img/",htmlspecialchars(urlencode($row));?>' alt='<?php echo $nomera[$id]["name"];?>'>
+			<a href="<?php echo 'img/',htmlspecialchars(urlencode($row));?>" class="fancybox-thumb" rel="group" title="<?php echo $nomera[$id]['name'];?>">
+				<img height="100px" src="<?php echo 'img/',htmlspecialchars(urlencode($row));?>" alt="<?php echo $nomera[$id]['name'];?>">
 			</a>
 		</li>
 <?php }} ?>
@@ -47,7 +47,7 @@ if (false !== $images) {
 <div class="container features">
 	<h2>В стоимость проживания включено</h2>
 	<div class="row">
-<?php $inclusive = [["i1","Завтраки"],["i2","Горячий душ"],["i3","Полотенца и белье"],["i4","Кухня"],["i5","Бесплатный Wi-Fi"],["i6","Гостевой компьютер"],["i7","24/7 ресепшн"],["i8","Хранение багажа"],["i9","Телевизор"],["i10","Карта города"],["i11","Настольные игры"],["i12","Локеры"]];
+<?php $inclusive = [['i1","Завтраки'],['i2","Горячий душ'],['i3","Полотенца и белье'],['i4","Кухня'],['i5","Бесплатный Wi-Fi'],['i6","Гостевой компьютер'],['i7","24/7 ресепшн'],['i8","Хранение багажа'],['i9","Телевизор'],['i10","Карта города'],['i11","Настольные игры'],['i12","Локеры']];
 foreach($inclusive as $key => $row) {
 	if ($key>0) {
 		$clearfix='';
@@ -57,7 +57,7 @@ foreach($inclusive as $key => $row) {
 		if ($clearfix != '') {echo '<div class="clearfix'.$clearfix.'"></div>';}
 	} ?>
 		<div class="col-xs-6 col-sm-3 col-md-2">
-			<div class="features_icon"><img src='/img/<?php echo $row[0];?>.png' alt="" class="img-responsive center-block"></div>
+			<div class="features_icon"><img src="/img/<?php echo $row[0];?>.png" alt="" class="img-responsive center-block"></div>
 			<div class="features_text"><?php echo $row[1];?></div>
 		</div>
 <?php } ?>

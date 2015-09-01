@@ -50,8 +50,8 @@ foreach($nomera as $row) {
 	}
 	$key++; ?>
 		<div class="col-sm-6 col-md-4">
-			<a href='<?php echo $row["url"];?>'><img src='<?php echo $row["url"];?>/img/glav.jpg' class="img-responsive" alt='<?php echo $row["name"];?>'></a>
-			<p class="rooms_number">№ <?php echo $row["id"];?> - <?php echo $row["name"];?> <br> <span class="rooms_price"><?php echo $row["cost"];?> <i class="fa fa-rub"></i></span></p>
+			<a href="<?php echo $row['url'];?>"><img src="<?php echo $row['url'];?>/img/glav.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
+			<p class="rooms_number">№ <?php echo $row['id'];?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
 	</div>
@@ -63,7 +63,7 @@ foreach($nomera as $row) {
 <div class="container features">
 	<h2>В стоимость проживания включено</h2>
 	<div class="row">
-<?php $inclusive = [["i1","Завтраки"],["i2","Горячий душ"],["i3","Полотенца и белье"],["i4","Кухня"],["i5","Бесплатный Wi-Fi"],["i6","Гостевой компьютер"],["i7","24/7 ресепшн"],["i8","Хранение багажа"],["i9","Телевизор"],["i10","Карта города"],["i11","Настольные игры"],["i12","Локеры"]];
+<?php $inclusive = [['i1','Завтраки'],['i2','Горячий душ'],['i3','Полотенца и белье'],['i4','Кухня'],['i5','Бесплатный Wi-Fi'],['i6','Гостевой компьютер'],['i7','24/7 ресепшн'],['i8','Хранение багажа'],['i9','Телевизор'],['i10','Карта города'],['i11','Настольные игры'],['i12','Локеры']];
 foreach($inclusive as $key => $row) {
 	if ($key>0) {
 		$clearfix='';
@@ -73,7 +73,7 @@ foreach($inclusive as $key => $row) {
 		if ($clearfix != '') {echo '<div class="clearfix'.$clearfix.'"></div>';}
 	} ?>
 		<div class="col-xs-6 col-sm-3 col-md-2">
-			<div class="features_icon"><img src='/img/<?php echo $row[0];?>.png' alt="" class="img-responsive center-block"></div>
+			<div class="features_icon"><img src="/img/<?php echo $row[0];?>.png" alt="" class="img-responsive center-block"></div>
 			<div class="features_text"><?php echo $row[1];?></div>
 		</div>
 <?php } ?>
