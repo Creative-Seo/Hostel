@@ -1,14 +1,24 @@
-<div class="container nav-bar">
+<div class="cd-main-header">
+	<ul class="cd-header-buttons">
+		<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+	</ul>
+</div>
+<main class="cd-main-content"></main>
+<!--<div class="container nav-bar">
 		<div class="collapse navbar-collapse" id="menu-collapse">
-			<ul>
+			<ul>-->
+<nav class="cd-nav container">
+		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 <?php foreach($menu as $key => $row) { 
 if ($key>0) { ?>
-				<li class="divid hidden-xs"><span></span></li>
+				<li class="divid hidden-xs hidden-sm"><span></span></li>
 <?php } ?>
 				<li>
 					<a href="<?php echo $row['url']; ?>"><?php echo $row['name']; ?></a>
 				</li>
 <?php } ?>
-			</ul>
+		</ul>
+</nav>
+<!--			</ul>
 		</div>
-</div>
+</div>-->
