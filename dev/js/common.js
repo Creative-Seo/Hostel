@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$(".fancybox-thumb").fancybox({
 		prevEffect	: 'none',
 		nextEffect	: 'none',
@@ -9,10 +10,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('#collapsing').click(function(){
-		$($(this).attr('data-target')).parent().toggleClass('active');
-	});
-	
+	var Pms = new _Pms('705486'); var params = { hotelId: '705486', button: '2195456', height:350, textColor:'#000', width:300, hostname: "https://pmscloud.com/app/form"}; Pms.widget("_pmsWidget_", params);
 	
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;

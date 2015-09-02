@@ -29,7 +29,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/modernizr.js', 'dev/js/share42.js', 'dev/js/common.js']
+			'prod/js/scripts.min.js': ['dev/js/share42.js', 'dev/js/pmsbook.js', 'dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/common.js'],
 		}
 	  }
 	},

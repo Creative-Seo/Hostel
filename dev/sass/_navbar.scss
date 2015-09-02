@@ -87,14 +87,6 @@ Main components
 	background: $color-4;
 	z-index: $above-content;
 
-	.nav-is-fixed & {
-		/* add .nav-is-fixed class to body if you want a fixed navigation on > 1170px */
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-	}
-
 	@include MQ(maxL) {
 		min-height: $header-height-S;
 		@include clearfix;
@@ -320,9 +312,6 @@ Main components
 }
 
 .cd-primary-nav, .cd-primary-nav ul {
-	position: fixed;
-	top: 0;
-	right: 0;
 	height: 100%;
 	width: $nav-width-S;
 	background: $color-1;
@@ -460,19 +449,20 @@ Main components
 			background-image: url('../img/line-icon-8.svg');
 		}
 	}
-
+}
+.nav-is-fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
 	@include MQ(maxL) {
-		/* by default .cd-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
 		visibility: hidden;
 		@include transition(visibility 0s .3s);
-
 		&.nav-is-visible {
 			visibility: visible;
 			@include transition(visibility 0s 0s);
 		}
 	}
 }
-
 @include MQ(L) {
 
 	.cd-primary-nav {
