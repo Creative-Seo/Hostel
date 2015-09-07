@@ -4,3 +4,4 @@ dploy.yaml
 dev/libs/
 *.log
 dev/css/style.css
+dev/css/meta.css

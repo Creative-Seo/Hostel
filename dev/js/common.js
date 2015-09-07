@@ -1,3 +1,12 @@
+function change_lang(lang) {
+	var pathname;
+	if (lang == 'en') {
+		pathname = "/en" + window.location.pathname;
+	} else {
+		pathname = window.location.pathname.replace("/en","");
+	}
+	window.location = pathname;
+}
 $(document).ready(function() {
 
 	$(".fancybox-thumb").fancybox({
