@@ -51,12 +51,13 @@
 //-------//
 //Выбор языка
 .lang {
-			font-size:14px;
-			font-weight:300;
-			padding-left: 15px;
-		}
-		span.active {
-				font-weight:700;
-				color: $color-gold;
-		}
+	font-size:14px;
+	font-weight:300;
+	padding-left: 15px;
+}
+a.lang{&, &:hover, &focus{text-decoration:none;color:#000;}}
+span.active {
+		font-weight:700;
+		color: $color-gold;
+}
 //-------//

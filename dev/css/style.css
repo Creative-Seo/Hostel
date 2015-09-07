@@ -4823,6 +4823,11 @@ button.close {
   padding-left: 15px; }
 
 /* line 58, ../sass/_header.scss */
+a.lang, a.lang:hover, a.langfocus {
+  text-decoration: none;
+  color: #000; }
+
+/* line 59, ../sass/_header.scss */
 span.active {
   font-weight: 700;
   color: #D4AF53; }
