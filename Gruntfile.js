@@ -88,6 +88,11 @@ grunt.initConfig({
 			cwd: 'dev/',   
 			src: ['blocks/meta.php', 'blocks/footer.php'],
 			dest: 'prod/'  
+		},{
+			expand: true,     
+			cwd: 'dev/en/',   
+			src: ['blocks/meta.php', 'blocks/footer.php'],
+			dest: 'prod/en/'  
 		}]
 	  }  
 	},
