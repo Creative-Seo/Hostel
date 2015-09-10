@@ -5353,7 +5353,7 @@ Main components
     position: static;
     margin: auto;
     height: auto;
-    width: auto;
+    width: 80%;
     overflow: visible;
     background: transparent; }
     /* line 20, ../libs/bourbon/app/assets/stylesheets/addons/_clearfix.scss */

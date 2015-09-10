@@ -6,32 +6,32 @@ include($root."blocks/header.php");?>
 <!-- SLIDER -->
 <div class="slider">
 	<div class="slider-img"><img src="/img/top.jpg" class="slider-responsive" alt="<?php echo $title;?>"></div>
-	<div class="container-fluid"><div id="_pmsWidget_"></div></div>
+	<div class="container-fluid"><div id="_pmsWidget_" class="pmsWidget"></div></div>
 	<div class="slider-content">
 		<div class="description hidden-xs">
 			<div class="container"><div class="row">
-				<div class="col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3 hidden-xs">
+				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
 					<div class="h1">Европейский хостел в историческом центре Владимира</div>
 					<div class="h2">Номера от <b>500</b> рублей в сутки</div>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
-			<div class="col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3">
+			<div class="col-sm-7 col-md-7 col-lg-9">
 					<div class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</div>
 			</div>
 		</div></div>
-		<div class="description_icons hidden-sm hidden-xs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">Что за хостел?</div>
-					<div class="col-md-4">Что рядом?</div>
-					<div class="col-md-4">Как добраться?</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>	
+<div class="description_icons hidden-sm hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">Что за хостел?</div>
+			<div class="col-md-4">Что рядом?</div>
+			<div class="col-md-4">Как добраться?</div>
+		</div>
+	</div>
+</div>
 <!-- SLIDER -->
 
 <!-- НОМЕРА -->

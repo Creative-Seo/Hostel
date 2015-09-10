@@ -5353,7 +5353,7 @@ Main components
     position: static;
     margin: auto;
     height: auto;
-    width: auto;
+    width: 80%;
     overflow: visible;
     background: transparent; }
     /* line 20, ../libs/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -5921,10 +5921,12 @@ h2, .h2 {
   font-size: 22px; }
 
 /* line 25, ../sass/style.scss */
-#_pmsWidget_ {
+.pmsWidget {
   position: absolute;
   top: 40px;
-  z-index: 0; }
+  z-index: 0;
+  right: 10%;
+  left: auto; }
 
 /* line 27, ../sass/style.scss */
 .slider {
@@ -5964,10 +5966,8 @@ h2, .h2 {
 
 /* line 62, ../sass/style.scss */
 .description_icons {
-  position: absolute;
   bottom: 10px;
   width: 100%;
-  color: #fff;
   text-align: center;
   font-size: 24px;
   font-family: 'PT Serif', serif; }
