@@ -12,7 +12,7 @@ include($root."blocks/header.php");?>
 			<div class="container"><div class="row">
 				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
 					<div class="h1">Европейский хостел в историческом центре Владимира</div>
-					<div class="h2">Номера от <b>500</b> рублей в сутки</div>
+					<div class="h2">Номера от <b>400</b> рублей в сутки</div>
 				</div>
 			</div></div>
 		</div>
