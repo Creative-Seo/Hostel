@@ -11,14 +11,14 @@ include($root."blocks/header.php");?>
 		<div class="description hidden-xs">
 			<div class="container"><div class="row">
 				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
-					<div class="h1">Европейский хостел в историческом центре Владимира</div>
-					<div class="h2">Номера от <b>400</b> рублей в сутки</div>
+					<p class="h1">Европейский хостел в историческом центре Владимира</p>
+					<p class="h2">Номера от <b>400</b> рублей в сутки</p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
 			<div class="col-sm-7 col-md-7 col-lg-9">
-					<div class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</div>
+					<p class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</p>
 			</div>
 		</div></div>
 	</div>
@@ -78,7 +78,9 @@ foreach($inclusive as $key => $row) {
 		</div>
 <?php } ?>
 	</div>
-	
+</div>	
+
+<div class="container">
 	<div class="map-yandex">
 		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xy4Y5e34o_oSvIvagpI0L-NmLwY2VxiO"></script>
 	</div>
