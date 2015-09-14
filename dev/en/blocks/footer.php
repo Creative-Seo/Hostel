@@ -15,7 +15,7 @@ if (($key%3 == 0)&&($key>0)) {echo '</ul></div><div class="col-xs-6 col-sm-6 col
 	<div class="col-xs-6 col-sm-6 col-md-4">
 		<ul class="list-unstyled">
 			<li class="phone">8 (4922) 999-999</li>
-			<li><a class="mail" href="mailto:info@hostel.ru">info@hostel.ru</a></li>
+			<li><a class="mail" href="mailto:info@hrapovitsky.ru">info@hrapovitsky.ru</a></li>
 		</ul>
 	</div>
 	<div class="col-xs-6 col-sm-6 col-md-offset-5">

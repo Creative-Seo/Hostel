@@ -82,7 +82,7 @@ foreach($inclusive as $key => $row) {
 
 <div class="container">
 	<div class="map-yandex">
-		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xy4Y5e34o_oSvIvagpI0L-NmLwY2VxiO"></script>
+		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"></script>
 	</div>
 </div>
 
