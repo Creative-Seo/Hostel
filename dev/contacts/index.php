@@ -24,12 +24,12 @@ include($root."blocks/header.php");?>
 	<p>Время заезда: 14:00</p>
 	<p>Время выезда: 12:00</p>
 	<div class="map-yandex">
-		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xy4Y5e34o_oSvIvagpI0L-NmLwY2VxiO"></script>
+		  <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"></script>
 	</div>
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 			<div class="map-yandex">
-				<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xy4Y5e34o_oSvIvagpI0L-NmLwY2VxiO"></script>
+				<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Gz-NbC3GtS575dbx6VG8SL4xgJtjY1j2"></script>
 			</div>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
