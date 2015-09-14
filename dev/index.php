@@ -11,14 +11,14 @@ include($root."blocks/header.php");?>
 		<div class="description hidden-xs">
 			<div class="container"><div class="row">
 				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
-					<div class="h1">Европейский хостел в историческом центре Владимира</div>
-					<div class="h2">Номера от <b>400</b> рублей в сутки</div>
+					<p class="h1">Европейский хостел в историческом центре Владимира</p>
+					<p class="h2">Номера от <b>400</b> рублей в сутки</p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
 			<div class="col-sm-7 col-md-7 col-lg-9">
-					<div class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</div>
+					<p class="h2">Недалеко от Вокзала. Рядом с достопримечательностями. <br>Большой завтрак.</p>
 			</div>
 		</div></div>
 	</div>
@@ -32,8 +32,8 @@ include($root."blocks/header.php");?>
 		</div>
 	</div>
 </div>
-<!-- SLIDER -->
-
+<!-- SLIDER --><script src='https://sky-eu1.clock-software.com/js/iframe_integration.js'></script>
+<script>clock_pms_iframe({ height: '2000px',  width: '100%', seamless: 'seamless', frameborder: '0', src: 'https://sky-eu1.clock-software.com/9347/3098/wbe/products/new' })</script>
 <!-- НОМЕРА -->
 <div class="rooms">
 <div class="container">
@@ -78,18 +78,12 @@ foreach($inclusive as $key => $row) {
 		</div>
 <?php } ?>
 	</div>
-</div>
-<!-- FEATURES -->
+</div>	
 
-<!-- MAP -->
-<!-- <div class="container-fluid map">
-	<div class="row">
-		<h2>Расположение хостела</h2>
-		<div class="map_yandex">
-		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=qnghkP4W_wvwMGKITCXQ_h-IQKXUOdZo&width=auto&height=350"></script>
-		</div>
+<div class="container">
+	<div class="map-yandex">
+		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"></script>
 	</div>
-</div> -->
-<!-- MAP -->
+</div>
 
 <?php include($root."blocks/footer.php"); ?>
