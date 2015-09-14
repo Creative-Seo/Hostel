@@ -32,8 +32,8 @@ include($root."blocks/header.php");?>
 		</div>
 	</div>
 </div>
-<!-- SLIDER -->
-
+<!-- SLIDER --><script src='https://sky-eu1.clock-software.com/js/iframe_integration.js'></script>
+<script>clock_pms_iframe({ height: '2000px',  width: '100%', seamless: 'seamless', frameborder: '0', src: 'https://sky-eu1.clock-software.com/9347/3098/wbe/products/new' })</script>
 <!-- НОМЕРА -->
 <div class="rooms">
 <div class="container">
@@ -78,18 +78,10 @@ foreach($inclusive as $key => $row) {
 		</div>
 <?php } ?>
 	</div>
-</div>
-<!-- FEATURES -->
-
-<!-- MAP -->
-<!-- <div class="container-fluid map">
-	<div class="row">
-		<h2>Расположение хостела</h2>
-		<div class="map_yandex">
-		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=qnghkP4W_wvwMGKITCXQ_h-IQKXUOdZo&width=auto&height=350"></script>
-		</div>
+	
+	<div class="map-yandex">
+		<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xy4Y5e34o_oSvIvagpI0L-NmLwY2VxiO"></script>
 	</div>
-</div> -->
-<!-- MAP -->
+</div>
 
 <?php include($root."blocks/footer.php"); ?>

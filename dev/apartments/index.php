@@ -9,7 +9,7 @@ include($root."blocks/header.php");?>
 	<p class="center-block rooms-gold">Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!</p>
 	<div class="row">
 <?php $key=0;
-foreach($nomera as $row) {
+foreach($nomera as $key => $row) {
 	if ($key>0) {
 		$clearfix='';
 		if ($key % 2 == 0) {$clearfix = $clearfix.' visible-sm';}
