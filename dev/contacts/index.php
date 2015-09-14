@@ -17,7 +17,7 @@ include($root."blocks/header.php");?>
 			  </tr>
 			  <tr>
 				<td><i class="fa fa-envelope-o fa-2x"></i> E-mail:</td>
-				<td class="cont-mail"><a href="mailto:info@hostel.ru">info@hostel.ru</a></td>
+				<td class="cont-mail"><a href="mailto:info@hrapovitsky.ru">info@hrapovitsky.ru</a></td>
 			  </tr>
 			</tbody></table>
 		  </div>
