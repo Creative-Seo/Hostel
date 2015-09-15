@@ -32,6 +32,9 @@ include($root."blocks/header.php");?>
 		</div>
 	</div>
 </div>
+<!-- SLIDER -->
+
+<!-- НОМЕРА -->
 <div class="rooms">
 <div class="container">
 	<div class="h2">Номера</div>
@@ -76,6 +79,7 @@ foreach($inclusive as $key => $row) {
 <?php } ?>
 	</div>
 </div>	
+<!-- FEATURES -->
 
 <div class="container">
 	<div class="map-yandex">

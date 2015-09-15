@@ -18,7 +18,7 @@ foreach($nomera as $number => $row) {
 	}
 	$key++; ?>
 		<div class="col-sm-6 col-md-4">
-			<a href="/apartments/<?php echo $row['url'];?>"><img src="/apartments/<?php echo $row['url'];?>img/glav.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
+			<a href="/en/apartments/<?php echo $row['url'];?>"><img src="/en/apartments/<?php echo $row['url'];?>img/glav.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
 			<p class="rooms_number">№<?php echo $number;?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
