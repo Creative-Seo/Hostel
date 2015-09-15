@@ -6,19 +6,19 @@ include($root."blocks/header.php");?>
 <!-- SLIDER -->
 <div class="slider">
 	<div class="slider-img"><img src="img/glav.jpg" class="slider-responsive" alt="<?php echo $nomera[$id]['name'];?>"></div>
-	<div class="container-fluid"><div id="_pmsWidget_"></div></div>
+	<div class="container-fluid"><div id="_pmsWidget_" class="pmsWidget"></div></div>
 	<div class="slider-content">
 		<div class="description hidden-xs">
 			<div class="container"><div class="row">
-			<div class="col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3 hidden-xs">
-				<p class="h1"><?php echo $nomera[$id]['name'];?></p>
-				<p class="h2"><b><?php echo $nomera[$id]['cost'];?></b> рублей за сутки</p>
+				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
+					<p class="h1"><?php echo $nomera[$id]['name'];?></p>
+					<p class="h2"><b><?php echo $nomera[$id]['cost'];?></b> рублей за сутки</p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
-		<div class="col-sm-7 col-md-7 col-lg-9 col-sm-offset-5 col-md-offset-5 col-lg-offset-3 hidden-xs">
-			<p class="h2">Просторная комната с зоной отдыха. Завтрак включен в стоимость.</p>
+			<div class="col-sm-7 col-md-7 col-lg-9">
+				<p class="h2">Просторная комната с зоной отдыха. Завтрак включен в стоимость.</p>
 			</div>
 		</div></div>
 	</div>
