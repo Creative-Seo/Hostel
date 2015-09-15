@@ -32,16 +32,13 @@ include($root."blocks/header.php");?>
 		</div>
 	</div>
 </div>
-<!-- SLIDER --><script src='https://sky-eu1.clock-software.com/js/iframe_integration.js'></script>
-<script>clock_pms_iframe({ height: '2000px',  width: '100%', seamless: 'seamless', frameborder: '0', src: 'https://sky-eu1.clock-software.com/9347/3098/wbe/products/new' })</script>
-<!-- НОМЕРА -->
 <div class="rooms">
 <div class="container">
 	<div class="h2">Номера</div>
 	<p class="center-block rooms-gold">Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!</p>
 	<div class="row">
 <?php $key=0;
-foreach($nomera as $row) {
+foreach($nomera as $number => $row) {
 	if ($key>0) {
 		$clearfix='';
 		if ($key % 2 == 0) {$clearfix = $clearfix.' visible-sm';}
@@ -51,7 +48,7 @@ foreach($nomera as $row) {
 	$key++; ?>
 		<div class="col-sm-6 col-md-4">
 			<a href="/apartments/<?php echo $row['url'];?>"><img src="/apartments/<?php echo $row['url'];?>img/glav.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
-			<p class="rooms_number">№ <?php echo $row['id'];?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
+			<p class="rooms_number">№<?php echo $number;?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
 	</div>
