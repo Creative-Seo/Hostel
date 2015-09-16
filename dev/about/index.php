@@ -8,6 +8,5 @@ $lang = json_decode('{
 $root='../';
 $dir=$_SERVER['REQUEST_URI'];
 include($root."config.php");
-
 include($root."template".$dir."ind.php");
 ?>
