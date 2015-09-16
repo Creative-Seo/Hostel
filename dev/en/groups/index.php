@@ -1,10 +1,15 @@
-<?php $root='../';
-include("var.php");
-include($root."blocks/meta.php");
-include($root."blocks/header.php");?>
+<?php
+$title = 'Групповое бронирование: размещение групп в хостеле Храповицкий';
+$description = '';
+$keywords = '';
 
-<div class="container">
-	<h1><?php echo $title?></h1>
-</div>
+$lang = json_decode('{
+"h1":"'.$title.'"
+}',true);
 
-<?php include($root."blocks/footer.php"); ?>
+$root='../../';
+$dir= str_replace('/en','',$_SERVER['REQUEST_URI']);
+include($root."en/config.php");
+
+include($root."template".$dir."ind.php");
+?>

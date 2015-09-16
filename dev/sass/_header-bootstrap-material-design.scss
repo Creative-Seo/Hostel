@@ -1,0 +1,68 @@
+// Material colors palette
+$red: #F44336 !default;
+$pink: #E91E63 !default;
+$purple: #9C27B0 !default;
+$deeppurple: #673AB7 !default;
+$indigo: #3F51B5 !default;
+$lightblue: #03A9F4 !default;
+$cyan: #00BCD4 !default;
+$teal: #ff9688 !default;
+$lightgreen: #8BC34A !default;
+$lime: #CDDC39 !default;
+$lightyellow: #FFEB3B !default;
+$orange: #FF9800 !default;
+$deeporange: #FF5722 !default;
+$grey: #9E9E9E !default;
+$bluegrey: #607D8B !default;
+$brown: #795548 !default;
+$lightgrey: #ECECEC !default;
+
+// Bootstrap shades
+$primary: #4285F4 !default;
+$success: #0F9D58 !default;
+$info: $lightblue !default;
+$warning: $deeporange !default;
+$danger: $red !default;
+
+// Typography elements for Material
+$darkbg-text: rgba(255,255,255,0.84);
+$lightbg-text: rgba(0,0,0,0.84);
+$icon-color: rgba(0,0,0,0.5);
+
+$navbar-danger-bg: $danger;
+$navbar-inverse-bg: #5264AE;
+$navbar-warning-bg: $warning;
+$navbar-success-bg: $success;
+$navbar-info-bg:    $info;
+//$navbar-default-bg: $primary;
+//$navbar-color: $darkbg-text;
+$navbar-link-color: $darkbg-text;
+$navbar-link-hover-color: $darkbg-text;
+$navbar-link-hover-bg: transparent;
+$navbar-link-active-color: $darkbg-text;
+$navbar-link-active-bg: rgba(0,0,0,0.05);
+$navbar-link-disabled-color: #E5E5E5;
+$navbar-link-disabled-bg: transparent;
+$navbar-brand-color: $darkbg-text;
+$navbar-toggle-border-color: $darkbg-text;
+$navbar-toggle-hover-bg: transparent;
+$navbar-toggle-icon-bar-bg: $darkbg-text;
+$navbar-border: $darkbg-text;
+
+@import "../libs/bootstrap-material-design/sass/_mixins.scss";
+@import "../libs/bootstrap-material-design/sass/_navbar.scss";
+
+.dropdown-menu {
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    .divider {
+        background-color: rgba(229, 229, 229, 0.12);
+    }
+    li {
+        overflow: hidden;
+        position: relative;
+        a:hover {
+            background: rgba(0,0,0,0.08);
+        }
+    }
+}

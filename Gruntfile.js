@@ -9,7 +9,7 @@ grunt.initConfig({
 		},
 		files: {
 		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/libs/font-awesome/css/font-awesome.css'],
-		  'dev/css/header.min.css': ['dev/css/meta.css']
+		  'dev/css/meta.min.css': ['dev/css/meta.css']
 		}
 	  }
 	},
@@ -29,7 +29,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/js/share42.js', 'dev/js/pmsbook.js', 'dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/common.js'],
+			'prod/js/scripts.min.js': ['dev/js/pmsbook.js', 'dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/common.js'],
 		}
 	  }
 	},
@@ -61,7 +61,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php'],
+			src: ['template/**/*.php', '**/common.php'],
 			dest: 'prod/'     
 		}]
 	  }
@@ -85,21 +85,16 @@ grunt.initConfig({
 		},
 		files: [{
 			expand: true,     
-			cwd: 'dev/',   
+			cwd: 'dev/template/',   
 			src: ['blocks/meta.php', 'blocks/footer.php'],
-			dest: 'prod/'  
-		},{
-			expand: true,     
-			cwd: 'dev/en/',   
-			src: ['blocks/meta.php', 'blocks/footer.php'],
-			dest: 'prod/en/'  
+			dest: 'prod/template/'  
 		}]
 	  }  
 	},
 
 	wiredep: {
 	  task: {
-		src: ['dev/blocks/meta.php'],
+		src: ['dev/template/blocks/meta.php'],
 		options: {}
 	  }
 	},
