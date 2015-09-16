@@ -1,7 +1,7 @@
 @import "variables";
 @import "bootstrap";
-@import "header";
-@import "navbar";
+//@import "header";
+//@import "navbar";
 
 body {
 	font-family:$font-body-open-sans;
@@ -140,11 +140,6 @@ h2,.h2 {
 	background-color: #212221;
 	color: #fff;
 	position: relative;
-	&_logo {
-		@extend .logo;
-		color: #fff;
-		padding: 50px 0;
-	}
 	ul li {
 		padding: 5px;
 		a {
