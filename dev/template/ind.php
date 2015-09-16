@@ -50,7 +50,7 @@ foreach($nomera as $number => $row) {
 	}
 	$key++; ?>
 		<div class="col-sm-6 col-md-4">
-			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img src="/image/apartments/<?php echo $row['url'];?>glav.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
+			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img src="/image/<?php echo str_replace('/', '', $row['url']);?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
 			<p class="rooms_number">№<?php echo $number;?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
