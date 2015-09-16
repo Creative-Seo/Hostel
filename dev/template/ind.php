@@ -34,6 +34,26 @@ include($root."template/blocks/header.php");
 </div>
 <!-- SLIDER -->
 
+<!-- PREMIUM -->
+<div class="premium">
+	<div class="container"><div class="row">
+		<div class="col-md-6"><div class="row">
+			<div class="col-md-5 "><img class="premium-img" src="/image/block-1.png"></div>
+			<div class="col-md-7"><img class="premium-img" src="/image/block-2.png"></div>
+		</div></div>
+		<div class="col-md-6"><img class="premium-img" src="/image/block-3.png"></div>
+		<div class="col-md-6"><div class="row">
+			<div class="col-md-7"><img class="premium-img" src="/image/block-4.png"></div>
+			<div class="col-md-5"><img class="premium-img" src="/image/block-5.png"></div>
+		</div></div>
+		<div class="col-md-6"><div class="row">
+			<div class="col-md-7"><img class="premium-img" src="/image/block-6.png"></div>
+			<div class="col-md-5"><img class="premium-img" src="/image/block-7.png"></div>
+		</div></div>
+	</div></div>
+</div>
+<!-- PREMIUM -->
+
 <!-- НОМЕРА -->
 <div class="rooms">
 <div class="container">

@@ -2446,17 +2446,23 @@ h2, .h2 {
   font-family: 'PT Serif', serif; }
 
 /* line 77, ../sass/style.scss */
+.premium-img {
+  margin: 10px;
+  width: 100%;
+  height: 300px; }
+
+/* line 86, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 80, ../sass/style.scss */
+  /* line 89, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 87, ../sass/style.scss */
+  /* line 96, ../sass/style.scss */
   .rooms_gold {
     color: #D4AF53;
     max-width: 450px;
@@ -2464,7 +2470,7 @@ h2, .h2 {
     font-style: 14px;
     font-weight: 300;
     padding-bottom: 15px; }
-  /* line 95, ../sass/style.scss */
+  /* line 104, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -2472,49 +2478,49 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 103, ../sass/style.scss */
+  /* line 112, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 107, ../sass/style.scss */
+    /* line 116, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 112, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .nomer-image {
   padding: 10px; }
 
-/* line 119, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 126, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 134, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .map-yandex {
   padding: 10px;
   height: 50vh; }
 
-/* line 137, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .house {
   width: 100%;
   height: auto;
   max-height: 200px; }
 
-/* line 138, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .footer {
   padding-bottom: 30px;
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 143, ../sass/style.scss */
+  /* line 152, ../sass/style.scss */
   .footer ul li {
     padding: 5px; }
-    /* line 145, ../sass/style.scss */
+    /* line 154, ../sass/style.scss */
     .footer ul li a {
       padding: 5px;
       color: #999999; }

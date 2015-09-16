@@ -2387,33 +2387,38 @@ select[multiple].input-lg {
 /* line 35, ../sass/_header.scss */
 .tel {
   font-weight: 700;
-  color: #D4AF53; }
-  /* line 38, ../sass/_header.scss */
+  color: #D4AF53;
+  text-decoration: none; }
+  /* line 39, ../sass/_header.scss */
+  .tel:hover, .tel:focus {
+    text-decoration: none;
+    color: #D4AF53; }
+  /* line 43, ../sass/_header.scss */
   .tel span, .tel i {
     font-size: 24px;
     color: #000; }
-  /* line 42, ../sass/_header.scss */
+  /* line 47, ../sass/_header.scss */
   .tel i {
     color: #D4AF53; }
 
-/* line 46, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 .tel_svyaz {
   line-height: 0.1em;
   font-size: 12px;
   font-weight: 300; }
 
-/* line 53, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 .lang {
   font-size: 14px;
   font-weight: 300;
   padding-left: 15px; }
 
-/* line 58, ../sass/_header.scss */
+/* line 63, ../sass/_header.scss */
 a.lang, a.lang:hover, a.langfocus {
   text-decoration: none;
   color: #000; }
 
-/* line 59, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 span.active {
   font-weight: 700;
   color: #D4AF53; }
