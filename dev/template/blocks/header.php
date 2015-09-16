@@ -18,7 +18,7 @@
 <?php } ?>
 			</div>
 			<div class="col-xs-8 col-sm-6 col-md-4 col-lg-3">
-				<div class="tel"><i class="fa fa-phone"></i><span><?php echo $header_tel;?></div>
+				<a class="tel" href="<?php echo $tel;?>"><i class="fa fa-phone"></i><?php echo $header_tel;?></a>
 			</div>
 			<div class="col-md-2 col-md-offset-10 visible-md" style="line-height:normal;">
 <?php if ($meta_lang == 'en') { ?>

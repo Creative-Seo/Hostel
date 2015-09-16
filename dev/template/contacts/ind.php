@@ -16,7 +16,7 @@ include($root."template/blocks/header.php");?>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>
-			<p><a href="mailto:info@hrapovitsky.ru"><?php echo $email;?></a></p>
+			<p><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></p>
 		</div>
 	</div>
 	<p class="pull-left"><i class="fa fa-clock-o fa-2x"></i></p>
