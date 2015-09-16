@@ -5,7 +5,6 @@ $tel_dop = '8(4922) 30-41-65';
 $email = 'info@hrapovitsky.ru';
 
 $menu = json_decode('[
-	{"name":"About hostel","url":"/en/about/"},
 	{"name":"Apartments","url":"/en/apartments/"},
 	{"name":"Group placement","url":"/en/groups/"},
 	{"name":"Services","url":"/en/services/"},
