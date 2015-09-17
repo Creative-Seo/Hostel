@@ -6,24 +6,26 @@ include($root."template/blocks/header.php");
 <!-- SLIDER -->
 <div class="slider">
 	<div class="slider-img"><img src="/image/top.jpg" class="slider-responsive" alt="<?php echo $title;?>"></div>
-	<div class="container-fluid"><div id="_pmsWidget_" class="pmsWidget"></div></div>
+	<div class="container"><div class="row"><div class="col-xs-10 col-sm-5 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-7 col-md-offset-8"><div class="slider-pms">
+<?php include($root."template/blocks/pms.php");?>
+	</div></div></div></div>
 	<div class="slider-content">
-		<div class="description hidden-xs">
+		<div class="slider-board hidden-xs">
 			<div class="container"><div class="row">
-				<div class="col-sm-7 col-md-7 col-lg-9 hidden-xs">
+				<div class="col-sm-7 col-md-8 col-lg-8 hidden-xs">
 					<p class="h1"><?php echo $lang['slider-h1_1']; ?></p>
 					<p class="h2"><?php echo $lang['slider-h2_1']; ?></p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
-			<div class="col-sm-7 col-md-7 col-lg-9">
+			<div class="col-sm-7 col-md-8 col-lg-8">
 					<p class="h2"><?php echo $lang['slider-h2_2']; ?></p>
 			</div>
 		</div></div>
 	</div>
 </div>	
-<div class="description_icons hidden-sm hidden-xs">
+<!--<div class="description_icons hidden-sm hidden-xs">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4"><?php echo $lang['slider-vopros1']; ?></div>
@@ -31,7 +33,7 @@ include($root."template/blocks/header.php");
 			<div class="col-md-4"><?php echo $lang['slider-vopros3']; ?></div>
 		</div>
 	</div>
-</div>
+</div>-->
 <!-- SLIDER -->
 
 <!-- PREMIUM -->

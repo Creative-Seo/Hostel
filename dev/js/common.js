@@ -1,12 +1,3 @@
-function change_lang(lang) {
-	var pathname;
-	if (lang == 'en') {
-		pathname = "/en" + window.location.pathname;
-	} else {
-		pathname = window.location.pathname.replace("/en","");
-	}
-	window.location = pathname;
-}
 $(document).ready(function() {
 
 	$(".fancybox-thumb").fancybox({
@@ -19,7 +10,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	var Pms = new _Pms('705486'); var params = { hotelId: '705486', button: '2195456', height:350, textColor:'#000', width:300, hostname: "https://pmscloud.com/app/form"}; Pms.widget("_pmsWidget_", params);
 	
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;
