@@ -1,50 +1,73 @@
 <!-- FOOTER -->
 <div><img class="house" src="/img/footer-back-min.png"></div>
 <footer class="footer">
-  <div class="container"><div class="row">
-	<div class="col-xs-6 col-sm-6 col-md-4">
-		<ul class="list-unstyled">
-<?php foreach($menu as $key => $row) { 
-if (($key%3 == 0)&&($key>0)) {echo '</ul></div><div class="col-xs-6 col-sm-6 col-md-4"><ul class="list-unstyled">';} ?>
-				<li>
-					<a href="<?php echo $row['url']; ?>"><?php echo $row['name']; ?></a>
-				</li>
+  <div class="container">
+  <div class="row">
+  	<div class="col-xs-12 col-sm-6 col-md-8"><div class="row">
+		<div class="col-xs-12 col-md-6">
+			<ul class="list-unstyled">
+				<li class="h4"><a href="<?php echo $menu['services']['url']; ?>"><?php echo $menu['services']['name']; ?>:</a></li>
+				<li><a href="<?php echo $menu['groups']['url']; ?>"><?php echo $menu['groups']['name']; ?></a></li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<ul class="list-unstyled">
+				<li class="h4"><a href="<?php echo $menu['apartments']['url']; ?>"><?php echo $menu['apartments']['name']; ?>:</a></li>
+<?php foreach($nomera as $number => $row) { ?>
+				<li><a href="/apartments/<?php echo $row['url']; ?>"><?php echo $row['name']; ?></a></li>
 <?php } ?>
-		</ul>
-	</div>
-	<div class="col-xs-6 col-sm-6 col-md-4">
+			</ul>
+		</div>
+	</div></div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
 		<ul class="list-unstyled">
-			<li class="phone"><?php echo $tel;?></li>
-			<li><a class="mail" href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
+			<li class="h4"><a href="<?php echo $menu['contacts']['url']; ?>"><?php echo $menu['contacts']['name']; ?>:</a></li>
+			<li><a href="<?php echo $tel;?>"><?php echo $tel;?></a></li>
+			<li><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
+			<li><span><?php echo $address;?></span></li>
 		</ul>
 	</div>
-	<div class="col-xs-6 col-sm-6 col-md-offset-5">
-		<div class="share42init"><span id="share42">
-		<span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:32px;">
-			<a rel="nofollow" style="display:inline-block;width:32px;height:32px;margin:0;padding:0;outline:none;background:url(/img/icons.png) -0px 0 no-repeat" href="#" data-count="fb" onclick="window.open('http://www.facebook.com/sharer.php?m2w&amp;s=100&amp;p[url]=http%3A%2F%2Fhostel.dev%2Fapartments%2F&amp;p[title]=%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%20%D0%B2%20%D1%85%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%20%D0%B2%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%B5%20-%20%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A5%D1%80%D0%B0%D0%BF%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9&amp;p[summary]=&amp;p[images][0]=undefined', '_blank', 'scrollbars=0, resizable=1, menubar=0, left=100, top=100, width=550, height=440, toolbar=0, status=0');return false" title="Поделиться в Facebook" target="_blank"></a>
+  </div>
+  <div class="row text-center" style="margin-top:20px;">
+	<div class="col-xs-3">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-stack-1x">B.</i>
 		</span>
-		<span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:32px;">
-			<a rel="nofollow" style="display:inline-block;width:32px;height:32px;margin:0;padding:0;outline:none;background:url(/img/icons.png) -32px 0 no-repeat" href="#" data-count="gplus" onclick="window.open('https://plus.google.com/share?url=http%3A%2F%2Fhostel.dev%2Fapartments%2F', '_blank', 'scrollbars=0, resizable=1, menubar=0, left=100, top=100, width=550, height=440, toolbar=0, status=0');return false" title="Поделиться в Google+" target="_blank"></a>
+	</div>
+	<div class="col-xs-3">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-twitter fa-stack-1x"></i>
 		</span>
-		<span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:32px;">
-			<a rel="nofollow" style="display:inline-block;width:32px;height:32px;margin:0;padding:0;outline:none;background:url(/img/icons.png) -64px 0 no-repeat" href="#" data-count="twi" onclick="window.open('https://twitter.com/intent/tweet?text=%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%20%D0%B2%20%D1%85%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%20%D0%B2%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%B5%20-%20%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A5%D1%80%D0%B0%D0%BF%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9&amp;url=http%3A%2F%2Fhostel.dev%2Fapartments%2F', '_blank', 'scrollbars=0, resizable=1, menubar=0, left=100, top=100, width=550, height=440, toolbar=0, status=0');return false" title="Добавить в Twitter" target="_blank"></a>
+	</div>
+	<div class="col-xs-3">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-vk fa-stack-1x"></i>
 		</span>
-		<span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:32px;">
-			<a rel="nofollow" style="display:inline-block;width:32px;height:32px;margin:0;padding:0;outline:none;background:url(/img/icons.png) -96px 0 no-repeat" href="#" data-count="vk" onclick="window.open('http://vk.com/share.php?url=http%3A%2F%2Fhostel.dev%2Fapartments%2F&amp;title=%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%20%D0%B2%20%D1%85%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%20%D0%B2%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%B5%20-%20%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A5%D1%80%D0%B0%D0%BF%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9&amp;image=undefined&amp;description=', '_blank', 'scrollbars=0, resizable=1, menubar=0, left=100, top=100, width=550, height=440, toolbar=0, status=0');return false" title="Поделиться В Контакте" target="_blank"></a>
+	</div>
+	<div class="col-xs-3">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-facebook fa-stack-1x"></i>
 		</span>
-		</span></div>
 	</div>
   </div>
   </div>
 </footer>
 <!-- FOOTER -->
 
+<script>function change_lang(lang){var pathname;if(lang=='en'){pathname="/en"+window.location.pathname;}else{pathname=window.location.pathname.replace("/en","");}window.location=pathname;}</script>
 <!-- build:remove -->
-<script src="/js/pmsbook.js"></script>
 <script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/moment/min/moment.min.js"></script>
+<script src="/libs/moment/min/locales.min.js"></script>
 <script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
 <script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script src="/js/jquery.fancybox.pack.js"></script>
+<script src="/js/pms.js"></script>
 <script src="/js/common.js"></script>
 <!-- /build -->
 

@@ -11,8 +11,8 @@ include($root."template/blocks/header.php");?>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
-			<p><a href="tel:tel@8(4922) 30-41-65"><?php echo $tel;?></a></p>
-			<p><a href="tel:8(4922) 30-41-65"><?php echo $tel_dop;?></a></p>
+			<p><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></p>
+			<p><a href="tel:<?php echo $tel_dop;?>"><?php echo $tel_dop;?></a></p>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>
@@ -25,8 +25,10 @@ include($root."template/blocks/header.php");?>
 	<div class="map-yandex">
 		  <script type="text/javascript" charset="utf-8" src="<?php echo $lang['map-yandex-1'];?>"></script>
 	</div>
+	<p class="h2"><?php echo $lang['h2'];?></p>
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<p class="h2"><?php echo $lang['h2-0'];?></p>
 			<div class="map-yandex">
 				<script type="text/javascript" charset="utf-8" src="<?php echo $lang['map-yandex-2'];?>"></script>
 			</div>

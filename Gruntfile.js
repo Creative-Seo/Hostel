@@ -29,7 +29,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/js/pmsbook.js', 'dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/common.js'],
+			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/moment/min/moment.min.js', 'dev/libs/moment/min/locales.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/pms.js', 'dev/js/common.js'],
 		}
 	  }
 	},
@@ -47,7 +47,7 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '.htaccess'], dest: 'prod/'},
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '.htaccess','!meta.php','!footer.php'], dest: 'prod/'},
 				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
@@ -85,9 +85,9 @@ grunt.initConfig({
 		},
 		files: [{
 			expand: true,     
-			cwd: 'dev/template/',   
-			src: ['blocks/meta.php', 'blocks/footer.php'],
-			dest: 'prod/template/'  
+			cwd: 'dev/',   
+			src: ['template/blocks/meta.php', 'template/blocks/footer.php'],
+			dest: 'prod/'  
 		}]
 	  }  
 	},

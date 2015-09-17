@@ -2093,282 +2093,6 @@ button.close {
   /* line 149, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px; } }
-/* line 14, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 19, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-/* line 15, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.pull-right {
-  float: right !important; }
-
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.pull-left {
-  float: left !important; }
-
-/* line 27, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.hide {
-  display: none !important; }
-
-/* line 30, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.show {
-  display: block !important; }
-
-/* line 33, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.invisible {
-  visibility: hidden; }
-
-/* line 36, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0; }
-
-/* line 45, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.hidden {
-  display: none !important; }
-
-/* line 53, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss */
-.affix {
-  position: fixed; }
-
-@-ms-viewport {
-  width: device-width; }
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-.visible-xs {
-  display: none !important; }
-
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-.visible-sm {
-  display: none !important; }
-
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-.visible-md {
-  display: none !important; }
-
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-.visible-lg {
-  display: none !important; }
-
-/* line 36, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-.visible-xs-block,
-.visible-xs-inline,
-.visible-xs-inline-block,
-.visible-sm-block,
-.visible-sm-inline,
-.visible-sm-inline-block,
-.visible-md-block,
-.visible-md-inline,
-.visible-md-inline-block,
-.visible-lg-block,
-.visible-lg-inline,
-.visible-lg-inline-block {
-  display: none !important; }
-
-@media (max-width: 767px) {
-  /* line 7, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .visible-xs {
-    display: block !important; }
-
-  /* line 10, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-xs {
-    display: table !important; }
-
-  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  tr.visible-xs {
-    display: table-row !important; }
-
-  /* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  th.visible-xs,
-  td.visible-xs {
-    display: table-cell !important; } }
-@media (max-width: 767px) {
-  /* line 54, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-xs-block {
-    display: block !important; } }
-
-@media (max-width: 767px) {
-  /* line 59, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-xs-inline {
-    display: inline !important; } }
-
-@media (max-width: 767px) {
-  /* line 64, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-xs-inline-block {
-    display: inline-block !important; } }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 7, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .visible-sm {
-    display: block !important; }
-
-  /* line 10, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-sm {
-    display: table !important; }
-
-  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  tr.visible-sm {
-    display: table-row !important; }
-
-  /* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  th.visible-sm,
-  td.visible-sm {
-    display: table-cell !important; } }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 73, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-sm-block {
-    display: block !important; } }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 78, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-sm-inline {
-    display: inline !important; } }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 83, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-sm-inline-block {
-    display: inline-block !important; } }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 7, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .visible-md {
-    display: block !important; }
-
-  /* line 10, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-md {
-    display: table !important; }
-
-  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  tr.visible-md {
-    display: table-row !important; }
-
-  /* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  th.visible-md,
-  td.visible-md {
-    display: table-cell !important; } }
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 92, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-md-block {
-    display: block !important; } }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 97, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-md-inline {
-    display: inline !important; } }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 102, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-md-inline-block {
-    display: inline-block !important; } }
-
-@media (min-width: 1200px) {
-  /* line 7, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .visible-lg {
-    display: block !important; }
-
-  /* line 10, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-lg {
-    display: table !important; }
-
-  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  tr.visible-lg {
-    display: table-row !important; }
-
-  /* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  th.visible-lg,
-  td.visible-lg {
-    display: table-cell !important; } }
-@media (min-width: 1200px) {
-  /* line 111, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-lg-block {
-    display: block !important; } }
-
-@media (min-width: 1200px) {
-  /* line 116, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-lg-inline {
-    display: inline !important; } }
-
-@media (min-width: 1200px) {
-  /* line 121, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-  .visible-lg-inline-block {
-    display: inline-block !important; } }
-
-@media (max-width: 767px) {
-  /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-xs {
-    display: none !important; } }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-sm {
-    display: none !important; } }
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-md {
-    display: none !important; } }
-@media (min-width: 1200px) {
-  /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-lg {
-    display: none !important; } }
-/* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-.visible-print {
-  display: none !important; }
-
-@media print {
-  /* line 7, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .visible-print {
-    display: block !important; }
-
-  /* line 10, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-print {
-    display: table !important; }
-
-  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  tr.visible-print {
-    display: table-row !important; }
-
-  /* line 12, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  th.visible-print,
-  td.visible-print {
-    display: table-cell !important; } }
-/* line 155, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-.visible-print-block {
-  display: none !important; }
-  @media print {
-    /* line 155, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-    .visible-print-block {
-      display: block !important; } }
-
-/* line 162, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-.visible-print-inline {
-  display: none !important; }
-  @media print {
-    /* line 162, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-    .visible-print-inline {
-      display: inline !important; } }
-
-/* line 169, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-.visible-print-inline-block {
-  display: none !important; }
-  @media print {
-    /* line 169, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
-    .visible-print-inline-block {
-      display: inline-block !important; } }
-
-@media print {
-  /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-print {
-    display: none !important; } }
 /* line 6, ../sass/style.scss */
 body {
   font-family: "Open Sans", sans-serif;
@@ -2394,21 +2118,13 @@ h2, .h2 {
   padding-right: 10px; }
 
 /* line 28, ../sass/style.scss */
-.pmsWidget {
-  position: absolute;
-  top: 40px;
-  z-index: 0;
-  right: 10%;
-  left: auto; }
-
-/* line 30, ../sass/style.scss */
 .slider {
   position: relative; }
-  /* line 32, ../sass/style.scss */
+  /* line 30, ../sass/style.scss */
   .slider-content {
     padding-top: 100px;
     min-height: 464px; }
-  /* line 36, ../sass/style.scss */
+  /* line 34, ../sass/style.scss */
   .slider-img {
     position: absolute;
     width: 100%;
@@ -2416,53 +2132,50 @@ h2, .h2 {
     min-height: 464px;
     overflow: hidden;
     z-index: -1; }
-  /* line 44, ../sass/style.scss */
+  /* line 42, ../sass/style.scss */
+  .slider-pms {
+    position: absolute;
+    top: 40px;
+    background-color: #fff; }
+  /* line 47, ../sass/style.scss */
   .slider-responsive {
     min-width: 100%;
     height: 100%; }
-  /* line 48, ../sass/style.scss */
+  /* line 51, ../sass/style.scss */
   .slider .h1, .slider .h2 {
     text-align: center;
     color: #fff;
-    font-family: 'PT Serif', serif; }
-    /* line 53, ../sass/style.scss */
+    font-family: 'PT Serif', serif;
+    text-shadow: 2px 1px 5px #000; }
+    /* line 57, ../sass/style.scss */
     .slider .h1 b, .slider .h2 b {
       font-size: 32px; }
+  /* line 61, ../sass/style.scss */
+  .slider-board {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #D4AF53; }
 
-/* line 58, ../sass/style.scss */
-.description {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  border-color: #D4AF53; }
-
-/* line 65, ../sass/style.scss */
-.description_icons {
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
-  font-family: 'PT Serif', serif; }
-
-/* line 77, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .premium-img {
   margin: 10px;
   width: 100%;
   height: 300px; }
 
-/* line 86, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 89, ../sass/style.scss */
+  /* line 84, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 96, ../sass/style.scss */
+  /* line 91, ../sass/style.scss */
   .rooms_gold {
     color: #D4AF53;
     max-width: 450px;
@@ -2470,7 +2183,7 @@ h2, .h2 {
     font-style: 14px;
     font-weight: 300;
     padding-bottom: 15px; }
-  /* line 104, ../sass/style.scss */
+  /* line 99, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -2478,49 +2191,49 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 112, ../sass/style.scss */
+  /* line 107, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53; }
-    /* line 116, ../sass/style.scss */
+    /* line 111, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
 
-/* line 121, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .nomer-image {
   padding: 10px; }
 
-/* line 128, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 135, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 143, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .map-yandex {
   padding: 10px;
   height: 50vh; }
 
-/* line 146, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .house {
   width: 100%;
   height: auto;
   max-height: 200px; }
 
-/* line 147, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .footer {
   padding-bottom: 30px;
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 152, ../sass/style.scss */
-  .footer ul li {
+  /* line 147, ../sass/style.scss */
+  .footer li {
     padding: 5px; }
-    /* line 154, ../sass/style.scss */
-    .footer ul li a {
+    /* line 149, ../sass/style.scss */
+    .footer li span, .footer li a {
       padding: 5px;
       color: #999999; }

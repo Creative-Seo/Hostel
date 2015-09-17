@@ -361,7 +361,7 @@ Main components
 }
 
 .cd-primary-nav {
-
+	z-index:5;
 	.see-all a {
 		/* different style for the See all button on mobile and tablet */
 		color: $color-2;
