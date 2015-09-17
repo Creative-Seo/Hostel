@@ -41,6 +41,15 @@ $(function () {
     $("#dtm2").on("dp.change", function (e) {
         $('#dtm1').data("DateTimePicker").maxDate(e.date);
     });
+
+    $('#bron-href').click(function(){
+        $('#bron').hide(200);
+        $('#otmena').show(200);
+    });
+    $('#otmena-href').click(function(){
+        $('#otmena').hide(200);
+        $('#bron').show(200);
+    });
 });
 
 
