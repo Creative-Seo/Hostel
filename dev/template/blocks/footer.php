@@ -4,13 +4,13 @@
   <div class="container">
   <div class="row">
   	<div class="col-xs-12 col-sm-6 col-md-8"><div class="row">
-		<div class="col-xs-12 col-md-6">
+		<div class="col-xs-12 col-md-6 footer-hr">
 			<ul class="list-unstyled">
 				<li class="h4"><a href="<?php echo $menu['services']['url']; ?>"><?php echo $menu['services']['name']; ?>:</a></li>
 				<li><a href="<?php echo $menu['groups']['url']; ?>"><?php echo $menu['groups']['name']; ?></a></li>
 			</ul>
 		</div>
-		<div class="col-xs-12 col-md-6">
+		<div class="col-xs-12 col-md-6 footer-hr">
 			<ul class="list-unstyled">
 				<li class="h4"><a href="<?php echo $menu['apartments']['url']; ?>"><?php echo $menu['apartments']['name']; ?>:</a></li>
 <?php foreach($nomera as $number => $row) { ?>
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-	<div class="col-xs-12 col-sm-6 col-md-4">
+	<div class="col-xs-12 col-sm-6 col-md-4 footer-hr">
 		<ul class="list-unstyled">
 			<li class="h4"><a href="<?php echo $menu['contacts']['url']; ?>"><?php echo $menu['contacts']['name']; ?>:</a></li>
 			<li><a href="<?php echo $tel;?>"><?php echo $tel;?></a></li>
@@ -29,42 +29,42 @@
 		</ul>
 	</div>
   </div>
-  <div class="row text-center" style="margin-top:20px;">
-	<div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-1">
+  <div class="row footer-hr" style="margin-top:20px;">
+	<div class="col-xs-6 col-sm-2 col-sm-offset-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
-		</span>
-		<span class="hidden-xs">Booking</span>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Booking</span>
 	</div>
-	<div class="col-xs-2 col-sm-2 col-md-2">
+	<div class="col-xs-6 col-sm-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-twitter fa-stack-1x"></i>
-		</span>
-		<span class="hidden-xs">Twitter</span>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Twitter</span>
 	</div>
-	<div class="col-xs-2 col-sm-2 col-md-2">
+	<div class="col-xs-6 col-sm-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
-		</span>
-		<span class="hidden-xs">Vkontakte</span>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Vkontakte</span>
 	</div>
-	<div class="col-xs-2 col-sm-2 col-md-2"> 
+	<div class="col-xs-6 col-sm-2 footer-stack"> 
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-facebook fa-stack-1x"></i>
-		</span>
-		<span class="hidden-xs">Facebook</span>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Facebook</span>
 		
 	</div>
-	<div class="col-xs-2 col-sm-2 col-md-2">
+	<div class="col-xs-12 col-sm-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
-		</span>
-		<span class="hidden-xs">Odnoklassniki</span>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Odnoklassniki</span>
 	</div>
   </div>
   </div>
