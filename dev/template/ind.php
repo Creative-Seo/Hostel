@@ -105,6 +105,13 @@ foreach($inclusive as $num => $row) {
 </div>	
 <!-- FEATURES -->
 
+<!-- about -->
+<div class="container">
+	<h2><?php echo $lang['about-h2']; ?></h2>
+<?php include("about/content.php"); ?>
+</div>
+<!-- about -->
+
 <div class="container">
 	<div class="map-yandex">
 		<script type="text/javascript" charset="utf-8" src="<?php echo $lang['map-yandex']; ?>"></script>

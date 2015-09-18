@@ -43,7 +43,7 @@ if (false !== $images) {
 
 <!-- НОМЕРА -->
 <div class="container">
-<?php include("common.php"); ?>
+<?php include("content.php"); ?>
 </div>
 <!-- НОМЕРА -->
 
