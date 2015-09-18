@@ -2237,3 +2237,9 @@ h2, .h2 {
     .footer li span, .footer li a {
       padding: 5px;
       color: #999999; }
+  /* line 154, ../sass/style.scss */
+  .footer-stack {
+    padding: 10px; }
+  /* line 155, ../sass/style.scss */
+  .footer-hr {
+    border-top: 1px solid #ccc; }
