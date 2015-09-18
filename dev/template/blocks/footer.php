@@ -18,7 +18,8 @@
 <?php } ?>
 			</ul>
 		</div>
-	</div></div>
+	</div>
+</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
 		<ul class="list-unstyled">
 			<li class="h4"><a href="<?php echo $menu['contacts']['url']; ?>"><?php echo $menu['contacts']['name']; ?>:</a></li>
@@ -29,29 +30,41 @@
 	</div>
   </div>
   <div class="row text-center" style="margin-top:20px;">
-	<div class="col-xs-3">
+	<div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-1">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
 		</span>
+		<span class="hidden-xs">Booking</span>
 	</div>
-	<div class="col-xs-3">
+	<div class="col-xs-2 col-sm-2 col-md-2">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-twitter fa-stack-1x"></i>
 		</span>
+		<span class="hidden-xs">Twitter</span>
 	</div>
-	<div class="col-xs-3">
+	<div class="col-xs-2 col-sm-2 col-md-2">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
 		</span>
+		<span class="hidden-xs">Vkontakte</span>
 	</div>
-	<div class="col-xs-3">
+	<div class="col-xs-2 col-sm-2 col-md-2"> 
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-facebook fa-stack-1x"></i>
 		</span>
+		<span class="hidden-xs">Facebook</span>
+		
+	</div>
+	<div class="col-xs-2 col-sm-2 col-md-2">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
+		</span>
+		<span class="hidden-xs">Odnoklassniki</span>
 	</div>
   </div>
   </div>
