@@ -1,6 +1,6 @@
 
 <header>
-	<div class="container header">
+	<div class="container header" >
 		<div class="row">
 			<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4"><div class="adres"><span><?php echo $address;?></span></div></div>
 			<div class="col-xs-12 col-sm-6 col-md-4">
