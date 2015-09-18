@@ -1,0 +1,75 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+// Import datepicker component
+@import "../libs/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker";
+
+.pms {
+    height: 100%;
+    input {
+        background-color: #eee;
+        border-radius: 0;
+    }
+    label {
+        font-weight: normal;
+    }
+    .form-group{
+        padding-top: 10px;
+    }
+    &-calendar {
+        position: absolute;
+        color: $color-gold;
+        padding-right: 5px;
+        right: 0;
+        font-size: 24px;
+        z-index: 10;
+    }
+    &-h1{
+        margin: 0;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+    }
+    &-form {
+        margin: 0px;
+        padding: 5px;
+    }
+    &-footer{
+        padding-top: 20px;
+        height: 100%;
+        border-top: 1px solid #ccc;
+        background-color: #212221;
+    }
+    &-a{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &-btn{
+        background-color: $color-gold;
+        padding: 5px 20px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #000;
+        border-radius: 2px;
+        &:hover, &:focus {
+            text-decoration: none;
+            color: #555;
+        }
+    }
+    &-href{
+        padding: 5px;
+        font-size: 14px;
+        color: #999;
+        &:hover, &:focus {
+            color: #999;
+        }
+    }
+}

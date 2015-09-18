@@ -24,13 +24,6 @@ h2,.h2 {
     padding-right: 10px;
 }
 //TYPOGRAPHY
-//BRONIROVANIE
-.pmsWidget{
-	position: absolute;
-	top: 40px;z-index:0;
-	right:10%;
-	left:auto;
-}
 // SLIDER
 .slider {
 	position: relative;
@@ -46,6 +39,11 @@ h2,.h2 {
 		overflow:hidden;
 		z-index: -1;
 	}
+	&-pms{
+	    position: absolute;
+	    top: 40px;
+	    background-color: #fff;
+	}
 	&-responsive{
 		min-width:100%;
 		height:100%;
@@ -55,26 +53,18 @@ h2,.h2 {
 		color: #fff;
 		font-family: 'PT Serif', serif;
 		//font-weight: 700;
+		text-shadow: 2px 1px 5px #000;
 		b {
 			font-size: 32px;
 		}
 	}
-}
-.description {
-	width: 100%;
-	background-color: rgba(0,0,0,0.5);
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-	border-color: $color-gold;
-}
-.description_icons {
-//	position:absolute;
-	bottom:10px;
-	width: 100%;
-//	color: #fff;
-	text-align: center;
-	font-size: 24px;
-	font-family: 'PT Serif', serif;
+	&-board {
+		width: 100%;
+		background-color: rgba(0,0,0,0.5);
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-color: $color-gold;
+	}
 }
 // SLIDER
 // PREMIUM
@@ -154,9 +144,9 @@ h2,.h2 {
 	background-color: #212221;
 	color: #fff;
 	position: relative;
-	ul li {
+	li{
 		padding: 5px;
-		a {
+		span, a {
 			padding: 5px;
 			color: #999999;
 		}

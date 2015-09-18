@@ -4,12 +4,12 @@ $tel = '8(4922) 30-41-65';
 $tel_dop = '8(4922) 30-41-65';
 $email = 'info@hrapovitsky.ru';
 
-$menu = json_decode('[
-	{"name":"Номера","url":"/apartments/"},
-	{"name":"Групповое размещение","url":"/groups/"},
-	{"name":"Услуги","url":"/services/"},
-	{"name":"Контакты","url":"/contacts/"}
-]',true);
+$menu = json_decode('{
+	"apartments":{"name":"Номера","url":"/apartments/"},
+	"groups":{"name":"Групповое размещение","url":"/groups/"},
+	"services":{"name":"Услуги","url":"/services/"},
+	"contacts":{"name":"Контакты","url":"/contacts/"}
+}',true);
 $nomera = json_decode('{
 	"1":{"name":"Женский номер на 8 человек","url":"8-bed-female-dorm/","cost":"400"},
 	"2":{"name":"Мужской номер на 6 человек","url":"6-bed-male-dorm/","cost":"400"},

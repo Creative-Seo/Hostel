@@ -1,15 +1,15 @@
 <?php
-$address = '600000, Владимир, ул. Дворянская, д. 11а';
+$address = '600000, Владимир, Большая Нижегородская 67г';
 $tel = '8(4922) 30-41-65';
 $tel_dop = '8(4922) 30-41-65';
 $email = 'info@hrapovitsky.ru';
 
-$menu = json_decode('[
-	{"name":"Apartments","url":"/en/apartments/"},
-	{"name":"Group placement","url":"/en/groups/"},
-	{"name":"Services","url":"/en/services/"},
-	{"name":"Contacts","url":"/en/contacts/"}
-]',true);
+$menu = json_decode('{
+	"apartments":{"name":"Apartments","url":"/en/apartments/"},
+	"groups":{"name":"Group placement","url":"/en/groups/"},
+	"services":{"name":"Services","url":"/en/services/"},
+	"contacts":{"name":"Contacts","url":"/en/contacts/"}
+}',true);
 $nomera = json_decode('{
 	"1":{"name":"Female Room for 8 people","url":"8-bed-female-dorm/","cost":"400"},
 	"2":{"name":"Male Room for 6 people","url":"6-bed-male-dorm/","cost":"400"},
