@@ -2639,9 +2639,7 @@ select[multiple].input-lg {
 .adres {
   font-size: 14px; }
   /* line 9, ../sass/_header.scss */
-  .adres span {
-    border-bottom: 1px dashed #000; }
-
+  
 /* line 16, ../sass/_header.scss */
 .logo {
   text-align: center;
