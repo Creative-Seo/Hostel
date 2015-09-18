@@ -3,6 +3,7 @@ $description = '';
 $keywords = '';
 
 $lang = json_decode('{
+"h1":"О хостеле Храповицкий"
 }',true);
 
 $root='../../';

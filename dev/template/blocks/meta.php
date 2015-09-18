@@ -22,6 +22,7 @@
 <!-- build:remove -->
 	<link href="/css/style.css" rel="stylesheet">
 <!-- /build -->
+<script>var lang="<?php echo $meta_lang;?>";</script>
 <script>function menu(){document.getElementById('cd-primary-nav').classList.toggle('nav-is-visible');document.getElementById('cd-main-header').classList.toggle('nav-is-visible');return false;}</script>
 </head>
 <body>
