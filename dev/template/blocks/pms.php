@@ -19,25 +19,25 @@
         </div></div>
     </div>
     <div class="pms-footer">
-        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" onclick="WbDel()" id="bron-btn">Забронировать</a></div>
-        <div class="pms-a"><a class="pms-href" href="javascript:void(0)" onclick="WbDel()" id="bron-href">Отменить бронирование</a></div>
+        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="bron-btn">Забронировать</a></div>
+        <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="bron-href">Отменить бронирование</a></div>
     </div>
 </div>
 <div id="otmena" class="pms" style="display: none;">
     <p class="pms-h1">Отмена бронирования</p>
-    <div class="pms-form">
-        <div class="form-group">
+    <div class="pms-form row">
+        <div class="col-xs-12"><div class="form-group">
             <label>Код:&nbsp</label>
             <input type="text" class="form-control" placeholder="Код" id="otmena-code">
-        </div>
-        <div class="form-group">
+        </div></div>
+        <div class="col-xs-12"><div class="form-group">
             <label>E-mail:&nbsp</label>
-            <input type="text" class="form-control" placeholder="E-mail" id="otmena-email">
-        </div>
-        <div style="visibility: hidden" class="pms-ok" id="pms-ok">Ваше бронирование было отменено</div>
+            <input type="email" class="form-control" placeholder="E-mail" id="otmena-email">
+        </div></div>
+        <div class="col-xs-12"><div style="visibility: hidden" class="pms-ok" id="pms-ok">Ваше бронирование было отменено</div></div>
     </div>
     <div class="pms-footer">
-        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" onclick="WbRes()" id="otmena-btn">Отменить бронирование</a></div>
-        <div class="pms-a"><a class="pms-href" href="javascript:void(0)" onclick="WbDel()" id="otmena-href">Цены и наличие</a></div>
+        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="otmena-btn">Отменить бронирование</a></div>
+        <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="otmena-href">Цены и наличие</a></div>
     </div>
 </div>

@@ -8,6 +8,7 @@ $menu = json_decode('{
 	"apartments":{"name":"Apartments","url":"/en/apartments/"},
 	"groups":{"name":"Group placement","url":"/en/groups/"},
 	"services":{"name":"Services","url":"/en/services/"},
+	"faq":{"name":"F.A.Q.","url":"/en/faq/"},
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
 }',true);
 $nomera = json_decode('{
