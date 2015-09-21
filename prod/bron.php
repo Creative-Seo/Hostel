@@ -18,8 +18,8 @@ $curr = (isset($_POST['curr'])) ? _fd($_POST['curr']) : '';
 
 $params = array(
 'hotelId' => $hotelId,
-'startD' => '"'.$startD.'"',
-'endD' => '"'.$endD.'"',
+'startD' => $startD,
+'endD' => $endD,
 'adults' => $adults,
 'children' => $children,
 'curr' => $curr,
