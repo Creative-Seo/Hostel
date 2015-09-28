@@ -36,7 +36,7 @@ include($root."template/blocks/header.php");
 </div>-->
 <!-- SLIDER -->
 
-<!-- PREMIUM -->
+<!-- PREMIUM 
 <div class="premium">
 	<div class="container"><div class="row">
 		<div class="col-md-6"><div class="row">
@@ -54,7 +54,7 @@ include($root."template/blocks/header.php");
 		</div></div>
 	</div></div>
 </div>
-<!-- PREMIUM -->
+PREMIUM -->
 
 <!-- НОМЕРА -->
 <div class="rooms">
