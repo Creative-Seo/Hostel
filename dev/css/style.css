@@ -2199,47 +2199,50 @@ h2, .h2 {
     /* line 111, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
+  /* line 115, ../sass/style.scss */
+  .rooms .img-responsive {
+    margin: auto; }
 
-/* line 116, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .nomer-image {
   padding: 10px; }
 
-/* line 123, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 130, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 138, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .map-yandex {
   padding: 10px;
   height: 50vh; }
 
-/* line 141, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .house {
   width: 100%;
   height: auto;
   max-height: 200px; }
 
-/* line 142, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .footer {
   padding-bottom: 30px;
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 147, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   .footer li {
     padding: 5px; }
-    /* line 149, ../sass/style.scss */
+    /* line 152, ../sass/style.scss */
     .footer li span, .footer li a {
       padding: 5px;
       color: #999999; }
-  /* line 154, ../sass/style.scss */
+  /* line 157, ../sass/style.scss */
   .footer-stack {
     padding: 10px; }
-  /* line 155, ../sass/style.scss */
+  /* line 158, ../sass/style.scss */
   .footer-hr {
     border-top: 1px solid #ccc; }
