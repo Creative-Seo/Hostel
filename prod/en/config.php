@@ -1,7 +1,7 @@
 <?php
 $address = '600000, Владимир, Большая Нижегородская 67г';
-$tel = '8(4922) 30-41-65';
-$tel_dop = '8(4922) 30-41-65';
+$tel = '+7(4922) 32-65-76';
+$tel_dop = '+7(920) 934-66-05';
 $email = 'info@hrapovitsky.ru';
 
 $menu = json_decode('{
@@ -25,6 +25,6 @@ $inclusive = json_decode('{
 
 $meta_lang = 'en';
 $header_logo = 'Храповицкий<br><span>хостел</span>';
-$header_tel = ' +7(4922) <span>30-41-65</span><p class="tel_svyaz">На связи 24 часа</p>';
+$header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">На связи 24 часа</p>';
 $bread = 'Главная';
 ?>
