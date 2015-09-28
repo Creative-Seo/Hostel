@@ -2684,7 +2684,7 @@ select[multiple].input-lg {
 .lang {
   font-size: 14px;
   font-weight: 300;
-  padding-left: 15px; }
+  padding: 10px; }
 
 /* line 59, ../sass/_header.scss */
 a.lang, a.lang:hover, a.langfocus {
