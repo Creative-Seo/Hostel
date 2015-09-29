@@ -1,5 +1,5 @@
 <?php
-$address = '600000, Владимир, Большая Нижегородская 67г';
+$address = '600020, Владимир, Большая Нижегородская 67г';
 $tel = '+7(4922) 32-65-76';
 $tel_dop = '+7(920) 934-66-05';
 $email = 'info@hrapovitsky.ru';
@@ -7,6 +7,7 @@ $email = 'info@hrapovitsky.ru';
 $menu = json_decode('{
 	"apartments":{"name":"Apartments","url":"/en/apartments/"},
 	"groups":{"name":"Group placement","url":"/en/groups/"},
+	"services":{"name":"Services","url":"/en/services/"},
 	"faq":{"name":"F.A.Q.","url":"/en/faq/"},
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
 }',true);
@@ -26,6 +27,4 @@ $meta_lang = 'en';
 $header_logo = 'Khrapovitskiy<br><span>Hostel</span>';
 $header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">На связи 24 часа</p>';
 $bread = 'Главная';
-
-$services ='Services';
 ?>
