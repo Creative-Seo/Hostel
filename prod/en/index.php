@@ -18,6 +18,8 @@ $lang = json_decode('{
 "map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"
 }',true);
 
+$services ='Services';
+
 $root='../';
 $dir= str_replace('/en','',$_SERVER['REQUEST_URI']);
 include($root."en/config.php");
