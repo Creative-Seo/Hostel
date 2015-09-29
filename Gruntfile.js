@@ -61,7 +61,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['template/**/*.php', '**/common.php'],
+			src: ['template/**/*.php', '**/content.php'],
 			dest: 'prod/'     
 		}]
 	  }
