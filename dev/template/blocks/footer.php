@@ -71,7 +71,6 @@
 </footer>
 <!-- FOOTER -->
 
-<script>function change_lang(lang){var pathname;if(lang=='en'){pathname="/en"+window.location.pathname;}else{pathname=window.location.pathname.replace("/en","");}window.location=pathname;}</script>
 <!-- build:remove -->
 <script src="/libs/jquery/dist/jquery.min.js"></script>
 <script src="/libs/moment/min/moment.min.js"></script>
