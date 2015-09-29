@@ -26,4 +26,6 @@ $meta_lang = 'en';
 $header_logo = 'Khrapovitskiy<br><span>Hostel</span>';
 $header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">На связи 24 часа</p>';
 $bread = 'Главная';
+
+$services ='Services';
 ?>
