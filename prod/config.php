@@ -1,6 +1,6 @@
 <?php
 $self = explode("/", $_SERVER['REQUEST_URI']);
-$address = '600000, Владимир, Большая Нижегородская 67г';
+$address = '600020, Владимир, Большая Нижегородская 67г';
 $tel = '+7(4922) 32-65-76';
 $tel_dop = '+7(920) 934-66-05';
 $email = 'info@hrapovitsky.ru';
