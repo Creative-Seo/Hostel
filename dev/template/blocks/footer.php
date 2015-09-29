@@ -23,7 +23,7 @@
 	<div class="col-xs-12 col-sm-6 col-md-4 footer-hr">
 		<ul class="list-unstyled">
 			<li class="h4"><a href="<?php echo $menu['contacts']['url']; ?>"><?php echo $menu['contacts']['name']; ?>:</a></li>
-			<li><a href="<?php echo $tel;?>"><?php echo $tel;?></a></li>
+			<li><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
 			<li><span><?php echo $address;?></span></li>
 		</ul>
