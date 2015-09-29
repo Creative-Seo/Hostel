@@ -1,0 +1,6 @@
+User-agent: *
+Sitemap: /sitemap.xml
+
+User-agent: Yandex
+Host: http://www.khrapovitsky.ru/
+Sitemap: /sitemap.xml
