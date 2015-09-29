@@ -12,9 +12,9 @@
 			</div>
 			<div class="col-xs-4 col-sm-3 hidden-md col-lg-1">
 <?php if ($meta_lang == 'en') { ?>
-            <a href="javascript: change_lang('ru');" class="lang">RU</a><span class="lang active">EN</span>
+            <a href="<?php echo $dir;?>" class="lang">RU</a><span class="lang active">EN</span>
 <?php } else { ?>
-            <span class="lang active">RU</span><a href="javascript: change_lang('en');" class="lang">EN</a>
+            <span class="lang active">RU</span><a href="/en<?php echo $dir;?>" class="lang">EN</a>
 <?php } ?>
 			</div>
 			<div class="col-xs-8 col-sm-6 col-md-3">
@@ -22,9 +22,9 @@
 			</div>
 			<div class="col-md-2 col-md-offset-10 visible-md" style="line-height:normal;">
 <?php if ($meta_lang == 'en') { ?>
-            <a href="javascript: change_lang('ru');" class="lang">RU</a><span class="lang active">EN</span>
+            <a href="<?php echo $dir;?>" class="lang">RU</a><span class="lang active">EN</span>
 <?php } else { ?>
-            <span class="lang active">RU</span><a href="javascript: change_lang('en');" class="lang">EN</a>
+            <span class="lang active">RU</span><a href="/en<?php echo $dir;?>" class="lang">EN</a>
 <?php } ?>
 			</div>
 		</div>
