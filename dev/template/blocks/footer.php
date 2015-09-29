@@ -6,7 +6,7 @@
   	<div class="col-xs-12 col-sm-6 col-md-8"><div class="row">
 		<div class="col-xs-12 col-md-6 footer-hr">
 			<ul class="list-unstyled">
-				<li class="h4"><a href="<?php echo $menu['services']['url']; ?>"><?php echo $menu['services']['name']; ?>:</a></li>
+				<li class="h4"><span><?php echo $services; ?>:</span></li>
 				<li><a href="<?php echo $menu['groups']['url']; ?>"><?php echo $menu['groups']['name']; ?></a></li>
 			</ul>
 		</div>

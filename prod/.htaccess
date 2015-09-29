@@ -2,10 +2,10 @@ Options All -ExecCGI -Indexes -Includes +FollowSymLinks
   
 RewriteEngine On
 RewriteBase /
-    RewriteCond %{HTTP_HOST} ^hostel.creative-seo.ru
-    RewriteRule (.*) http://www.hostel.creative-seo.ru/$1 [R=301,L]
+    RewriteCond %{HTTP_HOST} ^khrapovitsky.ru
+    RewriteRule (.*) http://www.khrapovitsky.ru/$1 [R=301,L]
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-    RewriteRule ^index\.php$ http://www.hostel.creative-seo.ru/ [R=301,L]
+    RewriteRule ^index\.php$ http://www.khrapovitsky.ru/ [R=301,L]
 
 <IfModule mod_setenvif.c>
     SetEnv TZ Europe/Moscow
