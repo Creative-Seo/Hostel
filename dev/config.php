@@ -8,7 +8,6 @@ $email = 'info@hrapovitsky.ru';
 $menu = json_decode('{
 	"apartments":{"name":"Номера и бронирование","url":"/apartments/"},
 	"groups":{"name":"Групповое размещение","url":"/groups/"},
-	"services":{"name":"Услуги","url":"/services/"},
 	"faq":{"name":"Частые вопросы","url":"/faq/"},
 	"contacts":{"name":"Контакты","url":"/contacts/"}
 }',true);
