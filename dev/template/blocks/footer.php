@@ -30,7 +30,7 @@
 	</div>
   </div>
   <div class="row footer-hr" style="margin-top:20px;">
-	<div class="col-xs-6 col-sm-2 col-sm-offset-2 footer-stack">
+	<div class="col-xs-6 col-sm-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
@@ -59,12 +59,21 @@
 		<span class="hidden-sm">Facebook</span>
 		
 	</div>
-	<div class="col-xs-12 col-sm-2 footer-stack">
+	<div class="col-xs-6 col-sm-2 footer-stack">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Odnoklassniki</span>
+	</div>
+	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti">
+		<span class="fa-stack fa-lg">
+		  <i class="fa fa-circle-thin fa-stack-2x"></i>
+		  <i class="fa fa-google-plus fa-stack-1x"></i>
+		</span><br class="visible-md">
+		<span class="hidden-sm">Google+</span>
+		</a>
 	</div>
   </div>
   </div>
@@ -93,6 +102,13 @@ var scr = {"scripts":[{"src" : "/js/scripts.min.js", "async" : false}]};
 !function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>
 /build -->
+
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter32757190 = new Ya.Metrika({id:32757190, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/32757190" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-68209295-1', 'auto');ga('send', 'pageview');
+</script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="/js/bootstrap.min.js"></script>-->
