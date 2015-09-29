@@ -152,10 +152,16 @@ h2,.h2 {
 		padding: 5px;
 		span, a {
 			padding: 5px;
-			color: #999999;
+			color: #999;
 		}
 	}
 	&-stack{padding: 10px;}
 	&-hr{border-top: 1px solid #ccc;}
+}
+.socseti{
+	&, &:hover, &:focus{
+		color: #fff;
+		text-decoration: none;
+	}
 }
 //FOOTER
