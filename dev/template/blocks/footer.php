@@ -23,9 +23,27 @@
 	<div class="col-xs-12 col-sm-6 col-md-4 footer-hr">
 		<ul class="list-unstyled">
 			<li class="h4"><a href="<?php echo $menu['contacts']['url']; ?>"><?php echo $menu['contacts']['name']; ?>:</a></li>
+<?php if ($dir=='/') { ?>
+			<li><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></li>
+			<li><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></li>
+			<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span>
+				<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+				<span itemprop="itemprop="country" itemscope itemtype="http://schema.org/Country""><span itemprop="name"><?php echo $country;?></span></span>,
+				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>
+			</span></li>
+<?php } else { ?>
 			<li><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
-			<li><span><?php echo $address;?></span></li>
+			<li><span>
+				<span><?php echo $postalCode;?></span>,
+				<span><?php echo $country;?></span>,
+				<span><?php echo $addressRegion;?></span>,
+		  		<span><?php echo $addressLocality;?></span>,
+    			<span><?php echo $streetAddress;?></span>
+    		</span></li>
+<?php } ?>
 		</ul>
 	</div>
   </div>
