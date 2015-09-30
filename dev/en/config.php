@@ -2,9 +2,9 @@
 $self = explode("/", $_SERVER['REQUEST_URI']);
 $name = 'Hostel Khrapovitsky';
 $url = 'http://www.khrapovitsky.ru/en/';
-$streetAddress = 'Bolshaya Nizhegorodskaya 67г';
+$streetAddress = 'Bolshaya Nizhegorodskaya 67g';
 $postalCode = '600020';
-$country = 'Russia';
+$country = 'Russian Federation';
 $addressRegion = 'Vladimir region';
 $addressLocality = 'Vladimir';
 $address = $postalCode.', '.$addressLocality.', '.$streetAddress;

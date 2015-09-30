@@ -28,7 +28,7 @@
 			<li><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></li>
 			<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span>
 				<span itemprop="postalCode"><?php echo $postalCode;?></span>,
-				<span itemprop="itemprop="country" itemscope itemtype="http://schema.org/Country""><span itemprop="name"><?php echo $country;?></span></span>,
+				<span itemprop="addressCountry"><?php echo $country;?></span>,
 				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
 		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
     			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>

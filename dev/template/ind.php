@@ -58,7 +58,7 @@ include($root."template/blocks/header.php");
 
 <!-- НОМЕРА -->
 <div class="rooms">
-<div class="container" itemscope itemtype="http://schema.org/Hostel">
+<div class="container">
 	<h1 itemprop="name" class="text-center"><?php echo $name; ?></h1>
 	<meta itemprop="currenciesAccepted" content="EUR" />
 	<div class="h2"><?php echo $lang['rooms-h2']; ?></div>
