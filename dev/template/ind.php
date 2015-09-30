@@ -60,7 +60,7 @@ include($root."template/blocks/header.php");
 <div class="rooms">
 <div class="container">
 	<h1 itemprop="name" class="text-center"><?php echo $name; ?></h1>
-	<meta itemprop="currenciesAccepted" content="EUR" />
+	<meta itemprop="currenciesAccepted" content="RUB" />
 	<div class="h2"><?php echo $lang['rooms-h2']; ?></div>
 	<p class="center-block rooms-gold"><?php echo $lang['rooms-gold']; ?></p>
 	<div class="row">
@@ -78,7 +78,7 @@ foreach($nomera as $number => $row) {
 			<p class="rooms_number">
 				<span itemprop="name">№<?php echo $number;?> - <?php echo $row['name'];?></span><br>
 				<span class="rooms_price"><span itemprop="price"><?php echo $row['cost'];?></span>
-				<meta itemprop="priceCurrency" content="EUR" /> <i class="fa fa-rub"></i></span></p>
+				<meta itemprop="priceCurrency" content="RUB" /> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
 	</div>
