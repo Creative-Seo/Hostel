@@ -4,20 +4,22 @@ include($root."template/blocks/header.php");?>
 
 <div class="container" itemscope itemtype="http://schema.org/Organization">
 	<h1 class="text-center"><?php echo $lang['h1'];?></h1>
-	<p class="h4"><a href="<?php echo $url;?>" itemprop="url" style="padding:5px;"><span itemprop="name"><?php echo $name;?></span></a></p>
 	<div class="row" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="margin-top:15px;">
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<div class="col-md-5 col-sm-12 col-xs-12">
 			<p class="pull-left"><i class="fa fa-home fa-2x"></i></p>
-		  	<p><span itemprop="postalCode"> <?php echo $postalCode;?></span>,&nbsp;
-		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,&nbsp;
-    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span></p>
+		  	<p><span itemprop="postalCode"><?php echo $postalCode;?></span>,
+				<span itemprop="itemprop="country" itemscope itemtype="http://schema.org/Country""><span itemprop="name"><?php echo $country;?></span></span>,
+				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+    			<span itemprop="name"><a href="<?php echo $url;?>" itemprop="url" style="padding:0 5px;"><nobr><?php echo $name;?></nobr></a></span></p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
 			<p><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></p>
 			<p><a href="tel:<?php echo $tel_dop;?>" itemprop="telephone"><?php echo $tel_dop;?></a></p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>
 			<p><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></p>
 		</div>

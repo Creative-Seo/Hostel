@@ -1,9 +1,11 @@
 <?php
 $self = explode("/", $_SERVER['REQUEST_URI']);
-$name = 'Khrapovitskiy Hostel';
+$name = 'Hostel Khrapovitsky';
 $url = 'http://www.khrapovitsky.ru/en/';
 $streetAddress = 'Bolshaya Nizhegorodskaya 67г';
 $postalCode = '600020';
+$country = 'Russia';
+$addressRegion = 'Vladimir region';
 $addressLocality = 'Vladimir';
 $address = $postalCode.', '.$addressLocality.', '.$streetAddress;
 $tel = '+7(4922) 32-65-76';
@@ -30,7 +32,7 @@ $inclusive = json_decode('{
 }',true);
 
 $meta_lang = 'en';
-$header_logo = 'Khrapovitskiy<br><span>Hostel</span>';
+$header_logo = 'Khrapovitsky<br><span>Hostel</span>';
 $header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">On call 24 hours</p>';
 $bread = 'Home';
 ?>

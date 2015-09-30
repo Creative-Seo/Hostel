@@ -59,8 +59,8 @@ include($root."template/blocks/header.php");
 <!-- НОМЕРА -->
 <div class="rooms">
 <div class="container" itemscope itemtype="http://schema.org/Hostel">
-	<h1 itemprop="name"><?php echo $name; ?></h1>
-	<a href="<?php echo $url;?>" itemprop="url"><?php echo $lang['h1-bottom']; ?></a>
+	<h1 itemprop="name" class="text-center"><?php echo $name; ?></h1>
+	<meta itemprop="currenciesAccepted" content="EUR" />
 	<div class="h2"><?php echo $lang['rooms-h2']; ?></div>
 	<p class="center-block rooms-gold"><?php echo $lang['rooms-gold']; ?></p>
 	<div class="row">
@@ -73,9 +73,12 @@ foreach($nomera as $number => $row) {
 		if ($clearfix != '') {echo '<div class="clearfix'.$clearfix.'"></div>';}
 	}
 	$key++; ?>
-		<div class="col-sm-6 col-md-4">
-			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img src="/image/<?php echo str_replace('/', '', $row['url']);?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
-			<p class="rooms_number">№<?php echo $number;?> - <?php echo $row['name'];?> <br> <span class="rooms_price"><?php echo $row['cost'];?> <i class="fa fa-rub"></i></span></p>
+		<div class="col-sm-6 col-md-4" itemprop="makesOffer" itemscope itemtype="http://schema.org/Offer">
+			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img itemprop="image" src="/image/<?php echo str_replace('/', '', $row['url']);?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
+			<p class="rooms_number">
+				<span itemprop="name">№<?php echo $number;?> - <?php echo $row['name'];?></span><br>
+				<span class="rooms_price"><span itemprop="price"><?php echo $row['cost'];?></span>
+				<meta itemprop="priceCurrency" content="EUR" /> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
 	</div>

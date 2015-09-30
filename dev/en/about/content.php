@@ -1,5 +1,5 @@
 	<p>
-Located in the historic centre of Vladimir, Khrapovitskiy Hostel stand out against other 
+Located in the historic centre of Vladimir, Khrapovitsky Hostel stand out against other 
 low-cost hostels for its cosy accommodations and high service. It is situated a brief walk 
 from a railway station and main tourist attractions.
 	</p><p>
