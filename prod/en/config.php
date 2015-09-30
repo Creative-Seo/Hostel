@@ -1,5 +1,13 @@
 <?php
-$address = '600020, Владимир, Большая Нижегородская 67г';
+$self = explode("/", $_SERVER['REQUEST_URI']);
+$name = 'Hostel Khrapovitsky';
+$url = 'http://www.khrapovitsky.ru/en/';
+$streetAddress = 'Bolshaya Nizhegorodskaya 67г';
+$postalCode = '600020';
+$country = 'Russia';
+$addressRegion = 'Vladimir region';
+$addressLocality = 'Vladimir';
+$address = $postalCode.', '.$addressLocality.', '.$streetAddress;
 $tel = '+7(4922) 32-65-76';
 $tel_dop = '+7(920) 934-66-05';
 $email = 'info@hrapovitsky.ru';
@@ -19,13 +27,14 @@ $nomera = json_decode('{
 	"6":{"name":"Family Room for 10 people","url":"family-room-2/","cost":"500"}
 }',true);
 $inclusive = json_decode('{
-	"i1":"Завтраки", "i2":"Горячий душ", "i3":"Полотенца и белье", "i4":"Кухня", "i5":"Бесплатный Wi-Fi", "i6":"Гостевой компьютер", "i7":"24/7 ресепшн", "i8":"Хранение багажа", "i9":"Телевизор", "i10":"Карта города", "i11":"Настольные игры", "i12":"Локеры"
+	"i1":"Breakfasts", "i2":"Hot showers", "i3":"Towels and linens", "i4":"Kitchen", "i5":"Free Wi-Fi", "i6":"Guest computer", "i7":"24/7 Receptionist", "i8":"Luggage Storage", "i9":"TV", "i10":"City map", "i11":"Board games", "i12":"Lockers"
 }',true);
 
 $meta_lang = 'en';
-$header_logo = 'Khrapovitskiy<br><span>Hostel</span>';
-$header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">На связи 24 часа</p>';
-$bread = 'Главная';
+
+$header_logo = 'Khrapovitsky<br><span>Hostel</span>';
+$header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">On call 24 hours</p>';
+$bread = 'Home';
 
 $services ='Services';
 ?>
