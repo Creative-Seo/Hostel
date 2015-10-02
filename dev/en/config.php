@@ -33,7 +33,8 @@ $inclusive = json_decode('{
 $meta_lang = 'en';
 
 $header_logo = 'Khrapovitsky<br><span>Hostel</span>';
-$header_tel = ' +7(4922) <span>32-65-76</span><p class="tel_svyaz">On call 24 hours</p>';
+$header_tel = ' +7(4922) <span>32-65-76</span>';
+$header_teltext = ' On call 24 hours';
 $bread = 'Home';
 
 $services ='Services';

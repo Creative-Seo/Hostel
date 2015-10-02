@@ -16,8 +16,8 @@ include($root."template/blocks/header.php");?>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
-			<p><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></p>
-			<p><a href="tel:<?php echo $tel_dop;?>" itemprop="telephone"><?php echo $tel_dop;?></a></p>
+			<p><a itemprop="telephone"><?php echo $tel;?></a></p>
+			<p><a itemprop="telephone"><?php echo $tel_dop;?></a></p>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>
