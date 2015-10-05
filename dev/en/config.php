@@ -19,12 +19,12 @@ $menu = json_decode('{
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
 }',true);
 $nomera = json_decode('{
-	"1":{"name":"Female Room for 8 people","url":"8-bed-female-dorm/","cost":"400"},
-	"2":{"name":"Male Room for 6 people","url":"6-bed-male-dorm/","cost":"400"},
-	"3":{"name":"Female Room for 6 people","url":"6-bed-female-dorm/","cost":"400"},
-	"4":{"name":"Male Room for 10 people","url":"10-bed-male-dorm/","cost":"400"},
-	"5":{"name":"Family Room for 10 people","url":"family-room-1/","cost":"500"},
-	"6":{"name":"Family Room for 10 people","url":"family-room-2/","cost":"500"}
+	"1":{"name":"Female Room for 8 people","url":"8-bed-female-dorm/","cost":"350","razmer":"5х7"},
+	"2":{"name":"Male Room for 6 people","url":"6-bed-male-dorm/","cost":"350","razmer":"4,5х3"},
+	"3":{"name":"Female Room for 6 people","url":"6-bed-female-dorm/","cost":"350","razmer":"6х3"},
+	"4":{"name":"Male Room for 10 people","url":"10-bed-male-dorm/","cost":"350","razmer":"6х7"},
+	"5":{"name":"Family Room for 10 people","url":"family-room-1/","cost":"350","razmer":"3,5х6,2"},
+	"6":{"name":"Family Room for 10 people","url":"family-room-2/","cost":"350","razmer":"4,5х6,5"}
 }',true);
 $inclusive = json_decode('{
 	"i2":"Hot showers", "i3":"Towels and linens", "i4":"Kitchen", "i5":"Free Wi-Fi", "none1":"Hairdryer", "i7":"24/7 Receptionist", "i8":"Luggage Storage", "i9":"TV", "i10":"City map", "i11":"Board games", "i12":"Lockers", "none2":"Good mood"
