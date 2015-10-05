@@ -102,7 +102,9 @@ foreach($inclusive as $num => $row) {
 	} 
 	$key++; ?>
 		<div class="col-xs-6 col-sm-3 col-md-2">
-			<div class="features_icon"><img src="/img/<?php echo $num;?>.png" alt="" class="img-responsive center-block"></div>
+			<div class="features_icon">
+				<?php if (strpos($num,'none') === false) { ?><img src="/img/<?php echo $num;?>.png" alt="" class="img-responsive center-block"><?php } ?>
+			</div>
 			<div class="features_text"><?php echo $row;?></div>
 		</div>
 <?php } ?>
