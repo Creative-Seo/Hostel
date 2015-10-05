@@ -2,6 +2,9 @@ var curr;
 if (lang=="en") {curr = '$';} else {curr = 'RUB';}
 
 $(function () {
+    $('#bron-offer').change(function(e){
+        if (this.checked){$('#bron-btn').removeClass("disabled");}else{$('#bron-btn').addClass("disabled");}
+    });
     $('#dtm1').datetimepicker({
         locale: lang,
         viewMode: 'days',

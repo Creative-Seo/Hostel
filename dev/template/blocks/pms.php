@@ -11,15 +11,18 @@
         </div></div></div>
         <div class="col-xs-6"><div class="form-group">
             <label>Взрослые:&nbsp</label>
-            <input type="number" max="99" min="1" class="form-control" id="bron-adults" value="2">
+            <input type="number" max="99" min="1" class="form-control" id="bron-adults" value="1">
         </div></div>
         <div class="col-xs-6"><div class="form-group">
             <label>Дети:&nbsp</label>
             <input type="number" max="99" min="0" class="form-control" id="bron-children" value="0">
         </div></div>
+        <div class="col-xs-12"><div class="form-group"><div class="checkbox">
+            <label><input type="checkbox" id="bron-offer"> <a href="javascript: void(0);" target="_blank">Вы согласны с условиями оферты</label>
+        </div></div></div>
     </div>
     <div class="pms-footer">
-        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="bron-btn">Забронировать</a></div>
+        <div class="pms-a"><a class="pms-btn disabled" href="javascript:void(0)" id="bron-btn">Забронировать</a></div>
         <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="bron-href">Отменить бронирование</a></div>
     </div>
 </div>

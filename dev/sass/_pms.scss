@@ -22,6 +22,7 @@
     }
     .form-group{
         padding-top: 10px;
+        margin-bottom:0;
     }
     &-calendar {
         position: absolute;
@@ -62,6 +63,11 @@
         &:hover, &:focus {
             text-decoration: none;
             color: #555;
+        }
+        &.disabled{
+            pointer-events: none;
+            cursor: not-allowed;
+            opacity: 0.65;
         }
     }
     &-href{
