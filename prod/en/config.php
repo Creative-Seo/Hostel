@@ -27,7 +27,7 @@ $nomera = json_decode('{
 	"6":{"name":"Family Room for 10 people","url":"family-room-2/","cost":"500"}
 }',true);
 $inclusive = json_decode('{
-	"i1":"Breakfasts", "i2":"Hot showers", "i3":"Towels and linens", "i4":"Kitchen", "i5":"Free Wi-Fi", "i13":"Hairdryer", "i7":"24/7 Receptionist", "i8":"Luggage Storage", "i9":"TV", "i10":"City map", "i11":"Board games", "i12":"Lockers", "i14":"Good mood"
+	"i2":"Hot showers", "i3":"Towels and linens", "i4":"Kitchen", "i5":"Free Wi-Fi", "i13":"Hairdryer", "i7":"24/7 Receptionist", "i8":"Luggage Storage", "i9":"TV", "i10":"City map", "i11":"Board games", "i12":"Lockers", "i14":"Good mood"
 }',true);
 
 $meta_lang = 'en';
