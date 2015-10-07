@@ -38,13 +38,13 @@ include($root."template/blocks/header.php");?>
 $images = scandir($root.$dir_img);
 if (false !== $images) {
     $imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
-	foreach($imgarray as $row) { ?>  
+	foreach($imgarray as $row) { if ($row != 'fon.jpg') {?>  
 		<li class="nomer-image">
 			<a href="<?php echo '/',$dir_img,htmlspecialchars(urlencode($row));?>" class="fancybox-thumb" rel="group" title="<?php echo $nomera[$id]['name'];?>">
 				<img height="100px" src="<?php echo '/',$dir_img,htmlspecialchars(urlencode($row));?>" alt="<?php echo $nomera[$id]['name'];?>">
 			</a>
 		</li>
-<?php }} ?>
+<?php }}} ?>
 	</ul>
 
 <!-- НОМЕРА -->
