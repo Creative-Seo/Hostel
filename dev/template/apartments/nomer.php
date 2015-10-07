@@ -5,21 +5,27 @@ include($root."template/blocks/header.php");?>
 
 <!-- SLIDER -->
 <div class="slider">
-	<div class="slider-img"><img src="<?php echo '/',$dir_img;?>glav.jpg" class="slider-responsive" alt="<?php echo $nomera[$id]['name'];?>"></div>
-	<div class="container"><div class="row"><div class="col-xs-10 col-sm-5 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-7 col-md-offset-8"><div class="slider-pms">
+	<div class="slider-img">
+		<img src="<?php echo '/',$dir_img;?>fon.jpg" class="slider-responsive" alt="<?php echo $nomera[$id]['name'];?>">
+	</div>
+	<div class="container"><div class="row">
+		<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4 col-xs-offset-1 col-sm-offset-6 col-md-offset-7">
+			<div class="slider-pms">
 <?php include($root."template/blocks/pms.php");?>
-	</div></div></div></div>
+			</div>
+		</div>
+	</div></div>
 	<div class="slider-content">
 		<div class="slider-board hidden-xs">
 			<div class="container"><div class="row">
-				<div class="col-sm-7 col-md-8 col-lg-8 hidden-xs">
+				<div class="col-sm-6 col-md-7 col-lg-8 hidden-xs">
 					<p class="h1"><?php echo $nomera[$id]['name'];?></p>
 					<p class="h2"><b><?php echo $nomera[$id]['cost'];?></b><?php echo $lang['slider-cost'];?></p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
-			<div class="col-sm-7 col-md-8 col-lg-8">
+			<div class="col-sm-6 col-md-7 col-lg-8">
 				<p class="h2"><?php echo $lang['slider-h2'];?></p>
 			</div>
 		</div></div>

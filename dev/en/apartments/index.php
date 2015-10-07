@@ -1,11 +1,11 @@
 <?php
-$title = 'Номера в хостеле во Владимире - Хостел Храповицкий';
+$title = 'Rooms at the hostel in Vladimir - Hostel Khrapovitsky';
 $description = '';
 $keywords = '';
 
 $lang = json_decode('{
 "h1":"'.$title.'",
-"rooms-gold":"Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!",
+"rooms-gold":"All our dorm rooms are single sex!",
 "rooms-url":"/en/apartments/"
 }',true);
 

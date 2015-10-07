@@ -17,7 +17,7 @@ include($root."template/blocks/header.php");?>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
 			<p itemprop="telephone"><?php echo $tel;?></p>
-			<p itemprop="telephone"><?php echo $tel_dop;?></p>
+<?php if(isset($tel_dop)) {?><p itemprop="telephone"><?php echo $tel_dop;?></p><?php } ?>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>

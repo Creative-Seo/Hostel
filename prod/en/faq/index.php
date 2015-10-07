@@ -1,9 +1,9 @@
-<?php $title = 'Частые вопросы Хостел - Храповицкий';
+<?php $title = 'FAQs Hostel Khrapovitsky';
 $description = '';
 $keywords = '';
 
 $lang = json_decode('{
-"h1":"Частые вопросы"
+"h1":"Frequently asked questions"
 }',true);
 
 $root='../../';

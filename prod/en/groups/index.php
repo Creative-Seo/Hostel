@@ -1,5 +1,5 @@
 <?php
-$title = 'Групповое бронирование: размещение групп в хостеле Храповицкий';
+$title = 'Groop Booking: group accommodation at the Hostel Khrapovitsky';
 $description = '';
 $keywords = '';
 
