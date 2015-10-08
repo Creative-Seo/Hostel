@@ -12,7 +12,7 @@
 @import "../libs/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker";
 
 .pms {
-    height: 100%;
+    z-index: 200;
     input {
         background-color: #eee;
         border-radius: 0;

@@ -9,7 +9,7 @@ include($root."template/blocks/header.php");?>
 		<img src="<?php echo '/',$dir_img;?>fon.jpg" class="slider-responsive" alt="<?php echo $nomera[$id]['name'];?>">
 	</div>
 	<div class="container"><div class="row">
-		<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4 col-xs-offset-1 col-sm-offset-6 col-md-offset-7">
+		<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4 col-xs-offset-1 col-sm-offset-6 col-md-offset-7 col-lg-offset-8">
 			<div class="slider-pms">
 <?php include($root."template/blocks/pms.php");?>
 			</div>
