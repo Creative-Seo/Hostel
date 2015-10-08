@@ -40,14 +40,16 @@ $services ='Services';
 
 
 $pms_h1_1 = 'Online booking';
-$pms_adults = 'Adults: ';
-$pms_children = 'Children: ';
+$pms_dfrom = 'Arriving';
+$pms_dto = 'Departing';
+$pms_adults = 'Adults';
+$pms_children = 'Children';
 $pms_offer = 'You agree with the offer';
 $pms_btn_1 = 'Book now';
 $pms_href_1 = 'Cancel reservation';
 $pms_h1_1 = 'Cancel reservation';
-$pms_h1_2 = 'Code: ';
-$pms_email = 'E-mail: ';
+$pms_h1_2 = 'Code';
+$pms_email = 'E-mail';
 $pms_ok = 'Your reservation has been canceled';
 $pms_btn_2 = 'Cancel reservation';
 $pms_href_2 = 'Availability and Prices';
