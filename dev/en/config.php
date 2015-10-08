@@ -26,7 +26,7 @@ $nomera = json_decode('{
 	"6":{"name":"Private Family Room","url":"family-room-2/","cost":"350","razmer":"4,5х6,5"}
 }',true);
 $inclusive = json_decode('{
-	"i2":"Hot Showers", "i3":"Towels and linen", "i4":"(Fully Equipped) Kitchen", "i5":"Free Wi-Fi", "none1":"Hairdryer", "i7":"24 hour reception", "i8":"Free Luggage Storage", "i9":"TV", "i10":"Free City Maps", "i11":"Table games", "i12":"Lockers", "none2":"Good mood"
+	"ic_3":"Hot Showers", "ic_6":"Towels and linen", "ic_5":"(Fully Equipped) Kitchen", "ic_1":"Free Wi-Fi", "ic_12":"Hairdryer", "ic_4":"24 hour reception", "ic_10":"Free Luggage Storage", "ic_7":"TV", "ic_11":"Free City Maps", "ic_2":"Table games", "ic_9":"Lockers", "ic_8":"Good mood"
 }',true);
 
 $meta_lang = 'en';
