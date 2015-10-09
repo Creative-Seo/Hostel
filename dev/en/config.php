@@ -18,10 +18,10 @@ $menu = json_decode('{
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
 }',true);
 $nomera = json_decode('{
-	"1":{"name":"8 Bed women-only Dorm","url":"8-bed-female-dorm/","cost":"350","razmer":"5х7"},
-	"2":{"name":"6 Bed men-only Dorm","url":"6-bed-male-dorm/","cost":"350","razmer":"4,5х3"},
-	"3":{"name":"6 Bed women-only Dorm","url":"6-bed-female-dorm/","cost":"350","razmer":"6х3"},
-	"4":{"name":"10 Bed men-only Dorm","url":"10-bed-male-dorm/","cost":"350","razmer":"6х7"},
+	"1":{"name":"8 Bed men-only Dorm","url":"8-bed-male-dorm/","cost":"350","razmer":"5х7"},
+	"2":{"name":"6 Bed women-only Dorm","url":"6-bed-female-dorm/","cost":"350","razmer":"4,5х3"},
+	"3":{"name":"6 Bed men-only Dorm","url":"6-bed-male-dorm/","cost":"350","razmer":"6х3"},
+	"4":{"name":"10 Bed women-only Dorm","url":"10-bed-female-dorm/","cost":"350","razmer":"6х7"},
 	"5":{"name":"Private Family Room","url":"family-room-1/","cost":"350","razmer":"3,5х6,2"},
 	"6":{"name":"Private Family Room","url":"family-room-2/","cost":"350","razmer":"4,5х6,5"}
 }',true);
