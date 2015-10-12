@@ -103,6 +103,7 @@
 		</a>
 	</div>
   </div>
+  <div class="row footer-hr" style="padding:10px;"><p><a href="http://www.creative-seo.ru/" class="socseti"><?php echo $created;?></a></p></div>
   </div>
 </footer>
 <!-- FOOTER -->
