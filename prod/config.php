@@ -9,9 +9,9 @@ $addressRegion = 'Владимирская область';
 $addressLocality = 'Владимир';
 $address = $postalCode.', '.$addressLocality.', '.$streetAddress;
 $tel = '+7(4922) 32-65-76';
-$tel_dop = '+7(920) 934-66-05';
+$tel_dop = '';
 $email = 'info@khrapovitsky.ru';
-$price = '350';
+$price = 'От 350';
 
 $menu = json_decode('{
 	"apartments":{"name":"Номера и бронирование","url":"/apartments/"},
@@ -20,12 +20,12 @@ $menu = json_decode('{
 	"contacts":{"name":"Контакты","url":"/contacts/"}
 }',true);
 $nomera = json_decode('{
-	"1":{"name":"Мужской номер на 8 человек","url":"8-bed-male-dorm/","cost":"350","razmer":"5х7"},
-	"2":{"name":"Женский номер на 6 человек","url":"6-bed-female-dorm/","cost":"350","razmer":"4,5х3"},
-	"3":{"name":"Мужской номер на 6 челвоек","url":"6-bed-male-dorm/","cost":"350","razmer":"6х3"},
-	"4":{"name":"Женский номер на 10 человек","url":"10-bed-female-dorm/","cost":"350","razmer":"6х7"},
-	"5":{"name":"Семейный номер","url":"family-room-1/","cost":"1300","razmer":"3,5х6,2"},
-	"6":{"name":"Семейный номер","url":"family-room-2/","cost":"1300","razmer":"4,5х6,5"}
+	"1":{"name":"Мужской номер на 8 человек","url":"8-bed-male-dorm/","cost":"от 350","razmer":"5х7"},
+	"2":{"name":"Женский номер на 6 человек","url":"6-bed-female-dorm/","cost":"от 350","razmer":"4,5х3"},
+	"3":{"name":"Мужской номер на 6 челвоек","url":"6-bed-male-dorm/","cost":"от 350","razmer":"6х3"},
+	"4":{"name":"Женский номер на 10 человек","url":"10-bed-female-dorm/","cost":"от 350","razmer":"6х7"},
+	"5":{"name":"Семейный номер","url":"family-room-1/","cost":"от 1300","razmer":"3,5х6,2"},
+	"6":{"name":"Семейный номер","url":"family-room-2/","cost":"от 1300","razmer":"4,5х6,5"}
 }',true);
 $inclusive = json_decode('{
 	"ic_3":"Горячий душ", "ic_6":"Полотенца и белье", "ic_5":"Кухня", "ic_1":"Бесплатный Wi-Fi", "ic_12":"Фен", "ic_4":"24/7 ресепшн", "ic_10":"Хранение багажа", "ic_7":"Телевизор", "ic_11":"Карта города", "ic_2":"Настольные игры", "ic_9":"Локеры", "ic_8":"Хорошее настроение"
