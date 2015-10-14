@@ -1,4 +1,4 @@
-<?php $title = 'FAQs Hostel Khrapovitsky';
+<?php $title = 'FAQs Khrapovitsky Hostel';
 $description = '';
 $keywords = '';
 

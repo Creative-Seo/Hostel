@@ -8,11 +8,21 @@ include($root."template/blocks/header.php");?>
 	<div class="row" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="margin-top:15px;">
 		<div class="col-md-5 col-sm-12 col-xs-12">
 			<p class="pull-left"><i class="fa fa-home fa-2x"></i></p>
-		  	<p><span itemprop="postalCode"><?php echo $postalCode;?></span>,
+			<p>
+<?php if ($meta_lang == 'en') { ?>
+		  		<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+		  		<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+		  		<span itemprop="addressCountry"><?php echo $country;?></span>,
+<?php }else{ ?>
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
 				<span itemprop="addressCountry"><?php echo $country;?></span>,
 				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
 		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
-    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span></p>
+    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+<?php } ?>
+				<span><?php echo $lang['pod_ezd'];?></span></p>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>

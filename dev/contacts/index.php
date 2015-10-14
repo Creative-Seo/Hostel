@@ -7,6 +7,7 @@ $lang = json_decode('{
 "h1":"Контакты",
 "time1":"Время заезда: 14:00",
 "time2":"Время выезда: 12:00",
+"pod_ezd":"первый подъезд",
 "map-yandex-1":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz",
 "h2":"С вокзала до хостела вы можете добраться :",
 "h2-0":"Пешком",

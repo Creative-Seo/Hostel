@@ -1,5 +1,5 @@
 <?php
-$title = 'Rooms at the hostel in Vladimir - Hostel Khrapovitsky';
+$title = 'Rooms at the hostel in Vladimir - Khrapovitsky Hostel';
 $description = '';
 $keywords = '';
 

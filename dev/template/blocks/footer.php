@@ -27,21 +27,37 @@
 			<li><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></li>
 			<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span>
-				<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+<?php if ($meta_lang == 'en') { ?>
+		  		<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+		  		<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+		  		<span itemprop="addressCountry"><?php echo $country;?></span>
+<?php }else{ ?>
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
 				<span itemprop="addressCountry"><?php echo $country;?></span>,
 				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
 		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
     			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>
+<?php } ?>
 			</span></li>
 <?php } else { ?>
 			<li><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
 			<li><span>
-				<span><?php echo $postalCode;?></span>,
+<?php if ($meta_lang == 'en') { ?>
+		  		<span><?php echo $streetAddress;?></span>,
+		  		<span><?php echo $addressLocality;?></span>,
+		  		<span><?php echo $addressRegion;?></span>,
+		  		<span><?php echo $postalCode;?></span>,
+		  		<span><?php echo $country;?></span>
+<?php }else{ ?>
+		  		<span><?php echo $postalCode;?></span>,
 				<span><?php echo $country;?></span>,
 				<span><?php echo $addressRegion;?></span>,
 		  		<span><?php echo $addressLocality;?></span>,
     			<span><?php echo $streetAddress;?></span>
+<?php } ?>
     		</span></li>
 <?php } ?>
 		</ul>
