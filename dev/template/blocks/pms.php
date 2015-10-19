@@ -18,11 +18,11 @@
             <input type="number" max="99" min="0" class="form-control" id="bron-children" value="0">
         </div></div>
         <div class="col-xs-12"><div class="form-group"><div class="checkbox">
-            <label><input type="checkbox" id="bron-offer"> <a href="javascript: void(0);" target="_blank"><?php echo $pms_offer;?></label>
+            <label><input type="checkbox" id="bron-offer" checked> <a href="javascript: void(0);" target="_blank"><?php echo $pms_offer;?></label>
         </div></div></div>
     </div>
     <div class="pms-footer">
-        <div class="pms-a"><a class="pms-btn disabled" href="javascript:void(0)" id="bron-btn"><?php echo $pms_btn_1;?></a></div>
+        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="bron-btn"><?php echo $pms_btn_1;?></a></div>
         <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="bron-href"><?php echo $pms_href_1;?></a></div>
     </div>
 </div>
