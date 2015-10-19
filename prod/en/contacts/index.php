@@ -5,17 +5,17 @@ $keywords = '';
 
 $lang = json_decode('{
 "h1":"Contacts",
-"time1":"Время заезда: 14:00",
-"time2":"Время выезда: 12:00",
+"time1":"Check-in time: 14:00",
+"time2":"Check-out time: 12:00",
 "pod_ezd":"the first entrance",
 "map-yandex-1":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz",
-"h2":"You can get From Rilway station to Khrapovitskiy Hostel:",
-"h2-0":"On foot",
+"h2":"From Railway station to Khrapovitskiy Hostel You can get:",
+"h2-0":"On foot (see lower map)",
 "map-yandex-2":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Gz-NbC3GtS575dbx6VG8SL4xgJtjY1j2",
-"h2-1":"На троллейбусе до остановки Площадь Фрунзе",
-"p-1":"Номера троллейбусов 12 (стоимость проезда 17 рублей).<br>А также вы можете подняться с вокзала на остановку Вокзальный спуск и с неё добраться до остановки Площадь Фрунзе.<br>Автобусы: 10, 12С, 15, 22, 25, 26 (стоимость проезда 18 рублей).<br>Троллейбусы: 1 (стоимость проезда 17 рублей).",
-"h2-2":"На такси",
-"p-2":"Номер самого недорогого такси +7 (4922) 41-41-41 (стоимость проезда до хостела 100 рублей)."
+"h2-1":"By  public transport",
+"p-1":"Take trolley bus 12 from railway station and get off at Ploschad  Frunze stop. Trolley bus fare is 17 RUB.<br>When you exit a railway station you will see a Large Cathedral uphill , cross the road and walk up so that  it is on your left until you come to the staires. Climb flight of stairs and go straight through the arc and you are now at Gostinitsya Vladimir bus stop. Take a bus 10/12C/15/22/25 or 26. Get off at Ploschad  Frunze stop. Bus fare is 18 RUB.",
+"h2-2":"By taxi",
+"p-2":"The cheapest taxi phone number in Vladimir : +7(4922) 41-41-41."
 }',true);
 
 $root='../../';

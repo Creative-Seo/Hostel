@@ -52,8 +52,8 @@ $pms_h1_1 = 'Cancel reservation';
 $pms_h1_2 = 'Code';
 $pms_email = 'E-mail';
 $pms_ok = 'Your reservation has been canceled';
-$pms_btn_2 = 'Cancel reservation';
-$pms_href_2 = 'Availability and Prices';
+$pms_btn_2 = 'Cancel Reservation';
+$pms_href_2 = 'Availability & Prices';
 
 $created = 'Website development';
 ?>

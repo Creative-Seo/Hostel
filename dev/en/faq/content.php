@@ -1,69 +1,44 @@
 	<p class="question">
-Что такое хостел?
+What is a hostel?
 	</p><p>
-Хостел – это небольшая гостиница, предоставляющая своим постояльцам жильё, представляющее 
-собой, как правило, спальное место. Хостелы выгодно отличаются от гостиниц не только ценой, но 
-и атмосферой, которая там царит. Отличительной особенностью хостела является свободное 
-общение между постояльцами, поэтому там как нигде легко завести новые знакомства.
+A hostel is a low budget accommodation shared among travelers. When a guest books a stay in a hostel, he or she typically books a bed and shares the room with other guests. Hostels stand out against hotels not only for low prices but also for a remarkable emotional atmosphere. Hostels are known as a great way to make friends.
  	</p><p class="question">
-- А где ваш хостел находится? Далеко от центра?
+- What is your location?
 	</p><p>
-Наш хостел расположен в историческом центре Владимира, рядом с автобусной остановкой и 
-недалеко от вокзала. Вы можете пешком дойти до Успенского собора за 15 минут, а до Золотых 
-ворот за 20 минут или доехать на автобусе за 5 минут.
+Our hostel is situated in the historic center of Vladimir close to bus stop and railway station. We are 15 minutes walk from Dormition Cathedral and 20 minutes walk from Golden Gates, and it takes you 5 minutes by bus.
 	</p><p class="question">
-- Сколько стоит переночевать у вас?
+- What are your rates?
 	</p><p>
-<?php echo $price;?> рублей в сутки стоит место в общем номере, это одни из самых низких цен в городе.
+Khrapovitskiy hostel is the cheapest and most comfortable hostel in Vladimir. Prices start from <?php echo $price;?>RUB/night for a bed in dorm room.
 	</p><p class="question">
-- А у вас есть отдельные номера?
+- Do you have privates?
 	</p><p>
-У нас есть два семейных номера с двуспальной кроватью, помимо двуспальной, в них установлена 
-двухъярусная кровать. В данном типе номера может проживать как 1 гость, так и семья с детьми.
+We’ve got 2 private family rooms where there are one double bed and one bunk style bed. So it can sleep either one guest or a family with two children.
 	</p><p class="question">
-- Можно у вас проживать с животными?
+- Can I bring my pet with me?
 	</p><p>
-Можно, но при предварительном согласовании с администратором.
+We are open for all those travelling with their pet friends but only by a prior agreement with our manager.
 	</p><p class="question">
-- Можно проживать у вас с детьми?
+- Can I stay with kids?
 	</p><p>
-Дети от 2 до 6 лет с родителями в отдельном номере (не в многоместном), для проживания детей 
-до 2-х лет мы не предназначены. Детям старше 6 лет добро пожаловать!
+Yes. Families with children aged between 2 and 6 can stay in private family rooms. They cannot share a dormitory with other guests. Families with children over 6 can stay in dorm rooms. We don’t accommodate families with children under 2.
 	</p><p class="question">
-- Можно ребенок 8 лет будет спать со мной на одной кровати и оплачивать мы будем как 1 место?
+- I’m travelling with a child should I book a bed for him?
 	</p><p>
-Нет, дети с 6 лет должны иметь отдельную кровать, за которую оплачивают отдельно.
+Children over 6 should have own bed, paid full fare.
 	</p><p class="question">
-- Можно мама с сыном (8 лет) будет проживать в женском номере?
+- Can a mother stay with her son (aged of 8) in a female dorm?
 	</p><p>
-Нет, мы можем предложить только отдельный семейный тип номера.
+No, we can offer only private family room.
 	</p><p class="question">
-- Я иностранный турист, приезжаю к вам с другого российского города, какие мне нужны 
-документы, чтобы вы меня поселили у себя?
+- I’m a foreign traveler what documents do I need to stay with you?
 	</p><p>
-Если вы приезжаете к нам в хостел с другого Российского города или Владимирского хостела, вы 
-должны иметь оригинал Российской регистрации или билеты на поезд/самолет до Владимира. 
-Если у вас нет оригинала регистрации или билетов на поезд (документы, подтверждающие вашу 
-легальность на территории РФ; или то, что вы приехали во Владимир только сегодня/вчера), в 
-этом случае мы не можем позволить вам проживать в нашем хостеле в течении того периода, 
-который вы забронировали. Виза и миграционная карта - это недостаточный список документов, 
-чтобы быть легальным человеком в России, если вы проживаете больше 1 рабочего дня в 
-гостинице или в хостеле.
-	</p><p>
-Будьте осторожны, согласно российскому законодательству, Вы должны быть зарегистрированы, 
-если проживаете больше 1 рабочего дня в гостинице или хостеле. Если Вы останавливаетесь у 
-друзей дома, то Вы можете жить без регистрации в течении 7 дней, но не больше, после этого Вы 
-должны иметь на руках оригинал регистрации или покинуть Россию.
+Foreigners staying in Russia for more than 7 working days need the registration.
+So if you come to us from another Russian city you must have either registration in original (proving that you stay in Russia legally ) or train/plane tickets to Vladimir ( proving that your stay in Vladimir is less than 48 hours).<br>If you haven’t got the documents listed above we reserve the right to refuse in accommodation. Russian Visa and migration card is a must for foreigners in Russia.<br>But to stay in a hostel legally over 24hours you must have registration according to law of Russia.<br>You can stay with friends without registration during 7 days, in 7 days you either must register or quit the country.
 	</p><p class="question">
-- Я иностранный гражданин и мне необходим туристический ваучер (приглашение) для получения 
-Российской визы. Вы можете помочь мне?
+- I’m a foreigner and to get Russian visa I need the visa support (invitation letter), can you help me?
 	</p><p>
-Ответ: Да, мы оказываем услугу "туристический ваучер" только для гостей, забронировавших* в 
-нашем хостеле место/номер. Эта услуга платная. Чтобы воспользоваться нашей услугой, Вам 
-необходимо оплатить туристический ваучер и первый день проживания в нашем хостеле 
-(согласно выбранной категории номера). В случае отказа от проживания, после получения ваучера 
-от нас, мы не возвращаем предоплату за проживание.
+We provide Russian visa support only for our guests on a paying basis. To use this service you should pay a fee for the invitation letter and the first night of stay in the hostel. In case of reservation cancellation after getting the invitation letter we don’t refund down payment.
 	</p><p>
-*Обращаем Ваше внимание, что мы делаем ваучеры не всем, при обращении к нам, пожалуйста, 
-сразу уточняйте какое у Вас или вашего друга гражданство.
+* Please note that we provide visa support just for a range of countries, please informs us in advance about your citizenship
 	</p>
