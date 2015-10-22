@@ -24,14 +24,13 @@ if( $curl = curl_init() ) {
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($curl, CURLOPT_POST, 1);
     curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($params));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
 	$res = curl_exec($curl);
     if(!$res) {
         $error = curl_error($curl).'('.curl_errno($curl).')';
         echo $error;
     }
     else {
-        echo "Бронь отменена ", $res ;
+        echo "Бронь отменена";
     }
     curl_close($curl);
 }
