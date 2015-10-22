@@ -9,9 +9,9 @@ Our hostel is situated in the historic center of Vladimir close to bus stop and 
 	</p><p class="question">
 - What are your rates?
 	</p><p>
-Khrapovitskiy hostel is the cheapest and most comfortable hostel in Vladimir. Prices start from <?php echo $price;?>RUB/night for a bed in dorm room.
+Khrapovitskiy hostel is the cheapest and most comfortable hostel in Vladimir. Prices start <?php echo $price;?>RUB/night for a bed in a dorm.
 	</p><p class="question">
-- Do you have privates?
+- Have you got privates?
 	</p><p>
 We’ve got 2 private family rooms where there are one double bed and one bunk style bed. So it can sleep either one guest or a family with two children.
 	</p><p class="question">
