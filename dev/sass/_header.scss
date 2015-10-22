@@ -10,44 +10,45 @@
 //-----//
 //Логотип
 .logo {
-		text-align:center;
-		font-weight:700;
-		font-size:32px;
-		height:$header-height;
-		line-height:0.7em;
-		padding-top: $header-height*0.25;
-		display:block;
-		&, &:hover, &:focus {
-			text-decoration: none;
-			color: #000;
-		}
-		span{
-			font-size:14px;
-			font-weight:300;
-		}
+	text-align:center;
+	font-weight:700;
+	font-size:32px;
+	height:$header-height;
+	line-height:0.7em;
+	padding-top: $header-height*0.25;
+	display:block;
+	&, &:hover, &:focus {
+		text-decoration: none;
+		color: #000;
 	}
+	span{
+		font-size:14px;
+		font-weight:300;
+	}
+}
 //-------//
 //Телефон
 .tel{
-		font-weight:700;
-		color: $color-gold;
+	font-weight:700;
+	color: $color-gold;
+	text-decoration: none;
+	&:hover,&:focus {
 		text-decoration: none;
-		&:hover,&:focus {
-			text-decoration: none;
-			color: $color-gold;
-		}
-		span, i{
-			font-size:24px;
-			color: #000;
-		}
-		i {
-			color: $color-gold;
-		}
+		color: $color-gold;
 	}
-.tel_svyaz {
-	line-height:0.1em;
-	font-size:12px;
-	font-weight:300;
+	span, i{
+		font-size:24px;
+		color: #000;
+	}
+	i {
+		color: $color-gold;
+	}
+	&-svyaz {
+		line-height:0.1em;
+		font-size:12px;
+		font-weight:300;
+		color: $color-gold;
+	}
 }
 //-------//
 //Выбор языка

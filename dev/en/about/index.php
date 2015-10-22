@@ -1,9 +1,9 @@
-<?php $title = 'Хостел в городе Владимире - Храповицкий';
+<?php $title = 'Khrapovitskiy Hostel is in Vladimir';
 $description = '';
 $keywords = '';
 
 $lang = json_decode('{
-"h1":"О хостеле Храповицкий"
+"h1":"About Khrapovitskiy Hostel"
 }',true);
 
 $root='../../';

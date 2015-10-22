@@ -6,20 +6,20 @@ include($root."template/blocks/header.php");
 <!-- SLIDER -->
 <div class="slider">
 	<div class="slider-img"><img src="/image/top.jpg" class="slider-responsive" alt="<?php echo $title;?>"></div>
-	<div class="container"><div class="row"><div class="col-xs-10 col-sm-5 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-7 col-md-offset-8"><div class="slider-pms">
+	<div class="container"><div class="row"><div class="col-xs-10 col-sm-6 col-md-5 col-lg-4 col-xs-offset-1 col-sm-offset-6 col-md-offset-7 col-lg-offset-8"><div class="slider-pms">
 <?php include($root."template/blocks/pms.php");?>
 	</div></div></div></div>
 	<div class="slider-content">
 		<div class="slider-board hidden-xs">
 			<div class="container"><div class="row">
-				<div class="col-sm-7 col-md-8 col-lg-8 hidden-xs">
+				<div class="col-sm-6 col-md-7 col-lg-8 hidden-xs">
 					<p class="h1"><?php echo $lang['slider-h1_1']; ?></p>
 					<p class="h2"><?php echo $lang['slider-h2_1']; ?></p>
 				</div>
 			</div></div>
 		</div>
 		<div class="container hidden-xs"><div class="row">
-			<div class="col-sm-7 col-md-8 col-lg-8">
+			<div class="col-sm-6 col-md-7 col-lg-8">
 					<p class="h2"><?php echo $lang['slider-h2_2']; ?></p>
 			</div>
 		</div></div>
@@ -36,7 +36,7 @@ include($root."template/blocks/header.php");
 </div>-->
 <!-- SLIDER -->
 
-<!-- PREMIUM -->
+<!-- PREMIUM 
 <div class="premium">
 	<div class="container"><div class="row">
 		<div class="col-md-6"><div class="row">
@@ -54,13 +54,13 @@ include($root."template/blocks/header.php");
 		</div></div>
 	</div></div>
 </div>
-<!-- PREMIUM -->
+ PREMIUM -->
 
 <!-- НОМЕРА -->
 <div class="rooms">
-<div class="container" itemscope itemtype="http://schema.org/Hostel">
+<div class="container">
 	<h1 itemprop="name" class="text-center"><?php echo $name; ?></h1>
-	<meta itemprop="currenciesAccepted" content="EUR" />
+	<meta itemprop="currenciesAccepted" content="RUB" />
 	<div class="h2"><?php echo $lang['rooms-h2']; ?></div>
 	<p class="center-block rooms-gold"><?php echo $lang['rooms-gold']; ?></p>
 	<div class="row">
@@ -74,11 +74,11 @@ foreach($nomera as $number => $row) {
 	}
 	$key++; ?>
 		<div class="col-sm-6 col-md-4" itemprop="makesOffer" itemscope itemtype="http://schema.org/Offer">
-			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img itemprop="image" src="/image/<?php echo str_replace('/', '', $row['url']);?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
+			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img itemprop="image" src="/image/nomer-<?php echo $number;?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
 			<p class="rooms_number">
 				<span itemprop="name">№<?php echo $number;?> - <?php echo $row['name'];?></span><br>
 				<span class="rooms_price"><span itemprop="price"><?php echo $row['cost'];?></span>
-				<meta itemprop="priceCurrency" content="EUR" /> <i class="fa fa-rub"></i></span></p>
+				<meta itemprop="priceCurrency" content="RUB" /> <i class="fa fa-rub"></i></span></p>
 		</div>
 <?php } ?>
 	</div>
@@ -102,7 +102,9 @@ foreach($inclusive as $num => $row) {
 	} 
 	$key++; ?>
 		<div class="col-xs-6 col-sm-3 col-md-2">
-			<div class="features_icon"><img src="/img/<?php echo $num;?>.png" alt="" class="img-responsive center-block"></div>
+			<div class="features_icon">
+				<?php if (strpos($num,'none') === false) { ?><img src="/img/<?php echo $num;?>.png" alt="" class="img-responsive center-block"><?php } ?>
+			</div>
 			<div class="features_text"><?php echo $row;?></div>
 		</div>
 <?php } ?>

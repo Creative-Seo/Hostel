@@ -2233,25 +2233,24 @@ h2, .h2 {
 
 /* line 146, ../sass/style.scss */
 .footer {
-  padding-bottom: 30px;
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 151, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   .footer li {
     padding: 5px; }
-    /* line 153, ../sass/style.scss */
+    /* line 152, ../sass/style.scss */
     .footer li span, .footer li a {
       padding: 5px;
       color: #999; }
-  /* line 158, ../sass/style.scss */
+  /* line 157, ../sass/style.scss */
   .footer-stack {
     padding: 10px; }
-  /* line 159, ../sass/style.scss */
+  /* line 158, ../sass/style.scss */
   .footer-hr {
     border-top: 1px solid #ccc; }
 
-/* line 162, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .socseti, .socseti:hover, .socseti:focus {
   color: #fff;
   text-decoration: none; }

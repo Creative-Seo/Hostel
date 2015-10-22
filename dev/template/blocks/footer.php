@@ -6,7 +6,7 @@
   	<div class="col-xs-12 col-sm-6 col-md-8"><div class="row">
 		<div class="col-xs-12 col-md-6 footer-hr">
 			<ul class="list-unstyled">
-				<li class="h4"><a href="<?php echo $menu['services']['url']; ?>"><?php echo $menu['services']['name']; ?>:</a></li>
+				<li class="h4"><span><?php echo $services; ?>:</span></li>
 				<li><a href="<?php echo $menu['groups']['url']; ?>"><?php echo $menu['groups']['name']; ?></a></li>
 			</ul>
 		</div>
@@ -27,21 +27,37 @@
 			<li><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></li>
 			<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span>
-				<span itemprop="postalCode"><?php echo $postalCode;?></span>,
-				<span itemprop="itemprop="country" itemscope itemtype="http://schema.org/Country""><span itemprop="name"><?php echo $country;?></span></span>,
+<?php if ($meta_lang == 'en') { ?>
+		  		<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+		  		<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+		  		<span itemprop="addressCountry"><?php echo $country;?></span>
+<?php }else{ ?>
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+				<span itemprop="addressCountry"><?php echo $country;?></span>,
 				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
 		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
     			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>
+<?php } ?>
 			</span></li>
 <?php } else { ?>
 			<li><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></li>
 			<li><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></li>
 			<li><span>
-				<span><?php echo $postalCode;?></span>,
+<?php if ($meta_lang == 'en') { ?>
+		  		<span><?php echo $streetAddress;?></span>,
+		  		<span><?php echo $addressLocality;?></span>,
+		  		<span><?php echo $addressRegion;?></span>,
+		  		<span><?php echo $postalCode;?></span>,
+		  		<span><?php echo $country;?></span>
+<?php }else{ ?>
+		  		<span><?php echo $postalCode;?></span>,
 				<span><?php echo $country;?></span>,
 				<span><?php echo $addressRegion;?></span>,
 		  		<span><?php echo $addressLocality;?></span>,
     			<span><?php echo $streetAddress;?></span>
+<?php } ?>
     		</span></li>
 <?php } ?>
 		</ul>
@@ -49,40 +65,49 @@
   </div>
   <div class="row footer-hr" style="margin-top:20px;">
 	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="javascript: void(0);" class="socseti">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Booking</span>
+		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="https://twitter.com/Khrapovitsky33" class="socseti">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-twitter fa-stack-1x"></i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Twitter</span>
+		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="https://vk.com/hostel_khrapovitsky" class="socseti">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Vkontakte</span>
+		</a>
 	</div>
-	<div class="col-xs-6 col-sm-2 footer-stack"> 
+	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="javascript: void(0);" class="socseti">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-facebook fa-stack-1x"></i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Facebook</span>
-		
+		</a>		
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
+		<a href="http://ok.ru/group/52856397496392" class="socseti">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
 		</span><br class="visible-md">
 		<span class="hidden-sm">Odnoklassniki</span>
+		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
 		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti">
@@ -94,6 +119,7 @@
 		</a>
 	</div>
   </div>
+  <div class="row footer-hr" style="padding:10px;"><p><a href="http://www.creative-seo.ru/" class="socseti"><?php echo $created;?></a></p></div>
   </div>
 </footer>
 <!-- FOOTER -->
