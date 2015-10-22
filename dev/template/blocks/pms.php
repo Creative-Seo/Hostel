@@ -22,8 +22,8 @@
         </div></div></div>
     </div>
     <div class="pms-footer">
-        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="bron-btn"><?php echo $pms_btn_1;?></a></div>
-        <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="bron-href"><?php echo $pms_href_1;?></a></div>
+        <div class="pms-a"><a class="pms-btn" href="javascript:void(0)" id="bron-btn"><?php echo $pms_btn_1;?></a></div><br>
+     <!--   <div class="pms-a"><a class="pms-href" href="javascript:void(0)" id="bron-href"><?php echo $pms_href_1;?></a></div>-->
     </div>
 </div>
 <div id="otmena" class="pms" style="display: none;">
