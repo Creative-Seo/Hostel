@@ -1,5 +1,5 @@
 <?php
-$title = 'Hostel';
+$title = 'Hostel Khrapovitsky Vladimir';
 $description = '';
 $keywords = '';
 
@@ -10,11 +10,12 @@ $lang = json_decode('{
 "slider-vopros1":"Что за хостел?",
 "slider-vopros2":"Что рядом?",
 "slider-vopros3":"Как добраться?",
-"rooms-h2":"Номера",
+"bottom-h1":"Visit Website",
+"rooms-h2":"apartments",
 "rooms-gold":"Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!",
 "rooms-url":"/en/apartments/",
 "features-h2":"В стоимость проживания включено",
-"about-h2":"О хостеле",
+"about-h2":"General Information",
 "map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"
 }',true);
 
