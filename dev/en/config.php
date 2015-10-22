@@ -13,7 +13,7 @@ $email = 'info@khrapovitsky.ru';
 $price = 'From 350';
 
 $menu = json_decode('{
-	"apartments":{"name":"Dorms","url":"/en/apartments/"},
+	"apartments":{"name":"Dormitory rooms","url":"/en/apartments/"},
 	"groups":{"name":"Group booking","url":"/en/groups/"},
 	"faq":{"name":"F.A.Q.","url":"/en/faq/"},
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
@@ -45,7 +45,7 @@ $pms_dfrom = 'Arriving';
 $pms_dto = 'Departing';
 $pms_adults = 'Adults';
 $pms_children = 'Children';
-$pms_offer = 'You agree with the offer';
+$pms_offer = 'I agree to the terms conditions';
 $pms_btn_1 = 'Book now';
 $pms_href_1 = 'Cancel reservation';
 $pms_h1_1 = 'Cancel reservation';

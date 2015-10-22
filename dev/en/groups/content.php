@@ -7,5 +7,5 @@ We provide accommodation for:
 <p>- Detailed staff.</p>
 <p>- Sport groups.</p>
 	</p><p>
-If you’d like to make a group booking feel free to contact us via e-mail <?php echo $email;?>. Note number of guests, arrival and departure dates and accommodation preferences. We’ll be in touch with you within half an hour and name a discounted price.
+If you’d like to make a group booking feel free to contact us via e-mail&nbsp<?php echo $email;?>. Note number of guests, arrival and departure dates and accommodation preferences. We’ll be in touch with you within half an hour and name a discounted price.
 	</p>

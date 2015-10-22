@@ -4,7 +4,7 @@ $description = '';
 $keywords = '';
 
 $lang = json_decode('{
-"slider-h1_1":"Home-like HOstel in the Historic Centre of Vladimir",
+"slider-h1_1":"Home-like Hostel in the Historic Centre of Vladimir",
 "slider-h2_1":"Beds from only <b>350</b> Rub/night",
 "slider-h2_2":"Close to railway station and attractions",
 "slider-vopros1":"Что за хостел?",
@@ -12,7 +12,6 @@ $lang = json_decode('{
 "slider-vopros3":"Как добраться?",
 "bottom-h1":"Visit Website",
 "rooms-h2":"apartments",
-"rooms-gold":"Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!",
 "rooms-url":"/en/apartments/",
 "features-h2":"What\'s included",
 "about-h2":"General Information",

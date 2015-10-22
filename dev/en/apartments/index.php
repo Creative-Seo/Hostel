@@ -5,7 +5,7 @@ $keywords = '';
 
 $lang = json_decode('{
 "h1":"'.$title.'",
-"rooms-gold":"All our dorm rooms are single sex!",
+"rooms-gold":"All our dormitory rooms are single-sex!",
 "rooms-url":"/en/apartments/"
 }',true);
 

@@ -1,6 +1,6 @@
 <?php
 $self = explode("/", $_SERVER['REQUEST_URI']);
-$name = 'Хостел Храповицкий';
+$name = 'Хостел Храповицкий в г. Владимир';
 $url = 'http://www.khrapovitsky.ru/';
 $streetAddress = 'Большая Нижегородская 67г';
 $postalCode = '600020';
