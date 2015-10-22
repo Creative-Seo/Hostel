@@ -23,7 +23,8 @@ if( $curl = curl_init() ) {
     curl_setopt($curl, CURLOPT_HEADER, 1);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($curl, CURLOPT_POST, 1);
-    curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($params));
+    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($params, JSON_UNESCAPED_UNICODE);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, "Content-Type: application/json");
 	$res = curl_exec($curl);
     if(!$res) {
         $error = curl_error($curl).'('.curl_errno($curl).')';
