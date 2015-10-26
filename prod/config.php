@@ -22,7 +22,7 @@ $menu = json_decode('{
 $nomera = json_decode('{
 	"1":{"name":"Мужской номер на 8 человек","url":"8-bed-male-dorm/","cost":"от 350","razmer":"5х7"},
 	"2":{"name":"Женский номер на 6 человек","url":"6-bed-female-dorm/","cost":"от 350","razmer":"4,5х3"},
-	"3":{"name":"Мужской номер на 6 челвоек","url":"6-bed-male-dorm/","cost":"от 350","razmer":"6х3"},
+	"3":{"name":"Мужской номер на 6 человек","url":"6-bed-male-dorm/","cost":"от 350","razmer":"6х3"},
 	"4":{"name":"Женский номер на 10 человек","url":"10-bed-female-dorm/","cost":"от 350","razmer":"6х7"},
 	"5":{"name":"Семейный номер","url":"family-room-1/","cost":"от 1300","razmer":"3,5х6,2"},
 	"6":{"name":"Семейный номер","url":"family-room-2/","cost":"от 1300","razmer":"4,5х6,5"}
