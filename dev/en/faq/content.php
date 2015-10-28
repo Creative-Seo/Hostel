@@ -13,32 +13,37 @@ Khrapovitskiy hostel is the cheapest and most comfortable hostel in Vladimir. Pr
 	</p><p class="question">
 - Have you got privates?
 	</p><p>
-We’ve got 2 private family rooms where there are one double bed and one bunk style bed. So it can sleep either one guest or a family with two children.
+We’ve got 2 private family rooms where there are one double bed and one bunk bed. So it can sleep either one guest or a family with two children.
 	</p><p class="question">
 - Can I bring my pet with me?
 	</p><p>
-We are open for all those travelling with their pet friends but only by a prior agreement with our manager.
+In some cases we allow pets. All the necessary information in your particular case can be obtained from the manager while booking.
 	</p><p class="question">
-- Can I stay with kids?
+- Can I stay with children?
 	</p><p>
-Yes. Families with children aged between 2 and 6 can stay in private family rooms. They cannot share a dormitory with other guests. Families with children over 6 can stay in dorm rooms. We don’t accommodate families with children under 2.
-	</p><p class="question">
-- I’m travelling with a child should I book a bed for him?
+- We don’t accommodate children under two years old.
+	</p>
+<p>
+- Children aged between 2 -6 can stay in private family rooms. They cannot share a dormitory with other guests.
+</p>
+<p>
+- Children over 6 are allowed to stay in a dormitory amenably their gender ( boys in male dorms & girls in female dorms).
+</p><p class="question">
+- Should I book a bed for my child?
 	</p><p>
-Children over 6 should have own bed, paid full fare.
-	</p><p class="question">
-- Can a mother stay with her son (aged of 8) in a female dorm?
-	</p><p>
-No, we can offer only private family room.
-	</p><p class="question">
+- Children aged between 2-6 are allowed to sleep on the same bed with a parent free of charge in private family rooms.
+	</p>
+<p>
+- Children over 6 should have own bed paid full price.
+</p><p class="question">
 - I’m a foreign traveler what documents do I need to stay with you?
 	</p><p>
 Foreigners staying in Russia for more than 7 working days need the registration.
 So if you come to us from another Russian city you must have either registration in original (proving that you stay in Russia legally ) or train/plane tickets to Vladimir ( proving that your stay in Vladimir is less than 48 hours).<br>If you haven’t got the documents listed above we reserve the right to refuse in accommodation. Russian Visa and migration card is a must for foreigners in Russia.<br>But to stay in a hostel legally over 24hours you must have registration according to law of Russia.<br>You can stay with friends without registration during 7 days, in 7 days you either must register or quit the country.
 	</p><p class="question">
-- I’m a foreigner and to get Russian visa I need the visa support (invitation letter), can you help me?
+- Do you make invitation for applying for visa to Russia?
 	</p><p>
-We provide Russian visa support only for our guests on a paying basis. To use this service you should pay a fee for the invitation letter and the first night of stay in the hostel. In case of reservation cancellation after getting the invitation letter we don’t refund down payment.
+We provide Russian visa support only for our guests. We render this service at extra charge. To use this service you should pay a fee for the invitation letter and the first night of stay in the hostel. In case of reservation cancellation after getting the invitation letter we don’t refund down payment.
 	</p><p>
 * Please note that we provide visa support just for a range of countries, please informs us in advance about your citizenship
 	</p>

@@ -1,7 +1,7 @@
 <?php
 $lang = json_decode('{
 "slider-cost":" RUB/night",
-"features-h2":"What\'s Included",
+"features-h2":"What\'s Included in price",
 "map-yandex":""
 }',true);
 
