@@ -1,9 +1,10 @@
 <p>
-Комната площадью тридцать квадратных метров, с собственной зоной отдыха.
-<p></p>
-Если вас интересует недорогой хостел в центре Владимира, то место в этом номере, это то, что вам нужно.
-<p></p>
-2х ярусные кровати. Туалет и душ общий в коридоре на 2 номера.
-<p></p>
-Услуги и удобства: Сейф (локеры), Отопление, Деревянный/Паркетный пол, бесплатный Wi-Fi, завтрак. Подробнее об услугах ниже.
+The room sized&nbsp;<?php echo $nomera[$id]['razmer'];?>&nbsp;meters is equipped with bunk beds and have one locker one night light and one socket per bed. Shower and toilet are shared between two dorms in the corridor.
+</p><p>
+<ul>Room facilities include:
+<li>- Lockers</li>
+<li>- Clothes rails</li>
+<li>- Heating</li>
+<li>- Free Wi-Fi</li>
+</ul>
 </p>

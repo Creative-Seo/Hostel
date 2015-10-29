@@ -2,26 +2,45 @@
 include($root."template/blocks/meta.php");
 include($root."template/blocks/header.php");?>
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Organization">
 	<h1 class="text-center"><?php echo $lang['h1'];?></h1>
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+	<p itemprop="name"><a href="<?php echo $url;?>" itemprop="url" style="padding:0 5px;"><nobr><?php echo $name;?></nobr></a></p>
+	<div class="row" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="margin-top:15px;">
+		<div class="col-md-5 col-sm-12 col-xs-12">
 			<p class="pull-left"><i class="fa fa-home fa-2x"></i></p>
-		  	<p><?php echo $address;?></p>
+			<p>
+<?php if ($meta_lang == 'en') { ?>
+		  		<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+		  		<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+		  		<span itemprop="addressCountry"><?php echo $country;?></span>,
+<?php }else{ ?>
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+				<span itemprop="addressCountry"><?php echo $country;?></span>,
+				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+    			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+<?php } ?>
+				<span><?php echo $lang['pod_ezd'];?></span></p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
-			<p><a href="tel:<?php echo $tel;?>"><?php echo $tel;?></a></p>
-			<p><a href="tel:<?php echo $tel_dop;?>"><?php echo $tel_dop;?></a></p>
+			<p itemprop="telephone"><?php echo $tel;?></p>
+<?php if(isset($tel_dop)) {?><p itemprop="telephone"><?php echo $tel_dop;?></p><?php } ?>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>
-			<p><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></p>
+			<p><a href="mailto:<?php echo $email;?>" itemprop="email"><?php echo $email;?></a></p>
+		</div>
+		<div class="col-xs-12">
+			<p class="pull-left"><i class="fa fa-clock-o fa-2x"></i></p>
+			<p><?php echo $lang['time1'];?></p>
+			<p><?php echo $lang['time2'];?></p>
 		</div>
 	</div>
-	<p class="pull-left"><i class="fa fa-clock-o fa-2x"></i></p>
-	<p><?php echo $lang['time1'];?></p>
-	<p><?php echo $lang['time2'];?></p>
+</div>
+<div class="container">
 	<div class="map-yandex">
 		  <script type="text/javascript" charset="utf-8" src="<?php echo $lang['map-yandex-1'];?>"></script>
 	</div>

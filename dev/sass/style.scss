@@ -23,6 +23,7 @@ h2,.h2 {
 .pull-left {
     padding-right: 10px;
 }
+.question {font-weight: 600;}
 //TYPOGRAPHY
 // SLIDER
 .slider {
@@ -112,12 +113,14 @@ h2,.h2 {
 			font-size: 20px;
 		}
 	}
+	.img-responsive{
+		margin: auto;
+	}
 }
 .nomer-image {
 	padding:10px
 }
 // НОМЕРА 
-
 //FEATURES
 .features {
 	h2 {
@@ -133,14 +136,12 @@ h2,.h2 {
 	}
 }
 //FEATURES
-
 //MAP
 .map-yandex {padding: 10px;height: 50vh;}
 //MAP
 //FOOTER
 .house {width: 100%; height:auto; max-height: 200px;}
 .footer {
-	padding-bottom:30px;
 	background-color: #212221;
 	color: #fff;
 	position: relative;
@@ -148,8 +149,16 @@ h2,.h2 {
 		padding: 5px;
 		span, a {
 			padding: 5px;
-			color: #999999;
+			color: #999;
 		}
+	}
+	&-stack{padding: 10px;}
+	&-hr{border-top: 1px solid #ccc;}
+}
+.socseti{
+	&, &:hover, &:focus{
+		color: #fff;
+		text-decoration: none;
 	}
 }
 //FOOTER

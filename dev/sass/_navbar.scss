@@ -501,6 +501,7 @@ Main components
 		}
 
 		> li {
+			
 			float: left;
 			margin-left: .5em;
 			@include MQ(LG) {

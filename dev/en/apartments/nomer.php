@@ -1,8 +1,7 @@
 <?php
 $lang = json_decode('{
-"slider-cost":" рублей за сутки",
-"slider-h2":"Просторная комната с зоной отдыха.",
-"features-h2":"В стоимость проживания включено",
+"slider-cost":" RUB/night",
+"features-h2":"What\'s Included in price",
 "map-yandex":""
 }',true);
 

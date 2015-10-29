@@ -3,7 +3,7 @@ $title = 'Женский 6-ти местный с 2-х ярусными кров
 $description = '';
 $keywords = '';
 
-$id=3;
+$id=2;
 
 include("../nomer.php");
 ?>
