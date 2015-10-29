@@ -8,7 +8,7 @@
 <!--<div class="container nav-bar">
 		<div class="collapse navbar-collapse" id="menu-collapse">
 			<ul>-->
-<nav class="cd-nav container">
+<nav class="cd-nav container-fluide">
 		<ul id="cd-primary-nav" class="cd-primary-nav nav-is-fixed">
 <?php foreach($menu as $key => $row) { 
 if ($key>0) { ?>
