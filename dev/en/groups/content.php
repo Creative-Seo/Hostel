@@ -1,11 +1,10 @@
 <p>
-Если Вы хотите посетить город Владимир большой компанией, к Вашим услугам групповое размещение гостей. Хостел Храповицкий может вместить до 38 человек. При групповом бронировании Вы можете получить специальные скидки.
-Данная услуга очень актуальна для:
+If you are going to travel to Vladimir in a large group we’ll be glad to offer you comfort accommodation at a special discount. Khrapovitsky Hostel can accommodate up to 38 guests.
+We provide accommodation for:
 	</p><p>
-<p>- Больших компаний друзей.</p>
-<p>- Туристических групп.</p>
-<p>- Командированных сотрудников.</p>
-<p>- Участников спортивных соревнований.</p>
+<p>- Large groups of friends</p>
+<p>- Tourist groups</p>
+<p>- Sport groups</p>
 	</p><p>
-Если Вы хотите разместить в нашем хотеле большую группу, напишите нам на почту <a class="mail" href="mailto:info@hrapovitsky.ru"><?php echo $email;?></a>. В письме укажите колличество человек в группе, дату заезда, дату выезда и пожелания по размещению. Мы свяжемся с Вами в течении получаса и сделаем предложение со скидкой.
+If you’d like to make a group booking feel free to contact us via e-mail:&nbsp<?php echo $email;?>. Note number of guests, arrival and departure dates and accommodation preferences. We’ll be in touch with you within half an hour and name a discounted price.
 	</p>

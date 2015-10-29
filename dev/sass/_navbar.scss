@@ -358,7 +358,6 @@ Main components
 		right: auto;
 		left: 0;
 	}
-	.cd-primary-nav {width: 80%;}
 }
 
 .cd-primary-nav {
@@ -470,7 +469,7 @@ Main components
 		position: static;
 		margin: auto;
 		height: auto;
-		width: 90%;
+		width: 80%;
 		overflow: visible;
 		background: transparent;
 		@include clearfix;
@@ -502,6 +501,7 @@ Main components
 		}
 
 		> li {
+			
 			float: left;
 			margin-left: .5em;
 			@include MQ(LG) {

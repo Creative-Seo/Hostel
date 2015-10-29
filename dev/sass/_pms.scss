@@ -12,7 +12,7 @@
 @import "../libs/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker";
 
 .pms {
-    height: 100%;
+    z-index: 200;
     input {
         background-color: #eee;
         border-radius: 0;
@@ -22,6 +22,7 @@
     }
     .form-group{
         padding-top: 10px;
+        margin-bottom:0;
     }
     &-calendar {
         position: absolute;
@@ -62,6 +63,11 @@
         &:hover, &:focus {
             text-decoration: none;
             color: #555;
+        }
+        &.disabled{
+            pointer-events: none;
+            cursor: not-allowed;
+            opacity: 0.65;
         }
     }
     &-href{

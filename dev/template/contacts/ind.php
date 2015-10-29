@@ -4,20 +4,30 @@ include($root."template/blocks/header.php");?>
 
 <div class="container" itemscope itemtype="http://schema.org/Organization">
 	<h1 class="text-center"><?php echo $lang['h1'];?></h1>
+	<p itemprop="name"><a href="<?php echo $url;?>" itemprop="url" style="padding:0 5px;"><nobr><?php echo $name;?></nobr></a></p>
 	<div class="row" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="margin-top:15px;">
 		<div class="col-md-5 col-sm-12 col-xs-12">
 			<p class="pull-left"><i class="fa fa-home fa-2x"></i></p>
-		  	<p><span itemprop="postalCode"><?php echo $postalCode;?></span>,
-				<span itemprop="itemprop="country" itemscope itemtype="http://schema.org/Country""><span itemprop="name"><?php echo $country;?></span></span>,
+			<p>
+<?php if ($meta_lang == 'en') { ?>
+		  		<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
+		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
+		  		<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+		  		<span itemprop="addressCountry"><?php echo $country;?></span>,
+<?php }else{ ?>
+		  		<span itemprop="postalCode"><?php echo $postalCode;?></span>,
+				<span itemprop="addressCountry"><?php echo $country;?></span>,
 				<span itemprop="addressRegion"><?php echo $addressRegion;?></span>,
 		  		<span itemprop="addressLocality"><?php echo $addressLocality;?></span>,
     			<span itemprop="streetAddress"><?php echo $streetAddress;?></span>,
-    			<span itemprop="name"><a href="<?php echo $url;?>" itemprop="url" style="padding:0 5px;"><nobr><?php echo $name;?></nobr></a></span></p>
+<?php } ?>
+				<span><?php echo $lang['pod_ezd'];?></span></p>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-phone fa-2x"></i></p>
-			<p><a href="tel:<?php echo $tel;?>" itemprop="telephone"><?php echo $tel;?></a></p>
-			<p><a href="tel:<?php echo $tel_dop;?>" itemprop="telephone"><?php echo $tel_dop;?></a></p>
+			<p itemprop="telephone"><?php echo $tel;?></p>
+<?php if(isset($tel_dop)) {?><p itemprop="telephone"><?php echo $tel_dop;?></p><?php } ?>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<p class="pull-left"><i class="fa fa-envelope-o fa-2x"></i></p>

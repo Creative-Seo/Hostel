@@ -18,7 +18,7 @@ echo '<a'.$logourl.' class="logo">'.$header_logo.'</span></a>';
 <?php } ?>
 			</div>
 			<div class="col-xs-8 col-sm-6 col-md-3">
-				<a class="tel" href="tel:<?php echo $tel;?>"><i class="fa fa-phone"></i><?php echo $header_tel;?></a>
+				<a class="tel" href="tel:<?php echo $tel;?>"><i class="fa fa-phone"></i><?php echo $header_tel;?></a><p class="tel-svyaz"><?php echo $header_teltext;?></p>
 			</div>
 			<div class="col-md-2 col-md-offset-10 visible-md" style="line-height:normal;">
 <?php if ($meta_lang == 'en') { ?>
