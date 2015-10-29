@@ -2804,7 +2804,7 @@ Main components
 
 /* line 85, ../sass/_navbar.scss */
 .cd-main-header {
-  background: #FBFBFB;
+  background: #ffffff;
   z-index: 3; }
   @media only screen and (max-width: 991px) {
     /* line 85, ../sass/_navbar.scss */
@@ -3219,14 +3219,10 @@ Main components
   .cd-primary-nav {
     position: static;
     margin: auto;
-    height: 60px;
-    width: 100%;
+    height: auto;
+    width: 80%;
     overflow: visible;
-    background: transparent;
-    padding: 0 30px;
-    text-transform: uppercase;
-    font-size: 12px;
-    background: #FBFBFB; }
+    background: transparent; }
     /* line 20, ../libs/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
     .cd-primary-nav::after {
       clear: both;
@@ -3268,16 +3264,14 @@ Main components
         opacity: 1; }
     /* line 503, ../sass/_navbar.scss */
     .cd-primary-nav > li {
-      margin-top: -8px;
       float: left;
-      margin-left: 6.5em; } }
-    @media only screen and (min-width: 992px) and (min-width: 1200px) { 
+      margin-left: .5em; } }
+    @media only screen and (min-width: 992px) and (min-width: 1200px) {
       /* line 503, ../sass/_navbar.scss */
       .cd-primary-nav > li {
-        margin-top: -8px;
-      margin-left: 11.5em;} }
+        margin-left: 1em; } }
 @media only screen and (min-width: 992px) {
-    /* line 511, ../sass/_navbar.scss */
+    /* line 512, ../sass/_navbar.scss */
     .cd-primary-nav > li > a {
       /* main navigation buttons style */
       position: relative;
@@ -3291,17 +3285,17 @@ Main components
       -webkit-transition: color 0.3s, box-shadow 0.3s;
       -moz-transition: color 0.3s, box-shadow 0.3s;
       transition: color 0.3s, box-shadow 0.3s; }
-      /* line 523, ../sass/_navbar.scss */
+      /* line 524, ../sass/_navbar.scss */
       .cd-primary-nav > li > a:hover {
         color: #D4AF53; }
-      /* line 527, ../sass/_navbar.scss */
+      /* line 528, ../sass/_navbar.scss */
       .cd-primary-nav > li > a.selected {
         color: #D4AF53;
         box-shadow: inset 0 -2px 0 #D4AF53; }
-    /* line 533, ../sass/_navbar.scss */
+    /* line 534, ../sass/_navbar.scss */
     .cd-primary-nav .go-back, .cd-primary-nav .see-all {
       display: none; }
-    /* line 537, ../sass/_navbar.scss */
+    /* line 538, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav, .cd-primary-nav .cd-nav-gallery, .cd-primary-nav .cd-nav-icons {
       /* dropdown menu style */
       position: absolute;
@@ -3323,14 +3317,14 @@ Main components
         clear: both;
         content: "";
         display: table; }
-      /* line 551, ../sass/_navbar.scss */
+      /* line 552, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav.is-hidden, .cd-primary-nav .cd-nav-gallery.is-hidden, .cd-primary-nav .cd-nav-icons.is-hidden {
         opacity: 0;
         visibility: hidden;
         -webkit-transition: opacity .3s 0s, visibility 0s .3s;
         -moz-transition: opacity .3s 0s, visibility 0s .3s;
         transition: opacity .3s 0s, visibility 0s .3s; }
-      /* line 559, ../sass/_navbar.scss */
+      /* line 560, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav > .see-all, .cd-primary-nav .cd-nav-gallery > .see-all, .cd-primary-nav .cd-nav-icons > .see-all {
         /* this is the BIG See all button at the bottom of the dropdown menu */
         display: block;
@@ -3343,7 +3337,7 @@ Main components
         /* reset some inherited style */
         margin: 0;
         padding: 0; }
-        /* line 572, ../sass/_navbar.scss */
+        /* line 573, ../sass/_navbar.scss */
         .cd-primary-nav .cd-secondary-nav > .see-all a, .cd-primary-nav .cd-nav-gallery > .see-all a, .cd-primary-nav .cd-nav-icons > .see-all a {
           position: absolute;
           width: 100%;
@@ -3362,12 +3356,12 @@ Main components
           -webkit-transition: color 0.2s, background 0.2s, border 0.2s;
           -moz-transition: color 0.2s, background 0.2s, border 0.2s;
           transition: color 0.2s, background 0.2s, border 0.2s; }
-          /* line 589, ../sass/_navbar.scss */
+          /* line 590, ../sass/_navbar.scss */
           .cd-primary-nav .cd-secondary-nav > .see-all a:hover, .cd-primary-nav .cd-nav-gallery > .see-all a:hover, .cd-primary-nav .cd-nav-icons > .see-all a:hover {
             background: #2e3233;
             border-color: #2e3233;
             color: #ffffff; }
-    /* line 600, ../sass/_navbar.scss */
+    /* line 601, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav > li {
       /* change the height according to your needs - you can even set height: auto */
       height: 340px;
@@ -3380,19 +3374,19 @@ Main components
       overflow-x: hidden;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch; }
-      /* line 612, ../sass/_navbar.scss */
+      /* line 613, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav > li:nth-child(4n+2) {
         /* +2 because we have 2 list items with display:none */
         margin-right: 0;
         border-right: none; }
-      /* line 618, ../sass/_navbar.scss */
+      /* line 619, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav > li > a {
         /* secondary nav title */
         color: #D4AF53;
         font-weight: bold;
         font-size: 1.6rem;
         margin-bottom: .6em; }
-    /* line 627, ../sass/_navbar.scss */
+    /* line 628, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav a {
       height: 30px;
       line-height: 30px;
@@ -3400,10 +3394,10 @@ Main components
       color: #2e3233;
       border-bottom: none;
       font-size: 1.4rem; }
-      /* line 635, ../sass/_navbar.scss */
+      /* line 636, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav a:hover {
         color: #D4AF53; }
-    /* line 640, ../sass/_navbar.scss */
+    /* line 641, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav ul {
       /* Force Hardware Acceleration in WebKit */
       -webkit-transform: translateZ(0);
@@ -3411,7 +3405,7 @@ Main components
       -ms-transform: translateZ(0);
       -o-transform: translateZ(0);
       transform: translateZ(0); }
-    /* line 645, ../sass/_navbar.scss */
+    /* line 646, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav ul ul {
       /* tertiary navigation */
       position: absolute;
@@ -3419,23 +3413,23 @@ Main components
       left: 0;
       height: 100%;
       width: 100%; }
-      /* line 653, ../sass/_navbar.scss */
+      /* line 654, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul.is-hidden {
         -webkit-transform: translateX(100%);
         -moz-transform: translateX(100%);
         -ms-transform: translateX(100%);
         -o-transform: translateX(100%);
         transform: translateX(100%); }
-      /* line 657, ../sass/_navbar.scss */
+      /* line 658, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul .go-back {
         display: block; }
-        /* line 660, ../sass/_navbar.scss */
+        /* line 661, ../sass/_navbar.scss */
         .cd-primary-nav .cd-secondary-nav ul ul .go-back a {
           color: transparent; }
-      /* line 665, ../sass/_navbar.scss */
+      /* line 666, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul .see-all {
         display: block; }
-    /* line 670, ../sass/_navbar.scss */
+    /* line 671, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav .moves-out > li > a {
       /* push the navigation items to the left - and lower down opacity - when tertiary nav slides in */
       -webkit-transform: translateX(-100%);
@@ -3443,68 +3437,68 @@ Main components
       -ms-transform: translateX(-100%);
       -o-transform: translateX(-100%);
       transform: translateX(-100%); }
-    /* line 677, ../sass/_navbar.scss */
+    /* line 678, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-gallery li {
       /* set here number of columns - use width percentage */
       width: 22%;
       float: left;
       margin: 0 4% 40px 0; }
-      /* line 682, ../sass/_navbar.scss */
+      /* line 683, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery li:nth-child(4n+2) {
         /* +2 because we have two additional list items with display:none */
         margin-right: 0; }
-    /* line 688, ../sass/_navbar.scss */
+    /* line 689, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-gallery .cd-nav-item {
       border-bottom: none;
       padding: 0;
       height: auto;
       line-height: 1.2; }
-      /* line 694, ../sass/_navbar.scss */
+      /* line 695, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery .cd-nav-item img {
         position: static;
         margin-top: 0;
         height: auto;
         width: 100%;
         margin-bottom: .6em; }
-      /* line 702, ../sass/_navbar.scss */
+      /* line 703, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery .cd-nav-item h3 {
         color: #D4AF53;
         font-weight: bold;
         padding: 0 .4em; }
-    /* line 711, ../sass/_navbar.scss */
+    /* line 712, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-icons li {
       /* set here number of columns - use width percentage */
       width: 32%;
       float: left;
       margin: 0 2% 20px 0; }
-      /* line 716, ../sass/_navbar.scss */
+      /* line 717, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons li:nth-child(3n+2) {
         /* +2 because we have two additional list items with display:none */
         margin-right: 0; }
-    /* line 722, ../sass/_navbar.scss */
+    /* line 723, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-icons .cd-nav-item {
       border-bottom: none;
       height: 80px;
       line-height: 1.2;
       padding: 24px 0 0 85px;
       position: relative; }
-      /* line 729, ../sass/_navbar.scss */
+      /* line 730, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item:hover {
         background: #f6f6f5; }
-      /* line 733, ../sass/_navbar.scss */
+      /* line 734, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
         color: #D4AF53;
         font-weight: bold; }
-      /* line 738, ../sass/_navbar.scss */
+      /* line 739, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item p {
         display: block; }
-      /* line 742, ../sass/_navbar.scss */
+      /* line 743, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item::before {
         left: 25px; } }
-/* line 750, ../sass/_navbar.scss */
+/* line 751, ../sass/_navbar.scss */
 .has-children > a, .go-back a {
   position: relative; }
-  /* line 753, ../sass/_navbar.scss */
+  /* line 754, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
     /* arrow icon in CSS - for element with nested unordered lists */
     content: '';
@@ -3517,14 +3511,14 @@ Main components
     background: #464c4e;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  /* line 767, ../sass/_navbar.scss */
+  /* line 768, ../sass/_navbar.scss */
   .has-children > a::before, .go-back a::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 771, ../sass/_navbar.scss */
+  /* line 772, ../sass/_navbar.scss */
   .has-children > a::after, .go-back a::after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -3532,17 +3526,17 @@ Main components
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
   @media only screen and (min-width: 992px) {
-    /* line 776, ../sass/_navbar.scss */
+    /* line 777, ../sass/_navbar.scss */
     .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
       background: #c9cbc4; }
-    /* line 780, ../sass/_navbar.scss */
+    /* line 781, ../sass/_navbar.scss */
     .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
       background: #D4AF53; } }
 
-/* line 786, ../sass/_navbar.scss */
+/* line 787, ../sass/_navbar.scss */
 .has-children > a {
   padding-right: 40px; }
-  /* line 789, ../sass/_navbar.scss */
+  /* line 790, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after {
     /* arrow goes on the right side - children navigation */
     right: 20px;
@@ -3552,10 +3546,10 @@ Main components
     -o-transform-origin: 9px 50%;
     transform-origin: 9px 50%; }
 
-/* line 796, ../sass/_navbar.scss */
+/* line 797, ../sass/_navbar.scss */
 .cd-primary-nav .go-back a {
   padding-left: 40px; }
-  /* line 799, ../sass/_navbar.scss */
+  /* line 800, ../sass/_navbar.scss */
   .cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
     /* arrow goes on the left side - go back button */
     left: 20px;
@@ -3566,15 +3560,15 @@ Main components
     transform-origin: 1px 50%; }
 
 @media only screen and (min-width: 992px) {
-  /* line 809, ../sass/_navbar.scss */
+  /* line 810, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after {
     right: 15%; }
 
-  /* line 814, ../sass/_navbar.scss */
+  /* line 815, ../sass/_navbar.scss */
   .cd-primary-nav > .has-children > a {
     /* main navigation arrows on larger devices */
     padding-right: 30px !important; }
-    /* line 818, ../sass/_navbar.scss */
+    /* line 819, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::before, .cd-primary-nav > .has-children > a::after {
       width: 9px;
       -webkit-transform-origin: 50% 50%;
@@ -3588,23 +3582,23 @@ Main components
       -webkit-transition: width 0.3s, -webkit-transform 0.3s;
       -moz-transition: width 0.3s, -moz-transform 0.3s;
       transition: width 0.3s, transform 0.3s; }
-    /* line 827, ../sass/_navbar.scss */
+    /* line 828, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::before {
       right: 12px; }
-    /* line 831, ../sass/_navbar.scss */
+    /* line 832, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::after {
       right: 7px; }
-    /* line 835, ../sass/_navbar.scss */
+    /* line 836, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::before, .cd-primary-nav > .has-children > a.selected::after {
       width: 14px; }
-    /* line 839, ../sass/_navbar.scss */
+    /* line 840, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::before {
       -webkit-transform: translateX(5px) rotate(-45deg);
       -moz-transform: translateX(5px) rotate(-45deg);
       -ms-transform: translateX(5px) rotate(-45deg);
       -o-transform: translateX(5px) rotate(-45deg);
       transform: translateX(5px) rotate(-45deg); }
-    /* line 843, ../sass/_navbar.scss */
+    /* line 844, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::after {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -3612,18 +3606,18 @@ Main components
       -o-transform: rotate(45deg);
       transform: rotate(45deg); }
 
-  /* line 848, ../sass/_navbar.scss */
+  /* line 849, ../sass/_navbar.scss */
   .cd-secondary-nav > .has-children > a::before, .cd-secondary-nav > .has-children > a::after {
     /* remove arrows on secondary nav titles */
     display: none; }
 
-  /* line 853, ../sass/_navbar.scss */
+  /* line 854, ../sass/_navbar.scss */
   .cd-primary-nav .go-back a {
     padding-left: 20px; }
-    /* line 856, ../sass/_navbar.scss */
+    /* line 857, ../sass/_navbar.scss */
     .cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
       left: 1px; } }
-/* line 862, ../sass/_navbar.scss */
+/* line 863, ../sass/_navbar.scss */
 .cd-search {
   position: absolute;
   height: 50px;
@@ -3636,11 +3630,11 @@ Main components
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s; }
-  /* line 875, ../sass/_navbar.scss */
+  /* line 876, ../sass/_navbar.scss */
   .cd-search form {
     height: 100%;
     width: 100%; }
-  /* line 880, ../sass/_navbar.scss */
+  /* line 881, ../sass/_navbar.scss */
   .cd-search input {
     border-radius: 0;
     border: none;
@@ -3666,31 +3660,31 @@ Main components
     /* line 4, ../libs/bourbon/app/assets/stylesheets/css3/_placeholder.scss */
     .cd-search input:-ms-input-placeholder {
       color: #c9cbc4; }
-    /* line 894, ../sass/_navbar.scss */
+    /* line 895, ../sass/_navbar.scss */
     .cd-search input:focus {
       outline: none; }
-  /* line 899, ../sass/_navbar.scss */
+  /* line 900, ../sass/_navbar.scss */
   .cd-search.is-visible {
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s; }
-  /* line 907, ../sass/_navbar.scss */
+  /* line 908, ../sass/_navbar.scss */
   .nav-is-fixed .cd-search {
     position: fixed; }
   @media only screen and (min-width: 992px) {
-    /* line 862, ../sass/_navbar.scss */
+    /* line 863, ../sass/_navbar.scss */
     .cd-search {
       height: 120px;
       top: 80px; }
-      /* line 915, ../sass/_navbar.scss */
+      /* line 916, ../sass/_navbar.scss */
       .cd-search input {
         padding: 0 2em;
         font-size: 3.2rem;
         font-weight: 300; } }
 
-/* line 927, ../sass/_navbar.scss */
+/* line 928, ../sass/_navbar.scss */
 .cd-overlay {
   /* shadow layer visible when navigation is active */
   position: fixed;
@@ -3708,7 +3702,7 @@ Main components
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s; }
-  /* line 942, ../sass/_navbar.scss */
+  /* line 943, ../sass/_navbar.scss */
   .cd-overlay.is-visible {
     opacity: 1;
     visibility: visible;
@@ -3716,21 +3710,21 @@ Main components
     -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s;
     transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s; }
   @media only screen and (max-width: 991px) {
-    /* line 949, ../sass/_navbar.scss */
+    /* line 950, ../sass/_navbar.scss */
     .cd-overlay.is-visible {
       -webkit-transform: translateX(-260px);
       -moz-transform: translateX(-260px);
       -ms-transform: translateX(-260px);
       -o-transform: translateX(-260px);
       transform: translateX(-260px); }
-    /* line 952, ../sass/_navbar.scss */
+    /* line 953, ../sass/_navbar.scss */
     .nav-on-left .cd-overlay.is-visible {
       -webkit-transform: translateX(260px);
       -moz-transform: translateX(260px);
       -ms-transform: translateX(260px);
       -o-transform: translateX(260px);
       transform: translateX(260px); }
-    /* line 955, ../sass/_navbar.scss */
+    /* line 956, ../sass/_navbar.scss */
     .cd-overlay.is-visible.search-is-visible, .nav-on-left .cd-overlay.is-visible.search-is-visible {
       -webkit-transform: translateX(0);
       -moz-transform: translateX(0);
@@ -3743,7 +3737,7 @@ Main components
 support for no js 
 
 -------------------------------- */
-/* line 967, ../sass/_navbar.scss */
+/* line 968, ../sass/_navbar.scss */
 .no-js .cd-primary-nav {
   position: relative;
   height: auto;
@@ -3752,7 +3746,7 @@ support for no js
   visibility: visible;
   z-index: 2; }
 
-/* line 976, ../sass/_navbar.scss */
+/* line 977, ../sass/_navbar.scss */
 .no-js .cd-search {
   position: relative;
   top: 0;
@@ -3760,7 +3754,7 @@ support for no js
   visibility: visible; }
 
 @media only screen and (min-width: 992px) {
-  /* line 984, ../sass/_navbar.scss */
+  /* line 985, ../sass/_navbar.scss */
   .no-js .cd-primary-nav {
     position: absolute;
     z-index: 3;
@@ -3770,7 +3764,7 @@ support for no js
     right: 150px;
     padding: 0; }
 
-  /* line 994, ../sass/_navbar.scss */
+  /* line 995, ../sass/_navbar.scss */
   .no-js .nav-is-fixed .cd-primary-nav {
     position: fixed; } }
 /* line 1, ../sass/_pms.scss */
