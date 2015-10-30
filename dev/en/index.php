@@ -15,7 +15,7 @@ $lang = json_decode('{
 "rooms-url":"/en/apartments/",
 "features-h2":"What\'s included",
 "about-h2":"General Information",
-"map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"
+"map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=M-7EarbO1MbirF2NRD6SnSGZ_-9NOUex&lang=en_US&sourceType=constructor"
 }',true);
 
 $root='../';
