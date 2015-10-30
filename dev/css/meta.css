@@ -3265,26 +3265,33 @@ Main components
     /* line 503, ../sass/_navbar.scss */
     .cd-primary-nav > li {
       float: left;
-      margin-left: .5em; } }
+      margin-left: 0em; } }
     @media only screen and (min-width: 992px) and (min-width: 1200px) {
       /* line 503, ../sass/_navbar.scss */
       .cd-primary-nav > li {
-        margin-left: 1em; } }
+        margin-left: 3.2em; } }
 @media only screen and (min-width: 992px) {
     /* line 512, ../sass/_navbar.scss */
     .cd-primary-nav > li > a {
       /* main navigation buttons style */
       position: relative;
       display: inline-block;
-      height: 80px;
-      line-height: 80px;
+      height: 60px;
+      line-height: 60px;
       padding: 0 10px;
       color: #2e3233;
       overflow: visible;
       border-bottom: none;
       -webkit-transition: color 0.3s, box-shadow 0.3s;
       -moz-transition: color 0.3s, box-shadow 0.3s;
-      transition: color 0.3s, box-shadow 0.3s; }
+      transition: color 0.3s, box-shadow 0.3s; 
+      padding: 0 30px;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+      .cd-nav{
+        background-color: #FBFBFB;
+      }
       /* line 524, ../sass/_navbar.scss */
       .cd-primary-nav > li > a:hover {
         color: #D4AF53; }
