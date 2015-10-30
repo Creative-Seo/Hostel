@@ -4,10 +4,12 @@
 		<div class="row">
 			<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4"><div class="adres"><span><?php echo $address;?></span></div></div>
 			<div class="col-xs-12 col-sm-6 col-md-4">
-<?php 
-if ($meta_lang == 'en') $logourl = ' href="/en/"'; else $logourl = ' href="/"';
-if ($dir=='/') $logourl .= ' itemprop="url"';
-echo '<a'.$logourl.' class="logo">'.$header_logo.'</span></a>';
+<?php
+if ($dir=='/') $logourl = ' itemprop="url"'; else $logourl = '';;
+if ($meta_lang == 'en') 
+	echo '<a'.$logourl.' href="/en/" class="logo">'.$header_logo.'</span></a>'; 
+else 
+	echo '<a'.$logourl.' href="/" class="logo"><img class="img-responsive" src="/img/logo.jpg" alt="'.$header_logo.'"></span></a>';
 ?>
 			</div>
 			<div class="col-xs-4 col-sm-3 hidden-md col-lg-1">
