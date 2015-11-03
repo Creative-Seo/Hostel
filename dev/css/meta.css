@@ -3780,18 +3780,28 @@ support for no js
   /* line 1007, ../sass/_navbar.scss */
   .cd-nav {
     background-color: #FBFBFB; } }
-@media only screen and (min-width: 992px) and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   /* line 1012, ../sass/_navbar.scss */
   .cd-primary-nav > li {
-    margin-left: 3.2em; } }
+    float: left;
+    margin-left: 1.2em; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1017, ../sass/_navbar.scss */
+  .cd-primary-nav > li {
+    margin-left: 1.2em; } }
 @media only screen and (max-width: 991px) {
-  /* line 1015, ../sass/_navbar.scss */
+  /* line 1020, ../sass/_navbar.scss */
   .cd-primary-nav > li {
     margin-left: 0em; } }
-/* line 1017, ../sass/_navbar.scss */
+/* line 1022, ../sass/_navbar.scss */
 .cd-main-header {
   background: #FBFBFB; }
 
+@media only screen and (min-width: 992px) and (max-width: 1152px) {
+  /* line 1025, ../sass/_navbar.scss */
+  .cd-primary-nav > li {
+    float: left;
+    margin-left: -1.4em; } }
 /* line 1, ../sass/_pms.scss */
 .sr-only, .bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after, .bootstrap-datetimepicker-widget .btn[data-action="clear"]::after, .bootstrap-datetimepicker-widget .btn[data-action="today"]::after, .bootstrap-datetimepicker-widget .picker-switch::after, .bootstrap-datetimepicker-widget table th.prev::after, .bootstrap-datetimepicker-widget table th.next::after {
   position: absolute;

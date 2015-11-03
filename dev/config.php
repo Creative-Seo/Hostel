@@ -3,17 +3,17 @@ $self = explode("/", $_SERVER['REQUEST_URI']);
 $name = 'Хостел Храповицкий в г. Владимир';
 $url = 'http://www.khrapovitsky.ru/';
 $streetAddress = 'Большая Нижегородская 67г';
-$postalCode = '600020';
 $country = 'Россия';
 $addressRegion = 'Владимирская область';
-$addressLocality = 'Владимир';
-$address = $postalCode.', '.$addressLocality.', '.$streetAddress;
+$addressLocality = 'г. Владимир';
+$address = $postalCode.' '.$addressLocality.', '.$streetAddress;
 $tel = '+7(4922) 32-65-76';
 $tel_dop = '';
 $email = 'info@khrapovitsky.ru';
 $price = 'От 350';
 
 $menu = json_decode('{
+	"home":{"name":"Главная","url":"/index.php"},
 	"apartments":{"name":"Номера и бронирование","url":"/apartments/"},
 	"groups":{"name":"Групповое размещение","url":"/groups/"},
 	"faq":{"name":"Частые вопросы","url":"/faq/"},
