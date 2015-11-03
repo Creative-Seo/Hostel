@@ -3798,7 +3798,7 @@ support for no js
 .cd-main-header {
   background: #FBFBFB; }
 
-@media only screen and (min-width: 992px) and (max-width: 1152px) {
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
   /* line 1025, ../sass/_navbar.scss */
   .cd-primary-nav > li {
     float: left;
