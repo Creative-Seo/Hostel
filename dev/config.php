@@ -13,7 +13,7 @@ $email = 'info@khrapovitsky.ru';
 $price = 'От 350';
 
 $menu = json_decode('{
-	"home":{"name":"Главная","url":"/index.php"},
+	"home":{"name":"Главная","url":"/"},
 	"apartments":{"name":"Номера и бронирование","url":"/apartments/"},
 	"groups":{"name":"Групповое размещение","url":"/groups/"},
 	"faq":{"name":"Частые вопросы","url":"/faq/"},
