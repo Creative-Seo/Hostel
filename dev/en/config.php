@@ -20,8 +20,8 @@ $menu = json_decode('{
 }',true);
 $nomera = json_decode('{
 	"1":{"name":"8 Bed Dorm men-only","url":"8-bed-male-dorm/","cost":"from 350","razmer":"5х7"},
-	"2":{"name":"6 Bed Dorm women-only","url":"6-bed-female-dorm/","cost":"from 350","razmer":"4,5х3"},
-	"3":{"name":"6 Bed Dorm men-only","url":"6-bed-male-dorm/","cost":"from 350","razmer":"6х3"},
+	"2":{"name":"6 Bed Dorm","url":"6-bed-female-dorm/","cost":"from 350","razmer":"4,5х3"},
+	"3":{"name":"6 Bed Dorm","url":"6-bed-male-dorm/","cost":"from 350","razmer":"6х3"},
 	"4":{"name":"10 Bed Dorm women-only","url":"10-bed-female-dorm/","cost":"from 350","razmer":"6х7"},
 	"5":{"name":"Private Family Room","url":"family-room-1/","cost":"from 1300","razmer":"3,5х6,2"},
 	"6":{"name":"Private Family Room","url":"family-room-2/","cost":"from 1300","razmer":"4,5х6,5"}
