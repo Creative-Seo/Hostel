@@ -1,19 +1,19 @@
 <?php
 $self = explode("/", $_SERVER['REQUEST_URI']);
-$name = 'Хостел Храповицкий';
+$name = 'Хостел Храповицкий в г. Владимир';
 $url = 'http://www.khrapovitsky.ru/';
 $streetAddress = 'Большая Нижегородская 67г';
-$postalCode = '600020';
 $country = 'Россия';
 $addressRegion = 'Владимирская область';
-$addressLocality = 'Владимир';
-$address = $postalCode.', '.$addressLocality.', '.$streetAddress;
+$addressLocality = 'г. Владимир';
+$address = $postalCode.' '.$addressLocality.', '.$streetAddress;
 $tel = '+7(4922) 32-65-76';
 $tel_dop = '';
 $email = 'info@khrapovitsky.ru';
 $price = 'От 350';
 
 $menu = json_decode('{
+	"home":{"name":"Главная","url":"/index.php"},
 	"apartments":{"name":"Номера и бронирование","url":"/apartments/"},
 	"groups":{"name":"Групповое размещение","url":"/groups/"},
 	"faq":{"name":"Частые вопросы","url":"/faq/"},
@@ -22,7 +22,7 @@ $menu = json_decode('{
 $nomera = json_decode('{
 	"1":{"name":"Мужской номер на 8 человек","url":"8-bed-male-dorm/","cost":"от 350","razmer":"5х7"},
 	"2":{"name":"Женский номер на 6 человек","url":"6-bed-female-dorm/","cost":"от 350","razmer":"4,5х3"},
-	"3":{"name":"Мужской номер на 6 челвоек","url":"6-bed-male-dorm/","cost":"от 350","razmer":"6х3"},
+	"3":{"name":"Мужской номер на 6 человек","url":"6-bed-male-dorm/","cost":"от 350","razmer":"6х3"},
 	"4":{"name":"Женский номер на 10 человек","url":"10-bed-female-dorm/","cost":"от 350","razmer":"6х7"},
 	"5":{"name":"Семейный номер","url":"family-room-1/","cost":"от 1300","razmer":"3,5х6,2"},
 	"6":{"name":"Семейный номер","url":"family-room-2/","cost":"от 1300","razmer":"4,5х6,5"}

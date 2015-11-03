@@ -1,11 +1,11 @@
 <?php
-$title = 'Rooms at the hostel in Vladimir - Khrapovitsky Hostel';
+$title = 'Types of Rooms';
 $description = '';
 $keywords = '';
 
 $lang = json_decode('{
 "h1":"'.$title.'",
-"rooms-gold":"All our dorm rooms are single sex!",
+"rooms-gold":"All our dorms are single-sex!",
 "rooms-url":"/en/apartments/"
 }',true);
 

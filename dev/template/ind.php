@@ -76,7 +76,7 @@ foreach($nomera as $number => $row) {
 		<div class="col-sm-6 col-md-4" itemprop="makesOffer" itemscope itemtype="http://schema.org/Offer">
 			<a href="<?php echo $lang['rooms-url'],$row['url'];?>"><img itemprop="image" src="/image/nomer-<?php echo $number;?>.jpg" class="img-responsive" alt="<?php echo $row['name'];?>"></a>
 			<p class="rooms_number">
-				<span itemprop="name">№<?php echo $number;?> - <?php echo $row['name'];?></span><br>
+				<span itemprop="name">№<?php echo $number;?>&nbsp;&mdash;&nbsp;<?php echo $row['name'];?></span><br>
 				<span class="rooms_price"><span itemprop="price"><?php echo $row['cost'];?></span>
 				<meta itemprop="priceCurrency" content="RUB" /> <i class="fa fa-rub"></i></span></p>
 		</div>

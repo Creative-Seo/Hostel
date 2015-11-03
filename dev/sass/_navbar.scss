@@ -979,7 +979,6 @@ support for no js
 	opacity: 1;
 	visibility: visible;
 }
-
 @include MQ(L) {
 	.no-js .cd-primary-nav {
 		position: absolute;
@@ -995,3 +994,37 @@ support for no js
 		position: fixed;
 	}
 }
+
+@media only screen and (min-width: 992px) {
+	.cd-primary-nav > li > a {
+		height: 60px;
+	    line-height: 60px;
+		transition: color 0.3s, box-shadow 0.3s; 
+		padding: 0 30px;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	.cd-nav{
+        background-color: #FBFBFB;
+    }
+}
+@media only screen and (min-width: 992px){
+.cd-primary-nav > li {
+    float: left;
+    margin-left: 1.2em;
+}}
+@media only screen and (min-width: 1200px) {
+      .cd-primary-nav > li {margin-left: 1.2em;}
+}
+@media only screen and (max-width: 991px) {
+    .cd-primary-nav > li {margin-left: 0em;}
+}
+.cd-main-header {background: #FBFBFB;}
+
+@media only screen and (min-width: 992px) and (max-width: 1152px){
+.cd-primary-nav > li {
+    float: left;
+    margin-left: -1.4em;
+}
+}
+

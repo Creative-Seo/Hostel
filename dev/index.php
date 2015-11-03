@@ -1,5 +1,5 @@
 <?php
-$title = 'Хостел Храповицкий во Владимире';
+$title = 'Хостел во Владимире Храповицкий недорого, недалеко от центра';
 $description = '';
 $keywords = '';
 
@@ -12,11 +12,10 @@ $lang = json_decode('{
 "slider-vopros3":"Как добраться?",
 "bottom-h1":"Посетить веб-сайт",
 "rooms-h2":"Номера",
-"rooms-gold":"Бронируя номер в нашем хостеле, Вы получаете не только комфортное проживание, но и ряд приятных бонусов!",
 "rooms-url":"/apartments/",
 "features-h2":"В стоимость проживания включено",
 "about-h2":"О хостеле",
-"map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TixNOUJi3i9Heghz4ES00Y-r_3yef5Fz"
+"map-yandex":"https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=M-7EarbO1MbirF2NRD6SnSGZ_-9NOUex&lang=ru_RU&sourceType=constructor"
 }',true);
 
 $root='';

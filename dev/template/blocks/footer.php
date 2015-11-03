@@ -65,7 +65,7 @@
   </div>
   <div class="row footer-hr" style="margin-top:20px;">
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="javascript: void(0);" class="socseti">
+		<a href="javascript: void(0);" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
@@ -74,7 +74,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://twitter.com/Khrapovitsky33" class="socseti">
+		<a href="https://twitter.com/Khrapovitsky33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-twitter fa-stack-1x"></i>
@@ -83,7 +83,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://vk.com/hostel_khrapovitsky" class="socseti">
+		<a href="https://vk.com/hostel_khrapovitsky" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
@@ -92,7 +92,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="javascript: void(0);" class="socseti">
+		<a href="javascript: void(0);" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-facebook fa-stack-1x"></i>
@@ -101,7 +101,7 @@
 		</a>		
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="http://ok.ru/group/52856397496392" class="socseti">
+		<a href="http://ok.ru/group/52856397496392" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
@@ -110,7 +110,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti">
+		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-google-plus fa-stack-1x"></i>

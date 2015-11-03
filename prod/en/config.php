@@ -13,7 +13,7 @@ $email = 'info@khrapovitsky.ru';
 $price = 'From 350';
 
 $menu = json_decode('{
-	"apartments":{"name":"Dorms","url":"/en/apartments/"},
+	"apartments":{"name":"Dormitory rooms","url":"/en/apartments/"},
 	"groups":{"name":"Group booking","url":"/en/groups/"},
 	"faq":{"name":"F.A.Q.","url":"/en/faq/"},
 	"contacts":{"name":"Contacts","url":"/en/contacts/"}
@@ -27,14 +27,14 @@ $nomera = json_decode('{
 	"6":{"name":"Private Family Room","url":"family-room-2/","cost":"from 1300","razmer":"4,5х6,5"}
 }',true);
 $inclusive = json_decode('{
-	"ic_3":"Hot Showers", "ic_6":"Towels and linen", "ic_5":"(Fully Equipped) Kitchen", "ic_1":"Free Wi-Fi", "ic_12":"Hairdryer", "ic_4":"24 hour reception", "ic_10":"Free Luggage Storage", "ic_7":"TV", "ic_11":"Free City Maps", "ic_2":"Table games", "ic_9":"Lockers", "ic_8":"Good mood"
+	"ic_3":"Hot Showers", "ic_6":"Towels and linen", "ic_5":"self-catering kitchen", "ic_1":"Free Wi-Fi", "ic_12":"Hairdryer", "ic_4":"24 hour reception", "ic_10":"Free Luggage Storage", "ic_7":"TV", "ic_11":"Free City Maps", "ic_2":"Table games", "ic_9":"Lockers", "ic_8":"Good mood"
 }',true);
 
 $meta_lang = 'en';
 
 $header_logo = 'Khrapovitsky<br><span>Hostel</span>';
 $header_tel = ' +7(4922) <span>32-65-76</span>';
-$header_teltext = ' Round the clock';
+$header_teltext = 'We are on call 24hours/7days a week';
 $bread = 'Home';
 
 $services ='Services';
@@ -45,7 +45,7 @@ $pms_dfrom = 'Arriving';
 $pms_dto = 'Departing';
 $pms_adults = 'Adults';
 $pms_children = 'Children';
-$pms_offer = 'You agree with the offer';
+$pms_offer = 'I agree to the terms and conditions';
 $pms_btn_1 = 'Book now';
 $pms_href_1 = 'Cancel reservation';
 $pms_h1_1 = 'Cancel reservation';

@@ -1,5 +1,5 @@
 <?php
-$title = 'Groop Booking: group accommodation at the Khrapovitsky Hostel';
+$title = 'Group Booking: group accommodation at the Khrapovitsky Hostel';
 $description = '';
 $keywords = '';
 
