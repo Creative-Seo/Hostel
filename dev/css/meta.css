@@ -2633,13 +2633,14 @@ select[multiple].input-lg {
 .header {
   background-color: #fff;
   color: #000;
-  line-height: 70px; }
+  line-height: 70px;
+  padding-bottom: 20px; }
 
-/* line 7, ../sass/_header.scss */
+/* line 8, ../sass/_header.scss */
 .adres {
   font-size: 14px; }
 
-/* line 12, ../sass/_header.scss */
+/* line 13, ../sass/_header.scss */
 .logo {
   text-align: center;
   font-weight: 700;
@@ -2648,50 +2649,50 @@ select[multiple].input-lg {
   line-height: 0.7em;
   padding-top: 17.5px;
   display: block; }
-  /* line 20, ../sass/_header.scss */
+  /* line 21, ../sass/_header.scss */
   .logo, .logo:hover, .logo:focus {
     text-decoration: none;
     color: #000; }
-  /* line 24, ../sass/_header.scss */
+  /* line 25, ../sass/_header.scss */
   .logo span {
     font-size: 14px;
     font-weight: 300; }
 
-/* line 31, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 .tel {
   font-weight: 700;
   color: #D4AF53;
   text-decoration: none; }
-  /* line 35, ../sass/_header.scss */
+  /* line 36, ../sass/_header.scss */
   .tel:hover, .tel:focus {
     text-decoration: none;
     color: #D4AF53; }
-  /* line 39, ../sass/_header.scss */
+  /* line 40, ../sass/_header.scss */
   .tel span, .tel i {
     font-size: 24px;
     color: #000; }
-  /* line 43, ../sass/_header.scss */
+  /* line 44, ../sass/_header.scss */
   .tel i {
     color: #D4AF53; }
-  /* line 46, ../sass/_header.scss */
+  /* line 47, ../sass/_header.scss */
   .tel-svyaz {
     line-height: 0.1em;
     font-size: 12px;
     font-weight: 300;
     color: #D4AF53; }
 
-/* line 55, ../sass/_header.scss */
+/* line 56, ../sass/_header.scss */
 .lang {
   font-size: 14px;
   font-weight: 300;
   padding: 10px; }
 
-/* line 60, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 a.lang, a.lang:hover, a.langfocus {
   text-decoration: none;
   color: #000; }
 
-/* line 61, ../sass/_header.scss */
+/* line 62, ../sass/_header.scss */
 span.active {
   font-weight: 700;
   color: #D4AF53; }
@@ -3780,18 +3781,28 @@ support for no js
   /* line 1007, ../sass/_navbar.scss */
   .cd-nav {
     background-color: #FBFBFB; } }
-@media only screen and (min-width: 992px) and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   /* line 1012, ../sass/_navbar.scss */
   .cd-primary-nav > li {
-    margin-left: 3.2em; } }
+    float: left;
+    margin-left: 1.2em; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1017, ../sass/_navbar.scss */
+  .cd-primary-nav > li {
+    margin-left: 1.2em; } }
 @media only screen and (max-width: 991px) {
-  /* line 1015, ../sass/_navbar.scss */
+  /* line 1020, ../sass/_navbar.scss */
   .cd-primary-nav > li {
     margin-left: 0em; } }
-/* line 1017, ../sass/_navbar.scss */
+/* line 1022, ../sass/_navbar.scss */
 .cd-main-header {
   background: #FBFBFB; }
 
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+  /* line 1025, ../sass/_navbar.scss */
+  .cd-primary-nav > li {
+    float: left;
+    margin-left: -1.4em; } }
 /* line 1, ../sass/_pms.scss */
 .sr-only, .bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after, .bootstrap-datetimepicker-widget .btn[data-action="clear"]::after, .bootstrap-datetimepicker-widget .btn[data-action="today"]::after, .bootstrap-datetimepicker-widget .picker-switch::after, .bootstrap-datetimepicker-widget table th.prev::after, .bootstrap-datetimepicker-widget table th.next::after {
   position: absolute;

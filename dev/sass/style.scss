@@ -28,9 +28,12 @@ h2,.h2 {
 // SLIDER
 .slider {
 	position: relative;
+	background: url(/image/apartments/6-bed-female-dorm/fon.jpg) center top no-repeat;
+    background-size: cover;
 	&-content {
 		padding-top:100px;
 		min-height:464px;
+		
 	}
 	&-img{
 		position:absolute;
@@ -109,10 +112,17 @@ h2,.h2 {
 		font-weight: 800;
 		font-size: 24px;
 		color: $color-gold;
+		text-transform: none;
 		i {
 			font-size: 20px;
 		}
 	}
+	.rooms_price {
+    font-weight: 800;
+    font-size: 24px;
+    color: #D4AF53;
+    text-transform: none;
+}
 	.img-responsive{
 		margin: auto;
 	}
