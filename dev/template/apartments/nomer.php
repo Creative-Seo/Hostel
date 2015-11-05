@@ -4,7 +4,7 @@ include($root."template/blocks/meta.php");
 include($root."template/blocks/header.php");?>
 
 <!-- SLIDER -->
-<div class="slider" style="background: url(/image/apartments/<?php echo $nomera[$id]['url'];?>/fon.jpg) center top no-repeat; background-size: cover; height: 470px;" style="background: url(/image/apartments/top.jpg); center top no-repeat; background-size: cover; height: 470px;">
+<div class="slider" style="background: url(/image/apartments/<?php echo $nomera[$id]['url'];?>/fon.jpg) center top no-repeat; background-size: cover; height: 470px;">
 	<div class="container"><div class="row">
 		<div class="col-xs-10 col-sm-6 col-md-5 col-lg-4 col-xs-offset-1 col-sm-offset-6 col-md-offset-7 col-lg-offset-8">
 			<div class="slider-pms">

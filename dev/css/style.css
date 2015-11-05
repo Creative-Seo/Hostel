@@ -2125,11 +2125,11 @@ h2, .h2 {
 .slider {
   position: relative;
   background-size: cover; }
-  /* line 33, ../sass/style.scss */
+  /* line 32, ../sass/style.scss */
   .slider-content {
     padding-top: 100px;
     min-height: 464px; }
-  /* line 38, ../sass/style.scss */
+  /* line 37, ../sass/style.scss */
   .slider-img {
     position: absolute;
     width: 100%;
@@ -2137,25 +2137,25 @@ h2, .h2 {
     min-height: 464px;
     overflow: hidden;
     z-index: -1; }
-  /* line 46, ../sass/style.scss */
+  /* line 45, ../sass/style.scss */
   .slider-pms {
     position: absolute;
     top: 40px;
     background-color: #fff; }
-  /* line 51, ../sass/style.scss */
+  /* line 50, ../sass/style.scss */
   .slider-responsive {
     min-width: 100%;
     height: 100%; }
-  /* line 55, ../sass/style.scss */
+  /* line 54, ../sass/style.scss */
   .slider .h1, .slider .h2 {
     text-align: center;
     color: #fff;
     font-family: 'PT Serif', serif;
     text-shadow: 2px 1px 5px #000; }
-    /* line 61, ../sass/style.scss */
+    /* line 60, ../sass/style.scss */
     .slider .h1 b, .slider .h2 b {
       font-size: 32px; }
-  /* line 65, ../sass/style.scss */
+  /* line 64, ../sass/style.scss */
   .slider-board {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -2163,24 +2163,24 @@ h2, .h2 {
     border-bottom: 1px solid;
     border-color: #D4AF53; }
 
-/* line 76, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .premium-img {
   margin: 10px;
   width: 100%;
   height: 300px; }
 
-/* line 85, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .rooms {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif; }
-  /* line 88, ../sass/style.scss */
+  /* line 87, ../sass/style.scss */
   .rooms .h2 {
     text-align: center;
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
     font-size: 22px; }
-  /* line 95, ../sass/style.scss */
+  /* line 94, ../sass/style.scss */
   .rooms_gold {
     color: #D4AF53;
     max-width: 450px;
@@ -2188,7 +2188,7 @@ h2, .h2 {
     font-style: 14px;
     font-weight: 300;
     padding-bottom: 15px; }
-  /* line 103, ../sass/style.scss */
+  /* line 102, ../sass/style.scss */
   .rooms_number {
     font-weight: 400;
     text-align: center;
@@ -2196,69 +2196,69 @@ h2, .h2 {
     padding: 20px;
     line-height: 1.7em;
     font-size: 14px; }
-  /* line 111, ../sass/style.scss */
+  /* line 110, ../sass/style.scss */
   .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53;
     text-transform: none; }
-    /* line 116, ../sass/style.scss */
+    /* line 115, ../sass/style.scss */
     .rooms_price i {
       font-size: 20px; }
-  /* line 120, ../sass/style.scss */
+  /* line 119, ../sass/style.scss */
   .rooms .rooms_price {
     font-weight: 800;
     font-size: 24px;
     color: #D4AF53;
     text-transform: none; }
-  /* line 126, ../sass/style.scss */
+  /* line 125, ../sass/style.scss */
   .rooms .img-responsive {
     margin: auto; }
 
-/* line 130, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .nomer-image {
   padding: 10px; }
 
-/* line 136, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .features h2 {
   margin: 30px;
   font-weight: 700; }
-/* line 143, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .features_text {
   text-align: center;
   padding: 25px; }
 
-/* line 150, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .map-yandex {
   padding: 10px;
   height: 50vh; }
 
-/* line 153, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .house {
   width: 100%;
   height: auto;
   max-height: 200px; }
 
-/* line 154, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .footer {
   background-color: #212221;
   color: #fff;
   position: relative; }
-  /* line 158, ../sass/style.scss */
+  /* line 157, ../sass/style.scss */
   .footer li {
     padding: 5px; }
-    /* line 160, ../sass/style.scss */
+    /* line 159, ../sass/style.scss */
     .footer li span, .footer li a {
       padding: 5px;
       color: #999; }
-  /* line 165, ../sass/style.scss */
+  /* line 164, ../sass/style.scss */
   .footer-stack {
     padding: 10px; }
-  /* line 166, ../sass/style.scss */
+  /* line 165, ../sass/style.scss */
   .footer-hr {
     border-top: 1px solid #ccc; }
 
-/* line 169, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .socseti, .socseti:hover, .socseti:focus {
   color: #fff;
   text-decoration: none; }
