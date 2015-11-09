@@ -83,7 +83,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://vk.com/hostel_khrapovitsky" class="socseti" target="_blank">
+		<a href="https://vk.com/khrapovitsky33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
