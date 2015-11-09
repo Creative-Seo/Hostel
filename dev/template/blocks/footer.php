@@ -65,7 +65,7 @@
   </div>
   <div class="row footer-hr" style="margin-top:20px;">
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="javascript: void(0);" class="socseti">
+		<a href="javascript: void(0);" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-stack-1x">B.</i>
@@ -74,7 +74,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://twitter.com/Khrapovitsky33" class="socseti">
+		<a href="https://twitter.com/Khrapovitsky33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-twitter fa-stack-1x"></i>
@@ -83,7 +83,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://vk.com/hostel_khrapovitsky" class="socseti">
+		<a href="https://vk.com/khrapovitsky33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-vk fa-stack-1x"></i>
@@ -92,7 +92,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="javascript: void(0);" class="socseti">
+		<a href="javascript: void(0);" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-facebook fa-stack-1x"></i>
@@ -101,7 +101,7 @@
 		</a>		
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="http://ok.ru/group/52856397496392" class="socseti">
+		<a href="http://ok.ru/group/52856397496392" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
@@ -110,7 +110,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-2 footer-stack">
-		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti">
+		<a href="https://plus.google.com/+KhrapovitskyRu33" class="socseti" target="_blank">
 		<span class="fa-stack fa-lg">
 		  <i class="fa fa-circle-thin fa-stack-2x"></i>
 		  <i class="fa fa-google-plus fa-stack-1x"></i>
@@ -154,10 +154,6 @@ var scr = {"scripts":[{"src" : "/js/scripts.min.js", "async" : false}]};
 ga('create', 'UA-68209295-1', 'auto');ga('send', 'pageview');
 </script>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!--<script src="/js/bootstrap.min.js"></script>-->
-       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

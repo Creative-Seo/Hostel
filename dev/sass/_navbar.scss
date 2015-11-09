@@ -1008,10 +1008,23 @@ support for no js
         background-color: #FBFBFB;
     }
 }
-@media only screen and (min-width: 992px) and (min-width: 1200px) {
-      .cd-primary-nav > li {margin-left: 3.2em;}
+@media only screen and (min-width: 992px){
+.cd-primary-nav > li {
+    float: left;
+    margin-left: 1.2em;
+}}
+@media only screen and (min-width: 1200px) {
+      .cd-primary-nav > li {margin-left: 1.2em;}
 }
 @media only screen and (max-width: 991px) {
     .cd-primary-nav > li {margin-left: 0em;}
 }
 .cd-main-header {background: #FBFBFB;}
+
+@media only screen and (min-width: 992px) and (max-width: 1250px){
+.cd-primary-nav > li {
+    float: left;
+    margin-left: -1.4em;
+}
+}
+
