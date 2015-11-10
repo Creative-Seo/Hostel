@@ -9,6 +9,7 @@ $addressRegion = 'Vladimir region';
 $addressLocality = 'VLADIMIR';
 $address = $streetAddress.', '.$addressLocality.', '.$postalCode;
 $tel = '+7(4922) 32-65-76';
+$tel_dop = '+7 (930) 837-57-37';
 $email = 'info@khrapovitsky.ru';
 $price = 'From 350';
 
